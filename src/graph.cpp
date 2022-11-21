@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
 
 Graph::Graph() {
     createAirports("airports.dat");
@@ -33,15 +34,17 @@ void Graph::createAirports(std::string filename) {
     // std::getline(ss, number3, ',');
 
     std::string line;
-    ifstream wordsFile(filename);
+    std::ifstream wordsFile(filename);
     
     if (wordsFile.is_open()) {
         /* Reads a line from `wordsFile` into `word` until the file ends. */
         while (getline(wordsFile, line)) {
-            std::string id = line.substr(0, std::find(','));
+            auto comma = std::find(begin(line), end(line), ',');
+            std::string id = line.substr(0, comma);
             std::string name = line.substr(id.length(), std::find(','));
             Vertex newAirport(id,name);
-            adjacency_list.insert(newAirport, std::vector<std::string> adj);
+            std::vector<std::string> adj;
+            adjacency_list.insert({newAirport.airport_name, adj});
             // airports.push_back(newAirport);
         }
     }
@@ -55,14 +58,14 @@ void Graph::createAirports(std::string filename) {
 
 void Graph::createAdjacency(std::string filename) {
     std::string line;
-    ifstream wordsFile(filename);
+    std::ifstream wordsFile(filename);
     
     if (wordsFile.is_open()) {
         while (getline(wordsFile, line)) {
             std::vector<std::string> temp;
             std::string word = "";
             for (size_t i = 0; i < line.length(); i++) {
-                if (line[i] == ",") {
+                if (line[i] == ',') {
                     temp.push_back(word);
                     word = "";
                 } else {
@@ -74,7 +77,7 @@ void Graph::createAdjacency(std::string filename) {
             std::vector<std::string> list = adjacency_list[source];
             if (std::find(list.begin(), list.end(), dest) == list.end()) {
                 // doesn't already contains it
-                adjacency_list[source].push_back(dest);
+                adjacency_list.at(source).push_back(dest);
             }
             
             

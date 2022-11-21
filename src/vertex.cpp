@@ -14,12 +14,12 @@ Vertex::Vertex() {
 }
 
 // construct new Vertex given parameters
-Vertex::Vertex(int id, std::string name, std::string loc, std::string IATA, std::string ICAO, double lat, double longt) {
+Vertex::Vertex(std::string id, std::string name) {
     airport_id = id;
     airport_name = name;
-    location = loc;
-    // IATA_code = IATA;
-    // ICAO_code = ICAO;
-    longitude = longt;
-    latitude = lat;
+    // location = loc;
+    // // IATA_code = IATA;
+    // // ICAO_code = ICAO;
+    // longitude = longt;
+    // latitude = lat;
 }
