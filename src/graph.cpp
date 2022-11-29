@@ -6,7 +6,7 @@
 
 Graph::Graph() {
     createAirports("/workspaces/VS CODE 225/225FinalProject/src/airports.dat");
-    createAdjacency("routes.dat");
+    createAdjacency("/workspaces/VS CODE 225/225FinalProject/src/routes.dat");
 }
    
 void Graph::createAirports(std::string filename) {
@@ -30,7 +30,7 @@ void Graph::createAirports(std::string filename) {
             }
             Vertex newAirport(id, name);
             std::vector<std::string> adj;
-            adjacency_list.insert({newAirport.airport_name, adj});
+            adjacency_list.insert({newAirport.airport_id, adj});
             airports.push_back(newAirport);
         }
     }
@@ -66,8 +66,17 @@ void Graph::createAdjacency(std::string filename) {
 
 }
 
-int Graph::getadjacency_list() { return adjacency_list.size(); }
+int Graph::getadjacency_lists() { return adjacency_list.size(); }
 int Graph::getAirports() { return airports.size(); }
 std::string Graph::getAirport(int idx) {
     return airports[idx].airport_name + " " + airports[idx].airport_id;
+}
+std::string Graph::getAdjList(int idx) { 
+    std::string list;
+    std::vector<std::string> rr = adjacency_list.at(airports[idx].airport_id);
+    std::cout << airports[idx].airport_id << std::endl;
+    for (std::string ap : rr) {
+        list += ap + ", ";
+    }
+    return list;
 }
