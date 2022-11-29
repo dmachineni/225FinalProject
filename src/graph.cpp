@@ -5,7 +5,8 @@
 #include <algorithm>
 
 Graph::Graph() {
-    createAirports("airports.dat");
+    createAirports("/workspaces/VS CODE 225/225FinalProject/src/airports.dat");
+    createAdjacency("routes.dat");
 }
    
 void Graph::createAirports(std::string filename) {
@@ -19,20 +20,20 @@ void Graph::createAirports(std::string filename) {
     if (wordsFile.is_open()) {
         /* Reads a line from `wordsFile` into `word` until the file ends. */
         while (getline(wordsFile, line)) {
-            std::string id = line.substr(0, line.find(','));
-            std::string name = line.substr(id.length(), line.find(','));
+            int comma = line.find(',');
+            std::string id = line.substr(0, comma);
+            int curr = comma + 2;
+            std::string name;
+            while (line[curr] != '"') {
+                name += line[curr];
+                curr++;
+            }
             Vertex newAirport(id, name);
             std::vector<std::string> adj;
             adjacency_list.insert({newAirport.airport_name, adj});
-            // airports.push_back(newAirport);
+            airports.push_back(newAirport);
         }
     }
-
-    
-
-    //vector fields
-    // Vertex newAirport(std::stoi(ID),fname,country, iata,icao,stod(number2),stod(number3));
-    // airports.at(newAirport.airport_id) = newAirport;
 }
 
 void Graph::createAdjacency(std::string filename) {
@@ -65,4 +66,8 @@ void Graph::createAdjacency(std::string filename) {
 
 }
 
-
+int Graph::getadjacency_list() { return adjacency_list.size(); }
+int Graph::getAirports() { return airports.size(); }
+std::string Graph::getAirport(int idx) {
+    return airports[idx].airport_name + " " + airports[idx].airport_id;
+}

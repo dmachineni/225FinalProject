@@ -9,6 +9,9 @@
 class Graph {
     public:
         Graph();
+        int getAirports();
+        int getadjacency_list();
+        std::string getAirport(int idx);
     private:
         void createAirports(std::string filename);
         void createAdjacency(std::string filename);
