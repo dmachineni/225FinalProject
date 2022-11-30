@@ -1,14 +1,19 @@
 // clang-format off
 // clang-format on
 // Framework Set-up //
-#include "graph.h"
-#include "vertex.h"
-
+#define CATCH_CONFIG_DISABLE
+#include "/workspaces/225FinalProject/src/graph.h"
+#include "catch2/catch_test_macros.hpp"
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <vector>
 #include <stdexcept>
 
 // Helpers/Constants //
 
 // Test Cases //
+
 TEST_CASE("adj__list_size == airport_data_size", "[adj_list]") {
     Graph g;
     REQUIRE( g.getadjacency_lists() == g.getAirports() );

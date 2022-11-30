@@ -8,8 +8,9 @@ tests: bin/tests
 bin/exec: src/main.cpp
 	$(CXX) $(CXXFLAGS) src/main.cpp src/graph.cpp src/vertex.cpp -o $@
 
-bin/tests: ./tests/tests.cc src/main.cpp src/graph.cpp src/vertex.cpp
-	$(CXX) $(CXXFLAGS) ./tests/tests.cc src/graph.cpp -o $@
+bin/tests: tests/tests.cc 
+	$(CXX) $(CXXFLAGS) tests/tests.cc src/main.cpp src/graph.cpp src/vertex.cpp -o $@
+					
 
 .DEFAULT_GOAL := exec
 # .PHONY: clean exec tests 
