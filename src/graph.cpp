@@ -5,8 +5,8 @@
 #include <algorithm>
 
 Graph::Graph() {
-    createAirports("/workspaces/VS CODE 225/225FinalProject/src/airports.dat");
-    createAdjacency("/workspaces/VS CODE 225/225FinalProject/src/routes.dat");
+    createAirports("src/airports.dat");
+    createAdjacency("src/routes.dat");
 }
    
 void Graph::createAirports(std::string filename) {
