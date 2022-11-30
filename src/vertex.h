@@ -1,11 +1,12 @@
 #pragma once
 #include <string>
+#include <vector>
 class Vertex {
     public:
     Vertex();
-    Vertex(int, std::string, std::string, std::string, std::string, double, double);
+    Vertex(std::string id, std::string name);
     
-    int airport_id;
+    std::string airport_id;
     std::string airport_name;
     std::string location;
     std::string IATA_code;
