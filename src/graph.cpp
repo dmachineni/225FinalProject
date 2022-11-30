@@ -66,7 +66,7 @@ void Graph::createAdjacency(std::string filename) {
             std::string dest = temp[5]; // id of destination airport
             
             if (temp[3] != "\\N" && temp[5] != "\\N") { // skips over null values (\N)
-                if (adjacency_list.contains(source)) { // ignore if source isn't in map because it's not in aiports either
+                if (adjacency_list.count(source) != 0) { // ignore if source isn't in map because it's not in aiports either
                     std::vector<std::string> list = adjacency_list[source];
                     if (std::find(list.begin(), list.end(), dest) == list.end()) {
                         adjacency_list.at(source).push_back(dest);
