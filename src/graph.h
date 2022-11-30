@@ -9,8 +9,8 @@
 class Graph {
     public:
         Graph();
-        int getAirports(); // returns size of airports, should match number in file (7698?)
-        int getadjacency_lists(); // returns size of adjacency list map, should also match size of airports
+        int airportsSize(); // returns size of airports, should match number in file (7698?)
+        int adjlistSize(); // returns size of adjacency list map, should also match size of airports
         std::string getAirport(int idx); // returns airport at that index
         std::string getAdjList(int idx); // returns adjacency list of airport at that index, returns their ids 
         // may need to change how we implement this because if we return ids, then we have to search airports and check each
@@ -18,6 +18,6 @@ class Graph {
     private:
         void createAirports(std::string filename);
         void createAdjacency(std::string filename);
-        std::vector<Vertex> airports;
-        std::map<std::string, std::vector<std::string>> adjacency_list;
+        std::vector<Vertex> airports; // vector of airports
+        std::map<std::string, std::vector<std::string>> adjacency_list; // collection of all adjacency listst
 };
