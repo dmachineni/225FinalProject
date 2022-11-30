@@ -13,8 +13,8 @@ bin/tests: tests/tests.cc
 					
 
 .DEFAULT_GOAL := exec
-# .PHONY: clean exec tests 
-.PHONY: clean exec 
+.PHONY: clean exec tests 
+#.PHONY: clean exec 
 
 clean:
 	rm -rf ./bin/*

@@ -16,6 +16,7 @@
 
 TEST_CASE("adj__list_size == airport_data_size", "[adj_list]") {
     Graph g;
+    std::cout << "here" << std::endl;
     REQUIRE( g.getadjacency_lists() == g.getAirports() );
 }
 
