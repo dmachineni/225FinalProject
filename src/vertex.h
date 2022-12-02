@@ -8,5 +8,8 @@ class Vertex {
     
     std::string airport_id;
     std::string airport_name;
+
+    
+    bool same(Vertex other);
     
 };

@@ -6,6 +6,7 @@
 #include <string>
 #include <map>
 #include <algorithm>
+#include <queue>
 class Graph {
     public:
         Graph();
@@ -15,9 +16,12 @@ class Graph {
         std::string getAdjList(int idx); // returns adjacency list of airport at that index, returns their ids 
         // may need to change how we implement this because if we return ids, then we have to search airports and check each
         // vertex's id to see if we get a match. maybe we create an adjacency list of vertices instead of strings??
+        std::vector<Vertex> BFS(int start);
+        void clean();
     private:
         void createAirports(std::string filename);
         void createAdjacency(std::string filename);
         std::vector<Vertex> airports; // vector of airports
-        std::map<std::string, std::vector<std::string>> adjacency_list; // collection of all adjacency listst
+        std::map<std::string, std::vector<std::string>> adjacency_list; // collection of all adjacency lists
+        Vertex idToAirport(std::string id);
 };
