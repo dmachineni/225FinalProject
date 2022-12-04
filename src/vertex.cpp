@@ -12,3 +12,8 @@ Vertex::Vertex(std::string id, std::string name) {
     airport_id = id;
     airport_name = name;
 }
+
+bool Vertex::same(Vertex other) {
+    if (airport_id == other.airport_id && airport_name == other.airport_name) return true;
+    return false;
+}
