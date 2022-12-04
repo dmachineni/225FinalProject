@@ -182,3 +182,65 @@ std::vector<Vertex> Graph::BFS(int start) {
     std::cout << "Unconnected airports: " << missing << std::endl;
     return path;
 }
+
+// find the shortest path between two airports, start and end
+int Graph::getShortestPath(std::string start, std::string end) {
+    // std::cout << "start " << start << std::endl;
+    std::vector<std::string> adj = adjacency_list.at(start);
+    int distances[700][700]; //2d array of distance from adjacent vertex to end
+    //distance from start to end = 1 + number from distances
+    //initialize adjacency matrix
+    for (std::string s : adj) {
+        // std::cout << "stoi(s) " << std::stoi(s) << std::endl;
+        distances[std::stoi(s)][std::stoi(s)] = 0;
+        for (std::string t : adj) {
+            distances[std::stoi(s)-1][std::stoi(t)-1] = std::numeric_limits<int>::max();
+            
+        }
+    }
+    int shortest_dist = 100000;
+    std::string closest = "";
+    //populate adjacency matrix
+    //find path for each adjacent vertex
+    //count distance from adjacent vertex to end
+    for (std::string s : adj) {//go through the adjacency list. find distance for each path that starts with each adjacent vertex
+        int param = 0;
+        for (unsigned i = 0; i < airports.size(); i++) {
+            if (airports[i].airport_id == s) {
+                param = i; //index of the vertex in the airports array
+                break;
+            }
+        }
+        std::vector<Vertex> path = BFS(param); //get all the airports that vertex is connected to
+        // std::cout << "path size " << path.size() << std::endl;
+        //find distance from vertex to end
+        int d = 1;
+        for (unsigned i = 0; i < path.size(); i++) {
+            if (path[i].airport_id == end) {
+                //found end destination
+                break;
+            } 
+            d++;
+        }
+        if (d < shortest_dist) {
+            shortest_dist = d;
+            closest = s;
+        }
+        // std::cout << s << "  " << d << std::endl;
+        distances[std::stoi(s)][std::stoi(end)] = d;
+    }
+
+    for (std::string W : adj) {
+        for (std::string U : adj) {
+            for (std::string V : adj) {
+                if (distances[std::stoi(U)][std::stoi(V)] > distances[std::stoi(U)][std::stoi(W)] + distances[std::stoi(W)][std::stoi(V)]) {
+                    distances[std::stoi(U)][std::stoi(V)] = distances[std::stoi(U)][std::stoi(W)] + distances[std::stoi(W)][std::stoi(V)];
+                }
+            }
+        }
+    }
+    // std::cout << "start " << start << " end " << end << std::endl;
+    // std::cout << "result " << distances[std::stoi(start)][std::stoi(end)] << std::endl;
+
+    return 1+distances[std::stoi(closest)][std::stoi(end)];
+}
