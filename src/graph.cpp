@@ -99,7 +99,7 @@ void Graph::clean() {
             tmp_aps.push_back(v);
         }
     }
-    std::cout << "Deleted: " << deleted << std::endl;
+    //std::cout << "Deleted: " << deleted << std::endl;
     airports = tmp_aps;
     adjacency_list = tmp_adj;
 }
@@ -118,8 +118,8 @@ int Graph::airportsSize() { return airports.size(); }
     Returns airport at given index
 */
 std::string Graph::getAirport(int idx) {
-    if (adjacency_list.count(std::to_string(idx)) == 0) return "Not valid index";
-    Vertex v = idToAirport(std::to_string(idx));
+    if (idx > airportsSize()) return "Not valid index";
+    Vertex v = airports[idx];
     return v.airport_name + " " + v.airport_id;
 }
 
@@ -127,9 +127,11 @@ std::string Graph::getAirport(int idx) {
     Returns adjacency list of aiport at given index
 */
 std::string Graph::getAdjList(int idx) {
-    if (adjacency_list.count(std::to_string(idx)) == 0) return "Not valid index"; 
+    if (idx > airportsSize()) return "Not valid index"; 
     std::string list;
-    std::vector<std::string> rr = adjacency_list.at(std::to_string(idx));
+    Vertex v = airports[idx];
+    std::cout << "start " + v.airport_id << std::endl;
+    std::vector<std::string> rr = adjacency_list.at(v.airport_id);
     for (std::string ap : rr) {
         list += ap + ", ";
     }
@@ -146,11 +148,18 @@ Vertex Graph::idToAirport(std::string id) {
     return Vertex();
 }
 
+int Graph::idToIndex(std::string id) {
+    for (int i = 0; i < airportsSize(); i++) {
+        if (airports[i].airport_id == id) return i;
+    }
+    return -1;
+}
+
 /*
     BFS traversal of graph. Some airports are only connected to one other airport (two vertices and one edge)
     so they aren't included in the path. 
 */
-std::vector<Vertex> Graph::BFS(int start) {
+std::vector<Vertex> Graph::BFSTraversal(int start) {
     std::queue<Vertex> q;
     std::vector<Vertex> path;
     std::map<std::string, bool> visited;
@@ -179,23 +188,56 @@ std::vector<Vertex> Graph::BFS(int start) {
     for (auto pair : visited) {
         if (pair.second == false) missing++;
     }
-    std::cout << "Unconnected airports: " << missing << std::endl;
+    // std::cout << "Unconnected airports: " << missing << std::endl;
     return path;
 }
 
+std::vector<Vertex> Graph::BFSSearch(std::string start, std::string end) {
+    std::queue<Vertex> q;
+    std::vector<Vertex> path;
+    std::map<std::string, bool> visited;
+    for (Vertex v : airports) visited.insert({v.airport_id, false});
+    visited.insert({start, true});
+    q.push(idToAirport(start));
+ 
+    while(!q.empty()) {
+        // Dequeue a vertex from queue and print it
+        Vertex top = q.front();
+        q.pop();
+        path.push_back(top);
+        if (path.back().airport_id == end) break;
+        std::vector<std::string> adj = adjacency_list[top.airport_id];
+        // Get all adjacent vertices of the dequeued vertex. 
+        // If a adjacent has not been visited, then mark it visited and enqueue it
+        for (auto neighbor: adj) {
+            if (visited.count(neighbor) != 0 && visited.at(neighbor) == false) {
+                visited.at(neighbor) = true;
+                q.push(idToAirport(neighbor));
+            }
+        }
+    }
+    // int missing = -1;
+    // // missing some airports because they're only connected to one other airport
+    // for (auto pair : visited) {
+    //     if (pair.second == false) missing++;
+    // }
+    // std::cout << "Unconnected airports: " << missing << std::endl;
+    return path;
+}
+
+// think i fixed it but its kinda slow...
 // find the shortest path between two airports, start and end
 int Graph::getShortestPath(std::string start, std::string end) {
     // std::cout << "start " << start << std::endl;
     std::vector<std::string> adj = adjacency_list.at(start);
-    int distances[700][700]; //2d array of distance from adjacent vertex to end
+    static int distances[4000][4000]; //2d array of distance from adjacent vertex to end
     //distance from start to end = 1 + number from distances
     //initialize adjacency matrix
     for (std::string s : adj) {
-        // std::cout << "stoi(s) " << std::stoi(s) << std::endl;
-        distances[std::stoi(s)][std::stoi(s)] = 0;
+        // std::cout << idToIndex(s) << std::endl;
+        distances[idToIndex(s)][idToIndex(s)] = 0;
         for (std::string t : adj) {
-            distances[std::stoi(s)-1][std::stoi(t)-1] = std::numeric_limits<int>::max();
-            
+            if (idToIndex(s) != 0) distances[idToIndex(s)-1][idToIndex(t)-1] = std::numeric_limits<int>::max();
         }
     }
     int shortest_dist = 100000;
@@ -204,37 +246,30 @@ int Graph::getShortestPath(std::string start, std::string end) {
     //find path for each adjacent vertex
     //count distance from adjacent vertex to end
     for (std::string s : adj) {//go through the adjacency list. find distance for each path that starts with each adjacent vertex
-        int param = 0;
-        for (unsigned i = 0; i < airports.size(); i++) {
-            if (airports[i].airport_id == s) {
-                param = i; //index of the vertex in the airports array
-                break;
-            }
-        }
-        std::vector<Vertex> path = BFS(param); //get all the airports that vertex is connected to
+        //std::vector<Vertex> path = BFSTraversal(idToIndex(s)); //get all the airports that vertex is connected to
         // std::cout << "path size " << path.size() << std::endl;
         //find distance from vertex to end
-        int d = 1;
-        for (unsigned i = 0; i < path.size(); i++) {
-            if (path[i].airport_id == end) {
-                //found end destination
-                break;
-            } 
-            d++;
-        }
+        int d = BFSSearch(s, end).size();
+        // for (unsigned i = 0; i < path.size(); i++) {
+        //     if (path[i].airport_id == end) {
+        //         //found end destination
+        //         break;
+        //     } 
+        //     d++;
+        // }
         if (d < shortest_dist) {
             shortest_dist = d;
             closest = s;
         }
         // std::cout << s << "  " << d << std::endl;
-        distances[std::stoi(s)][std::stoi(end)] = d;
+        distances[idToIndex(s)][idToIndex(end)] = d;
     }
 
     for (std::string W : adj) {
         for (std::string U : adj) {
             for (std::string V : adj) {
-                if (distances[std::stoi(U)][std::stoi(V)] > distances[std::stoi(U)][std::stoi(W)] + distances[std::stoi(W)][std::stoi(V)]) {
-                    distances[std::stoi(U)][std::stoi(V)] = distances[std::stoi(U)][std::stoi(W)] + distances[std::stoi(W)][std::stoi(V)];
+                if (distances[idToIndex(U)][idToIndex(V)] > distances[idToIndex(U)][idToIndex(W)] + distances[idToIndex(W)][idToIndex(V)]) {
+                    distances[idToIndex(U)][idToIndex(V)] = distances[idToIndex(U)][idToIndex(W)] + distances[idToIndex(W)][idToIndex(V)];
                 }
             }
         }
@@ -242,5 +277,5 @@ int Graph::getShortestPath(std::string start, std::string end) {
     // std::cout << "start " << start << " end " << end << std::endl;
     // std::cout << "result " << distances[std::stoi(start)][std::stoi(end)] << std::endl;
 
-    return 1+distances[std::stoi(closest)][std::stoi(end)];
+    return 1+distances[idToIndex(closest)][idToIndex(end)];
 }
