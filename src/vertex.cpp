@@ -5,14 +5,16 @@
 Vertex::Vertex() {
     airport_id = -1;
     airport_name = "";
+    airport_country = "";
     airport_lat = -1;
     airport_long = -1;
 }
 
 // construct new Vertex given parameters
-Vertex::Vertex(std::string id, std::string name, long longitude, long latitude) {
+Vertex::Vertex(int id, std::string name, std::string country, double longitude, double latitude) {
     airport_id = id;
     airport_name = name;
+    airport_country = country;
     airport_lat = latitude;
     airport_long = longitude;
 }
@@ -22,8 +24,21 @@ bool Vertex::same(Vertex other) {
     return false;
 }
 
-long Vertex::calculateWeight(Vertex other) {
-    long x = (airport_long - other.airport_long) * (airport_long - other.airport_long);
-    long y = (airport_lat - other.airport_lat) * (airport_lat - other.airport_lat);
-    return sqrt(x + y);
+/*
+    Uses haversine distance formula to figure out distance in km between two airports.
+    Not exact but close approximation
+*/
+double Vertex::calculateWeight(Vertex other) {
+    double dLat = (other.airport_lat - airport_lat) * M_PI / 180.0;
+    double dLon = (other.airport_long - airport_long) * M_PI / 180.0;
+ 
+    // convert to radians
+    double lat1_rad = (airport_lat) * M_PI / 180.0;
+    double lat2_rad = (other.airport_lat) * M_PI / 180.0;
+ 
+    // apply formulae
+    double a = pow(sin(dLat / 2), 2) + pow(sin(dLon / 2), 2) * cos(lat1_rad) * cos(lat2_rad);
+    double rad = 6371;
+    double c = 2 * asin(sqrt(a));
+    return rad * c;
 }

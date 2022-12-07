@@ -4,13 +4,14 @@
 class Vertex {
     public:
     Vertex();
-    Vertex(std::string id, std::string name, long longitude, long latitude);
+    Vertex(int id, std::string name, std::string country, double longitude, double latitude);
     
-    std::string airport_id;
+    int airport_id;
     std::string airport_name;
-    long airport_long = 0;
-    long airport_lat = 0;
+    std::string airport_country;
+    double airport_long = 0;
+    double airport_lat = 0;
     
     bool same(Vertex other);
-    long calculateWeight(Vertex other);
+    double calculateWeight(Vertex other);
 };
