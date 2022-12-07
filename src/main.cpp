@@ -1,4 +1,5 @@
 #include "graph.h"
+#include "vertex.h"
 #include <iostream>
 
 int main() {
@@ -10,5 +11,23 @@ int main() {
     //std::cout << g.getAdjList(4) << std::endl;
     // std::cout << g.BFS(0).size() << std::endl;
     //std::cout << "before" << std::endl;
-    std::cout << g.getShortestPath(g.airports[8].airport_id, g.airports[0].airport_id) << std::endl;
+    std::cout << g.getAdjList(0) << std::endl;
+    std::cout << "..." << std::endl;
+    std::cout << g.getAdjList(8) << std::endl;
+    std::cout << "..." << std::endl;
+    std::cout << "distance: " << g.airports[0].calculateWeight(g.airports[8]) << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("2")) << std::endl; 
+    // std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("3")) << std::endl;
+    // std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("4")) << std::endl;
+    // std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("5")) << std::endl;
+    //std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("5447")) << std::endl;
+    // std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("5443")) << std::endl;
+    // std::cout << "..." << std::endl;
+    // std::cout << g.getAdjList(g.idToIndex("7")) << std::endl;
+    std::cout << g.getShortestPath(g.airports[0].airport_id, g.airports[8].airport_id) << std::endl;
 }

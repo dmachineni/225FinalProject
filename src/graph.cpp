@@ -6,8 +6,12 @@
 
 Graph::Graph() {
     createAirports("src/airports.dat");
-    createAdjacency("src/routes.dat");
+    createAdjacencyList("src/routes.dat");
     clean();
+    for (size_t i = 0; i < 3200; i++) {
+      distances[i] = new long[3200];
+   }
+    createAdjacencyMatrix();
 }
 
 
@@ -21,20 +25,34 @@ void Graph::createAirports(std::string filename) {
 
     std::string line;
     std::ifstream wordsFile(filename);
-    
     if (wordsFile.is_open()) {
         while (getline(wordsFile, line)) {
-            int comma = line.find(',');
-            std::string id = line.substr(0, comma); // first entry in file is airport id
-            int curr = comma + 2; // skips over comma and "
-            std::string name;
-            // second entry in file is airport name, 
-            // loops through until comma is found (end of entry)
-            while (line[curr] != '"') { 
-                name += line[curr];
-                curr++;
+            std::vector<std::string> temp;
+            std::string word = "";
+            // breaks up line into entries, stores entries in temp
+            for (size_t i = 0; i < line.length(); i++) {
+                if (line[i] == ',') {
+                    temp.push_back(word);
+                    word = "";
+                } else {
+                    word += line[i];
+                }
             }
-            Vertex newAirport(id, name); 
+            std::string name = temp[1]; // name of airport
+            std::string id = temp[0]; // id of airport
+            long lat; // latitude of airport
+            long longt; // longitude of airport
+
+            // some names have multiple commas in them so we included a try/catch block to account for that
+            try {
+                lat = std::stoi(temp[6]);
+                longt = std::stoi(temp[7]);
+            } catch (std::invalid_argument) {
+                lat = std::stoi(temp[7]);
+                longt = std::stoi(temp[8]);
+            }
+            
+            Vertex newAirport(id, name, longt, lat); 
             std::vector<std::string> adj;
             adjacency_list.insert({newAirport.airport_id, adj});
             airports.push_back(newAirport);
@@ -46,7 +64,7 @@ void Graph::createAirports(std::string filename) {
     pushed to the source's adjacency list. Null values and airports that aren't in airports are
     skipped.
 */
-void Graph::createAdjacency(std::string filename) {
+void Graph::createAdjacencyList(std::string filename) {
     std::string line;
     std::ifstream wordsFile(filename);
     
@@ -78,6 +96,25 @@ void Graph::createAdjacency(std::string filename) {
     }
 
 }
+
+void Graph::createAdjacencyMatrix() {
+    long max_dist = 100000;
+    
+    for (auto list : adjacency_list) {
+        std::string s = list.first;
+        //distances[idToIndex(s)][idToIndex(s)] = 0;
+        for (std::string t : list.second) {
+            distances[idToIndex(s)][idToIndex(t)] = idToAirport(s).calculateWeight(idToAirport(t));
+            //distances[idToIndex(t)][idToIndex(s)] = idToAirport(t).calculateWeight(idToAirport(s));
+        }
+    }
+    for (int i = 0; i < 3200; i++) {
+        for (int j = 0; j < 3200; j++) {
+            if (distances[i][j] == 0 && i != j) distances[i][j] = max_dist;
+        }
+    }
+}
+
 /*
     This function cleans airports and adjacency list by removing airports that aren't in routes.dat.
     If an airport's adjacency list is empty, then there are no routes to/from that airport. This means that it's not 
@@ -86,12 +123,11 @@ void Graph::createAdjacency(std::string filename) {
 void Graph::clean() {
     std::map<std::string, std::vector<std::string>> tmp_adj;
     std::vector<Vertex> tmp_aps;
-    int deleted = adjacency_list.size();
+    int deleted = 0;
     for (auto adj : adjacency_list) {
         if (adj.second.size() > 0) {
-            //std::cout << adj.first << " connected to " << adj.second.size() << std::endl;
             tmp_adj.insert(adj);
-            deleted--;
+            deleted++;
         }
     }
     for (auto v : airports) {
@@ -99,9 +135,11 @@ void Graph::clean() {
             tmp_aps.push_back(v);
         }
     }
-    //std::cout << "Deleted: " << deleted << std::endl;
-    airports = tmp_aps;
-    adjacency_list = tmp_adj;
+    if (deleted != 0) {
+        airports = tmp_aps;
+        adjacency_list = tmp_adj;
+        std::cout << "Deleted: " << deleted << std::endl;
+    }
 }
 
 /*
@@ -130,7 +168,7 @@ std::string Graph::getAdjList(int idx) {
     if (idx > airportsSize()) return "Not valid index"; 
     std::string list;
     Vertex v = airports[idx];
-    std::cout << "start " + v.airport_id << std::endl;
+    std::cout << "start id: " + v.airport_id << std::endl;
     std::vector<std::string> rr = adjacency_list.at(v.airport_id);
     for (std::string ap : rr) {
         list += ap + ", ";
@@ -225,57 +263,50 @@ std::vector<Vertex> Graph::BFSSearch(std::string start, std::string end) {
     return path;
 }
 
-// think i fixed it but its kinda slow...
-// find the shortest path between two airports, start and end
-int Graph::getShortestPath(std::string start, std::string end) {
-    // std::cout << "start " << start << std::endl;
-    std::vector<std::string> adj = adjacency_list.at(start);
-    static int distances[4000][4000]; //2d array of distance from adjacent vertex to end
-    //distance from start to end = 1 + number from distances
-    //initialize adjacency matrix
-    for (std::string s : adj) {
-        // std::cout << idToIndex(s) << std::endl;
-        distances[idToIndex(s)][idToIndex(s)] = 0;
-        for (std::string t : adj) {
-            if (idToIndex(s) != 0) distances[idToIndex(s)-1][idToIndex(t)-1] = std::numeric_limits<int>::max();
-        }
-    }
-    int shortest_dist = 100000;
-    std::string closest = "";
-    //populate adjacency matrix
-    //find path for each adjacent vertex
-    //count distance from adjacent vertex to end
-    for (std::string s : adj) {//go through the adjacency list. find distance for each path that starts with each adjacent vertex
-        //std::vector<Vertex> path = BFSTraversal(idToIndex(s)); //get all the airports that vertex is connected to
-        // std::cout << "path size " << path.size() << std::endl;
-        //find distance from vertex to end
-        int d = BFSSearch(s, end).size();
-        // for (unsigned i = 0; i < path.size(); i++) {
-        //     if (path[i].airport_id == end) {
-        //         //found end destination
-        //         break;
-        //     } 
-        //     d++;
-        // }
-        if (d < shortest_dist) {
-            shortest_dist = d;
-            closest = s;
-        }
-        // std::cout << s << "  " << d << std::endl;
-        distances[idToIndex(s)][idToIndex(end)] = d;
-    }
-
-    for (std::string W : adj) {
-        for (std::string U : adj) {
-            for (std::string V : adj) {
-                if (distances[idToIndex(U)][idToIndex(V)] > distances[idToIndex(U)][idToIndex(W)] + distances[idToIndex(W)][idToIndex(V)]) {
-                    distances[idToIndex(U)][idToIndex(V)] = distances[idToIndex(U)][idToIndex(W)] + distances[idToIndex(W)][idToIndex(V)];
+void Graph::floydWarshall() {
+    long max_dist = 100000;
+    for (int w = 0; w < airportsSize(); w++) {
+        for (int u = 0; u < airportsSize(); u++) {
+            for (int v = 0; v < airportsSize(); v++) {
+                if (distances[u][v] > distances[u][w] + distances[w][v]) { //&& distances[u][w] != max_dist && distances[w][v] != max_dist) {
+                    distances[u][v] = distances[u][w] + distances[w][v];
                 }
             }
         }
     }
+}
+
+// think i fixed it but its kinda slow...
+// want to see if there's a way to create the adjacency matrix beforehand but it creates some problems
+// find the shortest path between two airports, start and end
+int Graph::getShortestPath(std::string start, std::string end) {
+    std::cout << "start " << start << std::endl;
+    floydWarshall();
+    //std::vector<std::string> adj = adjacency_list.at(start);
+    //static int distances[4000][4000]; //2d array of distance from adjacent vertex to end
+    //distance from start to end = 1 + number from distances
+    // initialize adjacency matrix. each item is the distance between the airports at those indices
+    
+    
+    //populate adjacency matrix
+    //find path for each adjacent vertex
+    //count distance from adjacent vertex to end
+    // for (std::string s : adj) {//go through the adjacency list. find distance for each path that starts with each adjacent vertex
+    //     std::vector<Vertex> path = BFSSearch(s, end); //get all the airports that vertex is connected to
+    //     // std::cout << "path size " << path.size() << std::endl;
+    //     //find distance from vertex to end
+        
+    //     //int d = idToAirport(s).calculateWeight(idToAirport(end));
+    //     for (Vertex v : path) {
+    //         distances[idToIndex(s)][idToIndex(v.airport_id)] = idToAirport(s).calculateWeight(idToAirport(v.airport_id));
+    //         distances[idToIndex(v.airport_id)][idToIndex(s)] = idToAirport(s).calculateWeight(idToAirport(v.airport_id));
+    //     }
+
+    // }
+    
+    
     // std::cout << "start " << start << " end " << end << std::endl;
     // std::cout << "result " << distances[std::stoi(start)][std::stoi(end)] << std::endl;
 
-    return 1+distances[idToIndex(closest)][idToIndex(end)];
+    return distances[idToIndex(start)][idToIndex(end)];
 }

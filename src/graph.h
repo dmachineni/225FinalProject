@@ -20,13 +20,21 @@ class Graph {
         std::vector<Vertex> BFSTraversal(int start);
         std::vector<Vertex> BFSSearch(std::string start, std::string end);
         void clean();
+        int idToIndex(std::string id);
         int getShortestPath(std::string start, std::string end);
         std::vector<Vertex> airports; // vector of airports
+
+        
     private:
         void createAirports(std::string filename);
-        void createAdjacency(std::string filename);
+        void createAdjacencyList(std::string filename);
+        void createAdjacencyMatrix();
+        void floydWarshall();
         // std::vector<Vertex> airports; // vector of airports
         std::map<std::string, std::vector<std::string>> adjacency_list; // collection of all adjacency lists
         Vertex idToAirport(std::string id);
-        int idToIndex(std::string id);
+        long **distances = new long*[3200];
+   
+   
+        
 };
