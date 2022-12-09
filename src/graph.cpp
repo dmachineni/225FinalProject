@@ -14,10 +14,11 @@ Graph::Graph() {
     std::cout << "countries: " << countries.size() << std::endl;
     std::cout << "airports og: " << airportsSize() << std::endl;
     createAdjacencyList("src/routes.dat");
-    distances.resize(220);
-    for (unsigned i = 0; i < distances.size(); i++) distances[i].resize(220);
-    for (int i = 0; i < 220; i++) {
-        for (int j = 0; j < 220; j++) {
+    // distances.resize(220) if sorting by country (recommended because it literally corrups)
+    distances.resize(3200);
+    for (unsigned i = 0; i < distances.size(); i++) distances[i].resize(3200);
+    for (int i = 0; i < 3200; i++) {
+        for (int j = 0; j < 3200; j++) {
             distances[i][j] = INT16_MAX;
         }
     }
@@ -146,27 +147,27 @@ void Graph::clean() {
     std::map<int, std::vector<int>> tmp_adj2;
     std::vector<Vertex> tmp_aps;
     // gets the largest/most connected airport from each country
-    for (auto c : countries) {
-        int most_routes = c.second[0];
-        for (int s : c.second) {
-            if (adjacency_list.at(s).size() > adjacency_list.at(most_routes).size()) most_routes = s;
-        }
+    // for (auto c : countries) {
+    //     int most_routes = c.second[0];
+    //     for (int s : c.second) {
+    //         if (adjacency_list.at(s).size() > adjacency_list.at(most_routes).size()) most_routes = s;
+    //     }
         
-        tmp_adj.insert({most_routes, {}});
-    }
-    // removes airports from adjacency list if they're not in the updated list
-    for (auto adj : adjacency_list) {
-        if (tmp_adj.count(adj.first) != 0) {
-            int s = adj.first;
-            for (auto d : adj.second) {
-                if (tmp_adj.count(d) != 0) {
-                    tmp_adj.at(s).push_back(d);
-                }
-            }
-        }
-    }
+    //     tmp_adj.insert({most_routes, {}});
+    // }
+    // // removes airports from adjacency list if they're not in the updated list
+    // for (auto adj : adjacency_list) {
+    //     if (tmp_adj.count(adj.first) != 0) {
+    //         int s = adj.first;
+    //         for (auto d : adj.second) {
+    //             if (tmp_adj.count(d) != 0) {
+    //                 tmp_adj.at(s).push_back(d);
+    //             }
+    //         }
+    //     }
+    // }
     // only keeps airports that aren't connected to any other airport
-    for (auto adj : tmp_adj) {
+    for (auto adj : adjacency_list) {
         if (adj.second.size() > 0) {
             tmp_adj2.insert(adj);
         }
