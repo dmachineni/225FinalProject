@@ -10,7 +10,7 @@
 #include <limits>
 class Graph {
     public:
-        Graph();
+        Graph(bool all_airports);
         Graph(std::string airports_file, std::string adj_list_file, std::string adj_matrix_file); // creates graph from adjacency list and matrix files, saves time
 
         int airportsSize(); // returns size of airports, should match number in file (7698?)
@@ -36,8 +36,11 @@ class Graph {
         void createAirports(std::string filename);
         void createAdjacencyList(std::string filename);
         void createDistMatrix();
-        void clean(); // removes airports that aren't in both airports.dat and routes.dat
-        
+
+        // removes airports that aren't in both airports.dat and routes.dat
+        void cleanToSmall();
+        void cleanToLarge();
+
         // read from files so we don't have to keep recreating it
         void readAirportsFromFile(std::string filename);
         void readAdjListFromFile(std::string filename);        

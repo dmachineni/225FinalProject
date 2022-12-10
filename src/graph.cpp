@@ -7,22 +7,22 @@
 #include <iterator>
 
 /*
-    Default constructor
+    Default constructor. If true, then using  all airports. If false, only using most connected
+    from each country. 
 */
-Graph::Graph() {
+Graph::Graph(bool all_airports) {
     createAirports("src/airports.dat");
-    std::cout << "countries: " << countries.size() << std::endl;
-    std::cout << "airports og: " << airportsSize() << std::endl;
     createAdjacencyList("src/routes.dat");
     // distances.resize(220) if sorting by country (recommended because it literally corrups)
-    distances.resize(3200);
-    for (unsigned i = 0; i < distances.size(); i++) distances[i].resize(3200);
-    for (int i = 0; i < 3200; i++) {
-        for (int j = 0; j < 3200; j++) {
+    distances.resize(airportsSize());
+    for (unsigned i = 0; i < distances.size(); i++) distances[i].resize(airportsSize());
+    for (int i = 0; i < airportsSize(); i++) {
+        for (int j = 0; j < airportsSize(); j++) {
             distances[i][j] = INT16_MAX;
         }
     }
-    clean();
+    if (all_airports) cleanToLarge();
+    else cleanToSmall();
     createDistMatrix();
     floydWarshall();
 }
@@ -142,32 +142,32 @@ void Graph::createDistMatrix() {
     If an airport's adjacency list is empty, then there are no routes to/from that airport. This means that it's not 
     connected to the other airports and can be removed.
 */
-void Graph::clean() {
+void Graph::cleanToSmall() {
     std::map<int, std::vector<int>> tmp_adj;
     std::map<int, std::vector<int>> tmp_adj2;
     std::vector<Vertex> tmp_aps;
     // gets the largest/most connected airport from each country
-    // for (auto c : countries) {
-    //     int most_routes = c.second[0];
-    //     for (int s : c.second) {
-    //         if (adjacency_list.at(s).size() > adjacency_list.at(most_routes).size()) most_routes = s;
-    //     }
+    for (auto c : countries) {
+        int most_routes = c.second[0];
+        for (int s : c.second) {
+            if (adjacency_list.at(s).size() > adjacency_list.at(most_routes).size()) most_routes = s;
+        }
         
-    //     tmp_adj.insert({most_routes, {}});
-    // }
-    // // removes airports from adjacency list if they're not in the updated list
-    // for (auto adj : adjacency_list) {
-    //     if (tmp_adj.count(adj.first) != 0) {
-    //         int s = adj.first;
-    //         for (auto d : adj.second) {
-    //             if (tmp_adj.count(d) != 0) {
-    //                 tmp_adj.at(s).push_back(d);
-    //             }
-    //         }
-    //     }
-    // }
-    // only keeps airports that aren't connected to any other airport
+        tmp_adj.insert({most_routes, {}});
+    }
+    // removes airports from adjacency list if they're not in the updated list
     for (auto adj : adjacency_list) {
+        if (tmp_adj.count(adj.first) != 0) {
+            int s = adj.first;
+            for (auto d : adj.second) {
+                if (tmp_adj.count(d) != 0) {
+                    tmp_adj.at(s).push_back(d);
+                }
+            }
+        }
+    }
+    // only keeps airports that aren't connected to any other airport
+    for (auto adj : tmp_adj) {
         if (adj.second.size() > 0) {
             tmp_adj2.insert(adj);
         }
@@ -181,6 +181,28 @@ void Graph::clean() {
     int deleted = airports.size() - tmp_adj.size();
     airports = tmp_aps;
     adjacency_list = tmp_adj2;
+    std::cout << "Deleted: " << deleted << std::endl;
+}
+
+void Graph::cleanToLarge() {
+    std::map<int, std::vector<int>> tmp_adj;
+    std::vector<Vertex> tmp_aps;
+    
+    // only keeps airports that aren't connected to any other airport
+    for (auto adj : adjacency_list) {
+        if (adj.second.size() > 0) {
+            tmp_adj.insert(adj);
+        }
+    }
+    // adds airports from updated adjacency list2
+    for (auto v : airports) {
+        if(tmp_adj.count(v.airport_id) != 0) {
+            tmp_aps.push_back(v);
+        }
+    }
+    int deleted = airports.size() - tmp_adj.size();
+    airports = tmp_aps;
+    adjacency_list = tmp_adj;
     std::cout << "Deleted: " << deleted << std::endl;
 }
 
@@ -290,7 +312,6 @@ void Graph::floydWarshall() {
     Returns value of distance[start][end] because it has the value of Floyd Warshall
 */
 double Graph::getShortestPath(int start, int end) {
-    std::cout << start << " to " << end <<std::endl;
     return distances[idToIndex(start)][idToIndex(end)];
 }
 /*
@@ -384,12 +405,10 @@ void Graph::readAdjListFromFile(std::string filename) {
 */
 void Graph::writeDistMatrixToFile(std::string filename) {
     std::ofstream stream(filename);
-    std::cout << distances.size() << "x" << distances[0].size() << std::endl;
     for (unsigned i = 0; i < distances.size(); i++) {
         for (unsigned j = 0; j < distances.size(); j++) {
             stream << distances[i][j];
             if (j != distances.size() - 1) stream << ",";
-            //std::cout << j << std::endl;
         }
         stream << "\n";
     }
