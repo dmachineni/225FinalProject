@@ -255,6 +255,15 @@ int Graph::idToIndex(int id) {
     }
     return -1;
 }
+
+// int Graph::indexToId(int idx) {
+//     for (int i = 0; i < airportsSize(); i++) {
+//         if (airports[i].airport_id == id) 
+//         return i;
+//     }
+//     return -1;
+// }
+
 /*
     BFS traversal of graph. Some airports are only connected to one other airport (two vertices and one edge)
     so they aren't included in the path. 
@@ -440,4 +449,138 @@ void Graph::readDistMatrixFromFile(std::string filename) {
             s++;
         }
     }
+}
+
+
+//A* algo functions
+double Graph::calculateHValues(int start, int dest) {
+    Vertex startVertex = idToAirport(start);
+    return startVertex.calculateWeight(idToAirport(dest));
+}
+
+std::vector<int> Graph::AStarSearch(int src, int dest) {
+    std::vector<int> path;
+
+    //if path = 0
+    if(src == dest) {
+        path.push_back(src);
+        return path;
+    }
+
+    //if path = 1
+    std::cout << "src: " << src << '\n';
+    std::cout << "dest: " << dest << '\n';
+    // std::cout << "sizeof adj row: " << adjacency_list[src].size() << '\n';
+
+    std::vector<int> neighborsSrc = adjacency_list[src];
+    for(size_t i = 0; i < neighborsSrc.size(); i++) {
+        if(neighborsSrc[i] == dest) {
+            path.push_back(src);
+            path.push_back(neighborsSrc[i]);
+            return path;
+        }
+    }
+
+    path.push_back(dest);
+    for (size_t i = 0; i < path.size(); i++) {
+        std::cout << airports[idToIndex(path[i])].airport_name << std::endl;
+    }
+
+    std::cout << "done with path = 1 test" << '\n';
+
+    //first = airport ID, second = g value
+    std::vector<std::pair<int,int>> closed_list; //keeps track of all the nodes we visited
+    std::vector<std::pair<int,int>> open_list; //keeps track of nodes we can visit next
+
+    open_list.push_back({src, 0});
+    std::map<int, int> parentTracker; //key = child, value = parent node
+
+    bool found = false; 
+    while(!open_list.empty() && !found) {
+        std::cout << "entering while loop" << std::endl;
+        //remove item from open list : PQ or just first value?
+        int min = open_list[0].second + calculateHValues(open_list[0].first,dest); 
+        int idxToRemove = 0;
+        // std::cout << "open list size: " << open_list.size() << '\n';
+        for (size_t i = 0; i < open_list.size(); i++) {
+            if(open_list[i].second + calculateHValues(open_list[i].first,dest) < min) {
+                min = open_list[i].second + calculateHValues(open_list[i].first,dest);
+                idxToRemove = i;
+            }
+        }
+
+        std::cout << "idxToRemove: " << idxToRemove << std::endl;
+
+        std::pair<int, int> currNode = open_list[idxToRemove];
+        std::cout << "airport: " << currNode.first << std::endl;
+        // std::cout << "g: " << currNode.second << std::endl;
+
+        //erase from open list
+        open_list.erase(open_list.begin()+idxToRemove);
+
+        //go thru all neighbors
+            //if n == dest => set parents, return
+            //else ... psuedo code if statements
+        std::vector<int> neighbors = adjacency_list[currNode.first]; 
+        for(size_t i = 0; i < neighbors.size(); i++) {
+            std::cout << "neighbors: " << neighbors.size() << std::endl;
+            if(neighbors[i] == dest) {
+                parentTracker[dest] = currNode.first;
+                found = true;
+                break;
+            }
+
+            //setting successor's parent as currNode
+            parentTracker[neighbors[i]] = currNode.first;
+
+            int succesor_g = currNode.second + neighbors[i];
+            int successor_f = succesor_g + calculateHValues(neighbors[i], dest);
+            
+            bool foundElseWhere = false;
+            for(size_t i = 0; i < open_list.size(); i++) {
+                if(open_list[i].first == neighbors[i]) {
+                    if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
+                        //closed list part
+                        open_list.push_back({neighbors[i], succesor_g});
+                    }
+                    foundElseWhere = true;
+                }
+            }
+            for(size_t i = 0; i < closed_list.size(); i++) {
+                if(closed_list[i].first == neighbors[i]) {
+                    if(closed_list[i].second + calculateHValues(closed_list[i].first,dest) > successor_f) {
+                        //closed list part
+                        open_list.push_back({neighbors[i], succesor_g});
+                    }
+                    foundElseWhere = true;
+                }
+            }
+            if(!foundElseWhere) {
+                open_list.push_back({neighbors[i], succesor_g});
+            }
+        }
+
+        //put it into closed list
+        closed_list.push_back(currNode);
+        std::cout << "end of while loop" << std::endl;
+    }
+
+    std::cout << "OUT" << std::endl;
+
+    //backtrack, push into vector, return 
+        std::cout << "dest: " << dest << '\n';
+
+    // path.push_back(dest);
+    int currIdx = dest; 
+    int run = 0;
+    while(currIdx != src) {
+        std::cout << parentTracker[currIdx] << '\n';
+        path.push_back(parentTracker[currIdx]);
+        currIdx = parentTracker[currIdx];
+        run++;
+    }
+    std::cout << "size: " << path.size() << '\n';
+    std::cout << "run: " << run << '\n';
+
+    return path;
 }

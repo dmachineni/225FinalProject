@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <queue>
 #include <limits>
+
 class Graph {
     public:
         Graph(bool all_airports);
@@ -29,7 +30,12 @@ class Graph {
         int idToIndex(int id); // returns index with id
         double getShortestPath(int start, int end); // returns distance in km between both airports
         std::vector<Vertex> airports; // vector of airports
-        
+
+        //A* 
+        std::vector<int> AStarSearch(int src, int dest);
+        double calculateHValues(int start, int dest);
+
+
 
         private:
         // creates from files from scratch
@@ -52,6 +58,4 @@ class Graph {
 
         std::vector<std::vector<double>> distances; // matrix with distances as values
         std::map<std::string, std::vector<int>> countries; // keeps track of all the airports in each country, used in clean()
-   
-        
 };

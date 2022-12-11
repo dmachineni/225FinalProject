@@ -1,6 +1,7 @@
 #include "graph.h"
 #include "vertex.h"
 #include <iostream>
+#include <string>
 
 int main() {
     //Graph g("data/airports_cleaned.csv", "data/adjacency_list.csv", "data/distance_matrix.csv"); // creates graph from correct data
@@ -16,13 +17,19 @@ int main() {
     // should print out same values (THEY DO) because the graphs should be the same
     //std::cout << g.BFSTraversal(0).size() << std::endl;
     //std::cout << gg.BFSTraversal(0).size() << std::endl;
-
     
-    std::cout << "distance: " << g.airports[0].calculateWeight(g.airports[206]) << std::endl; // distance between two airports
-    std::cout << "distance: " << g.airports[206].calculateWeight(g.airports[114]) << std::endl;
+    // std::cout << "distance: " << g.airports[0].calculateWeight(g.airports[206]) << std::endl; // distance between two airports
+    // std::cout << "distance: " << g.airports[206].calculateWeight(g.airports[114]) << std::endl;
     std::cout << "To get from " << g.airports[0].airport_name << " to " << g.airports[114].airport_name << ", you fly "
     <<g.getShortestPath(g.airports[0].airport_id, g.airports[114].airport_id) << " km"<< std::endl; //should equal sum of above 2 lines (IT DOES)
-    //std::cout << gg.getShortestPath(g.airports[0].airport_id, g.airports[114].airport_id) << std::endl; // should be same as line above (IT IS)
+    // std::cout << gg.getShortestPath(g.airports[0].airport_id, g.airports[114].airport_id) << std::endl; // should be same as line above (IT IS)
     // Graph g2(true);
     // std::cout << g2.BFSTraversal(0).size() << std::endl;
+
+    std::cout << "start: " << g.airports[0].airport_name << " end: " <<g.airports[114].airport_name << '\n'; 
+    std::vector<int> Asearch = g.AStarSearch(g.airports[0].airport_id, g.airports[114].airport_id);
+    std::cout << "size: " << Asearch.size() << '\n';
+    for(size_t i = 0 ; i < Asearch.size(); i++) {
+        std::cout << g.airports[i].airport_name << std::endl;
+    }
 }
