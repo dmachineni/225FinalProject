@@ -1,0 +1,3199 @@
+1,"Goroka Airport","Papua New Guinea",-6.08169,145.392
+2,"Madang Airport","Papua New Guinea",-5.20708,145.789
+3,"Mount Hagen Kagamuga Airport","Papua New Guinea",-5.82679,144.296
+4,"Nadzab Airport","Papua New Guinea",-6.5698,146.726
+5,"Port Moresby Jacksons International Airport","Papua New Guinea",-9.44338,147.22
+6,"Wewak International Airport","Papua New Guinea",-3.58383,143.669
+7,"Narsarsuaq Airport","Greenland",61.1605,-45.426
+8,"Godthaab / Nuuk Airport","Greenland",64.1909,-51.6781
+9,"Kangerlussuaq Airport","Greenland",67.0122,67.0122
+10,"Thule Air Base","Greenland",76.5312,-68.7032
+11,"Akureyri Airport","Iceland",65.66,-18.0727
+12,"Egilsstaðir Airport","Iceland",65.2833,-14.4014
+15,"Ísafjörður Airport","Iceland",66.0581,-23.1353
+16,"Keflavik International Airport","Iceland",63.985,-22.6056
+18,"Reykjavik Airport","Iceland",64.13,-21.9406
+21,"Sault Ste Marie Airport","Canada",46.485,-84.5094
+24,"St. Anthony Airport","Canada",51.3919,-56.0831
+27,"Baie Comeau Airport","Canada",49.1325,-68.2044
+28,"CFB Bagotville","Canada",48.3306,-70.9964
+29,"Baker Lake Airport","Canada",64.2989,-96.0778
+30,"Campbell River Airport","Canada",49.9508,-125.271
+31,"Brandon Municipal Airport","Canada",49.91,-99.9519
+32,"Cambridge Bay Airport","Canada",69.1081,-105.138
+33,"Nanaimo Airport","Canada",49.055,-123.87
+34,"Castlegar/West Kootenay Regional Airport","Canada",49.2964,-117.632
+36,"Charlo Airport","Canada",47.9908,-66.3303
+37,"Kugluktuk Airport","Canada",67.8167,-115.144
+40,"Clyde River Airport","Canada",70.4861,-68.5167
+41,"Coral Harbour Airport","Canada",64.1933,-83.3594
+45,"Deer Lake Airport","Canada",49.2108,-57.3914
+48,"Dawson Creek Airport","Canada",55.7423,-120.183
+49,"Edmonton International Airport","Canada",53.3097,-113.58
+50,"Arviat Airport","Canada",61.0942,-94.0708
+54,"Inuvik Mike Zubko Airport","Canada",68.3042,-133.483
+55,"Iqaluit Airport","Canada",63.7564,-68.5558
+56,"Fredericton Airport","Canada",45.8689,-66.5372
+58,"Flin Flon Airport","Canada",54.6781,-101.682
+60,"Fort Simpson Airport","Canada",61.7602,-121.237
+61,"Kingston Norman Rogers Airport","Canada",44.2253,-76.5969
+62,"La Grande Rivière Airport","Canada",53.6253,-77.7042
+63,"Gaspé (Michel-Pouliot) Airport","Canada",48.7753,-64.4786
+65,"Îles-de-la-Madeleine Airport","Canada",47.4247,-61.7781
+67,"Dryden Regional Airport","Canada",49.8317,-92.7442
+68,"Ulukhaktok Holman Airport","Canada",70.7628,-117.806
+69,"Gjoa Haven Airport","Canada",68.6356,-95.8497
+70,"John C. Munro Hamilton International Airport","Canada",43.1736,-79.935
+71,"Montréal / Saint-Hubert Airport","Canada",45.5175,-73.4169
+72,"Hay River / Merlyn Carter Airport","Canada",60.8397,-115.783
+73,"Halifax / Stanfield International Airport","Canada",44.8808,-63.5086
+75,"Pond Inlet Airport","Canada",72.6833,-77.9667
+77,"Stephenville Airport","Canada",48.5442,-58.55
+78,"Kamloops Airport","Canada",50.7022,-120.444
+79,"Waterloo Airport","Canada",43.4608,-80.3786
+80,"Schefferville Airport","Canada",54.8053,-66.8053
+85,"Lloydminster Airport","Canada",53.3092,-110.073
+87,"Kelowna International Airport","Canada",49.9561,-119.378
+90,"Fort McMurray Airport","Canada",56.6533,-111.222
+91,"Moosonee Airport","Canada",51.2911,-80.6078
+94,"Natashquan Airport","Canada",50.19,-61.7892
+99,"High Level Airport","Canada",58.6214,-117.165
+100,"Ottawa Macdonald-Cartier International Airport","Canada",45.3225,-75.6692
+105,"Pickle Lake Airport","Canada",51.4464,-90.2142
+106,"Port Menier Airport","Canada",49.8364,-64.2886
+108,"Prince Rupert Airport","Canada",54.2861,-130.445
+109,"Fort Chipewyan Airport","Canada",58.7672,-111.117
+111,"Quebec Jean Lesage International Airport","Canada",46.7911,-71.3933
+112,"Red Deer Regional Airport","Canada",52.1822,-113.894
+113,"Windsor Airport","Canada",42.2756,-82.9556
+115,"Kenora Airport","Canada",49.7883,-94.3631
+116,"Lethbridge County Airport","Canada",49.6303,-112.8
+117,"Greater Moncton International Airport","Canada",46.1122,-64.6786
+119,"Comox Airport","Canada",49.7108,-124.887
+120,"Regina International Airport","Canada",50.4319,-104.666
+121,"Thunder Bay Airport","Canada",48.3719,-89.3239
+122,"Grande Prairie Airport","Canada",55.1797,-118.885
+125,"Gander International Airport","Canada",48.9369,-54.5681
+126,"Sydney / J.A. Douglas McCurdy Airport","Canada",46.1614,-60.0478
+127,"Quesnel Airport","Canada",53.0261,-122.51
+128,"Resolute Bay Airport","Canada",74.7169,-94.9694
+132,"Rankin Inlet Airport","Canada",62.8114,-92.1158
+133,"Sudbury Airport","Canada",46.625,-80.7989
+135,"Saint John Airport","Canada",45.3161,-65.8903
+136,"Fort Smith Airport","Canada",60.0203,-111.962
+139,"Sachs Harbour (David Nasogaluak Jr. Saaryuaq) Airport","Canada",71.9939,-125.243
+140,"Cape Dorset Airport","Canada",64.23,-76.5267
+141,"Thompson Airport","Canada",55.8011,-97.8642
+143,"Timmins/Victor M. Power","Canada",48.5697,-81.3767
+144,"Billy Bishop Toronto City Centre Airport","Canada",43.6275,-79.3962
+145,"Tuktoyaktuk Airport","Canada",69.4333,-133.026
+146,"Montreal / Pierre Elliott Trudeau International Airport","Canada",45.4706,-73.7408
+147,"Repulse Bay Airport","Canada",66.5214,-86.2247
+148,"Hall Beach Airport","Canada",68.7761,-81.2425
+149,"Rouyn Noranda Airport","Canada",48.2061,-78.8356
+152,"Qikiqtarjuaq Airport","Canada",67.5458,-64.0314
+153,"Val-d'Or Airport","Canada",48.0533,-77.7828
+154,"Kuujjuaq Airport","Canada",58.0961,-68.4269
+155,"Norman Wells Airport","Canada",65.2816,-126.798
+156,"Vancouver International Airport","Canada",49.1939,-123.184
+160,"Winnipeg / James Armstrong Richardson International Airport","Canada",49.91,-97.2399
+161,"Wabush Airport","Canada",52.9219,-66.8644
+162,"Williams Lake Airport","Canada",52.1831,-122.054
+164,"Cranbrook/Canadian Rockies International Airport","Canada",49.6108,-115.782
+166,"Saskatoon John G. Diefenbaker International Airport","Canada",52.1708,-106.7
+167,"Medicine Hat Airport","Canada",50.0189,-110.721
+168,"Fort St John Airport","Canada",56.2381,-120.74
+169,"Sioux Lookout Airport","Canada",50.1139,-91.9053
+170,"Pangnirtung Airport","Canada",66.145,-65.7136
+172,"Prince George Airport","Canada",53.8894,-122.679
+173,"Northwest Regional Airport Terrace-Kitimat","Canada",54.4685,-128.576
+174,"London Airport","Canada",43.0356,-81.1539
+175,"Abbotsford Airport","Canada",49.0253,-122.361
+176,"Whitehorse / Erik Nielsen International Airport","Canada",60.7096,-135.067
+177,"North Bay Jack Garland Airport","Canada",46.3636,-79.4228
+178,"Calgary International Airport","Canada",51.1139,-114.02
+179,"Smithers Airport","Canada",54.8247,-127.183
+180,"Fort Nelson Airport","Canada",58.8364,-122.597
+181,"Penticton Airport","Canada",49.4631,-119.602
+182,"Charlottetown Airport","Canada",46.29,-63.1211
+183,"Taloyoak Airport","Canada",69.5467,-93.5767
+184,"Victoria International Airport","Canada",48.6469,-123.426
+187,"Churchill Airport","Canada",58.7392,-94.065
+188,"Goose Bay Airport","Canada",53.3192,-60.4258
+189,"St. John's International Airport","Canada",47.6186,-52.7519
+190,"Kapuskasing Airport","Canada",49.4139,-82.4675
+192,"Mont Joli Airport","Canada",48.6086,-68.2081
+193,"Lester B. Pearson International Airport","Canada",43.6772,-79.6306
+196,"Yellowknife Airport","Canada",62.4628,-114.44
+198,"Sandspit Airport","Canada",53.2543,-131.814
+199,"Chris Hadfield Airport","Canada",42.9994,-82.3089
+200,"Port Hardy Airport","Canada",50.6806,-127.367
+202,"Sept-Îles Airport","Canada",50.2233,-66.2656
+206,"Fort Mcpherson Airport","Canada",67.4075,-134.861
+209,"Soummam Airport","Algeria",36.712,5.06992
+210,"Houari Boumediene Airport","Algeria",36.691,3.21541
+211,"Djanet Inedbirene Airport","Algeria",24.2928,9.45244
+216,"Aguenar – Hadj Bey Akhamok Airport","Algeria",22.8115,5.45108
+220,"Rabah Bitat Airport","Algeria",36.8222,7.80917
+221,"Mohamed Boudiaf International Airport","Algeria",36.276,6.62039
+222,"Cheikh Larbi Tébessi Airport","Algeria",35.4316,8.12072
+224,"Hassi R'Mel Airport","Algeria",32.9304,3.31154
+225,"Bou Chekif Airport","Algeria",35.3411,1.46315
+230,"Zenata – Messali El Hadj Airport","Algeria",35.0167,-1.45
+231,"Es Senia Airport","Algeria",35.6239,-0.621183
+233,"Ghriss Airport","Algeria",35.2077,0.147142
+234,"Touat Cheikh Sidi Mohamed Belkebir Airport","Algeria",27.8376,-0.186414
+235,"Biskra Airport","Algeria",34.7933,5.73823
+236,"El Golea Airport","Algeria",30.5713,2.85959
+237,"Noumérat - Moufdi Zakaria Airport","Algeria",32.3841,3.79411
+238,"Oued Irara Airport","Algeria",31.673,6.14044
+239,"In Salah Airport","Algeria",27.251,2.51202
+240,"Touggourt Sidi Madhi Airport","Algeria",33.0678,6.08867
+243,"Ain el Beida Airport","Algeria",31.9172,5.41278
+244,"In Aménas Airport","Algeria",28.0515,9.64291
+245,"Cadjehoun Airport","Benin",6.35723,2.38435
+246,"Ouagadougou Airport","Burkina Faso",12.3532,-1.51242
+247,"Bobo Dioulasso Airport","Burkina Faso",11.1601,-4.33097
+248,"Kotoka International Airport","Ghana",5.60519,-0.166786
+249,"Tamale Airport","Ghana",9.55719,-0.863214
+251,"Sunyani Airport","Ghana",7.36183,-2.32876
+252,"Takoradi Airport","Ghana",4.89606,-1.77476
+253,"Port Bouet Airport","Cote d'Ivoire",5.26139,-3.92629
+260,"Nnamdi Azikiwe International Airport","Nigeria",9.00679,7.26317
+262,"Benin Airport","Nigeria",6.31698,5.5995
+263,"Margaret Ekpo International Airport","Nigeria",4.97602,8.3472
+264,"Akanu Ibiam International Airport","Nigeria",6.47427,7.56196
+266,"Ibadan Airport","Nigeria",7.36246,3.97833
+267,"Ilorin International Airport","Nigeria",8.44021,4.49392
+268,"Yakubu Gowon Airport","Nigeria",9.63983,8.86905
+269,"Kaduna Airport","Nigeria",10.696,7.32011
+270,"Mallam Aminu International Airport","Nigeria",12.0476,8.52462
+273,"Murtala Muhammed International Airport","Nigeria",6.57737,3.32116
+275,"Port Harcourt International Airport","Nigeria",5.01549,6.94959
+276,"Sadiq Abubakar III International Airport","Nigeria",12.9163,5.20719
+277,"Yola Airport","Nigeria",9.25755,12.4304
+280,"Diori Hamani International Airport","Niger",13.4815,2.18361
+286,"Monastir Habib Bourguiba International Airport","Tunisia",35.7581,10.7547
+287,"Tunis Carthage International Airport","Tunisia",36.851,10.2272
+290,"Gafsa Ksar International Airport","Tunisia",34.422,8.8225
+291,"Gabès Matmata International Airport","Tunisia",33.8769,10.1033
+293,"Djerba Zarzis International Airport","Tunisia",33.875,10.7755
+295,"Sfax Thyna International Airport","Tunisia",34.718,10.691
+296,"Tozeur Nefta International Airport","Tunisia",33.9397,8.11056
+298,"Lomé-Tokoin Airport","Togo",6.16561,1.25451
+299,"Antwerp International Airport (Deurne)","Belgium",51.1894,4.46028
+302,"Brussels Airport","Belgium",50.9014,4.48444
+304,"Brussels South Charleroi Airport","Belgium",50.4592,4.45382
+309,"Liège Airport","Belgium",50.6374,5.44322
+310,"Ostend-Bruges International Airport","Belgium",51.1989,2.86222
+337,"Berlin-Schönefeld Airport","Germany",52.38,13.5225
+338,"Dresden Airport","Germany",51.1328,13.7672
+339,"Erfurt Airport","Germany",50.9798,10.9581
+340,"Frankfurt am Main Airport","Germany",50.0333,8.57056
+341,"Münster Osnabrück Airport","Germany",52.1346,7.68483
+342,"Hamburg Airport","Germany",53.6304,9.98823
+344,"Cologne Bonn Airport","Germany",50.8659,7.14274
+345,"Düsseldorf Airport","Germany",51.2895,6.76678
+346,"Munich Airport","Germany",48.3538,11.7861
+347,"Nuremberg Airport","Germany",49.4987,11.0781
+348,"Leipzig/Halle Airport","Germany",51.4239,12.2364
+349,"Saarbrücken Airport","Germany",49.2146,7.10951
+350,"Stuttgart Airport","Germany",48.6899,9.22196
+351,"Berlin-Tegel Airport","Germany",52.5597,13.2877
+352,"Hannover Airport","Germany",52.4611,9.68508
+353,"Bremen Airport","Germany",53.0475,8.78667
+355,"Frankfurt-Hahn Airport","Germany",49.9487,7.26389
+356,"Mannheim-City Airport","Germany",49.4731,8.51417
+362,"Hamburg-Finkenwerder Airport","Germany",53.5353,9.83556
+364,"Lübeck Blankensee Airport","Germany",53.8054,10.7192
+371,"Paderborn Lippstadt Airport","Germany",51.6141,8.61632
+373,"Dortmund Airport","Germany",51.5183,7.61224
+374,"Augsburg Airport","Germany",48.4253,10.9317
+382,"Friedrichshafen Airport","Germany",47.6713,9.51149
+393,"Zweibrücken Airport","Germany",49.2094,7.40056
+400,"Kassel-Calden Airport","Germany",51.4173,9.38497
+410,"Westerland Sylt Airport","Germany",54.9132,8.34047
+413,"Kuressaare Airport","Estonia",58.2299,22.5095
+415,"Lennart Meri Tallinn Airport","Estonia",59.4133,24.8328
+416,"Tartu Airport","Estonia",58.3075,26.6904
+421,"Helsinki Vantaa Airport","Finland",60.3172,24.9633
+428,"Ivalo Airport","Finland",68.6073,27.4053
+429,"Joensuu Airport","Finland",62.6629,29.6075
+430,"Jyvaskyla Airport","Finland",62.3995,25.6783
+432,"Kemi-Tornio Airport","Finland",65.7787,24.5821
+433,"Kajaani Airport","Finland",64.2855,27.6924
+435,"Kokkola-Pietarsaari Airport","Finland",63.7212,23.1431
+437,"Kuusamo Airport","Finland",65.9876,29.2394
+438,"Kittilä Airport","Finland",67.701,24.8468
+439,"Kuopio Airport","Finland",63.0071,27.7978
+441,"Lappeenranta Airport","Finland",61.0446,28.1447
+442,"Mariehamn Airport","Finland",60.1222,19.8982
+446,"Oulu Airport","Finland",64.9301,25.3546
+448,"Pori Airport","Finland",61.4617,21.8
+453,"Rovaniemi Airport","Finland",66.5648,25.8304
+455,"Savonlinna Airport","Finland",61.9431,28.9451
+458,"Tampere-Pirkkala Airport","Finland",61.4141,23.6044
+460,"Turku Airport","Finland",60.5141,22.2628
+462,"Vaasa Airport","Finland",63.0507,21.7622
+465,"Belfast International Airport","United Kingdom",54.6575,-6.21583
+467,"George Best Belfast City Airport","United Kingdom",54.6181,-5.8725
+468,"City of Derry Airport","United Kingdom",55.0428,-7.16111
+469,"Birmingham International Airport","United Kingdom",52.4539,-1.74803
+472,"Gloucestershire Airport","United Kingdom",51.8942,-2.16722
+478,"Manchester Airport","United Kingdom",53.3537,-2.27495
+481,"Newquay Cornwall Airport","United Kingdom",50.4406,-4.99541
+488,"Cardiff International Airport","United Kingdom",51.3967,-3.34333
+490,"Bristol Airport","United Kingdom",51.3827,-2.71909
+491,"Liverpool John Lennon Airport","United Kingdom",53.3336,-2.84972
+492,"London Luton Airport","United Kingdom",51.8747,-0.368333
+494,"Bournemouth Airport","United Kingdom",50.78,-1.8425
+495,"Southampton Airport","United Kingdom",50.9503,-1.3568
+497,"Alderney Airport","Guernsey",49.7061,-2.21472
+498,"Guernsey Airport","Guernsey",49.435,-2.60197
+499,"Jersey Airport","Jersey",49.2079,-2.19551
+502,"London Gatwick Airport","United Kingdom",51.1481,-0.190278
+503,"London City Airport","United Kingdom",51.5053,0.055278
+507,"London Heathrow Airport","United Kingdom",51.4706,-0.461941
+508,"Southend Airport","United Kingdom",51.5714,0.695556
+514,"Blackpool International Airport","United Kingdom",53.7717,-3.02861
+515,"Humberside Airport","United Kingdom",53.5744,-0.350833
+517,"Leeds Bradford Airport","United Kingdom",53.8659,-1.66057
+519,"Hawarden Airport","United Kingdom",53.1781,-2.97778
+520,"Isle of Man Airport","Isle of Man",54.0833,-4.62389
+521,"Newcastle Airport","United Kingdom",55.0375,-1.69167
+522,"Durham Tees Valley Airport","United Kingdom",54.5092,-1.42941
+523,"East Midlands Airport","United Kingdom",52.8311,-1.32806
+529,"Kirkwall Airport","United Kingdom",58.9578,-2.905
+530,"Sumburgh Airport","United Kingdom",59.8789,-1.29556
+531,"Wick Airport","United Kingdom",58.4589,-3.09306
+532,"Aberdeen Dyce Airport","United Kingdom",57.2019,-2.19778
+533,"Inverness Airport","United Kingdom",57.5425,-4.0475
+534,"Glasgow International Airport","United Kingdom",55.8719,-4.43306
+535,"Edinburgh Airport","United Kingdom",55.95,-3.3725
+536,"Islay Airport","United Kingdom",55.6819,-6.25667
+537,"Glasgow Prestwick Airport","United Kingdom",55.5094,-4.58667
+538,"Benbecula Airport","United Kingdom",57.4811,-7.36278
+540,"Dundee Airport","United Kingdom",56.4525,-3.02583
+541,"Stornoway Airport","United Kingdom",58.2156,-6.33111
+542,"Tiree Airport","United Kingdom",56.4992,-6.86917
+547,"Norwich International Airport","United Kingdom",52.6758,1.28278
+548,"London Stansted Airport","United Kingdom",51.885,0.235
+552,"Exeter International Airport","United Kingdom",50.7344,-3.41389
+579,"Mount Pleasant Airport","Falkland Islands",-51.8228,-58.4472
+580,"Amsterdam Airport Schiphol","Netherlands",52.3086,4.76389
+582,"Maastricht Aachen Airport","Netherlands",50.9117,5.77014
+585,"Eindhoven Airport","Netherlands",51.4501,5.37453
+586,"Eelde Airport","Netherlands",53.1197,6.57944
+591,"Rotterdam The Hague Airport","Netherlands",51.9569,4.43722
+596,"Cork Airport","Ireland",51.8413,-8.49111
+599,"Dublin Airport","Ireland",53.4213,-6.27007
+600,"Ireland West Knock Airport","Ireland",53.9103,-8.81849
+601,"Kerry Airport","Ireland",52.1809,-9.52378
+603,"Shannon Airport","Ireland",52.702,-8.92482
+605,"Waterford Airport","Ireland",52.1872,-7.08696
+607,"Aarhus Airport","Denmark",56.3,10.619
+608,"Billund Airport","Denmark",55.7403,9.15178
+609,"Copenhagen Kastrup Airport","Denmark",55.6179,12.656
+610,"Esbjerg Airport","Denmark",55.5259,8.5534
+612,"Karup Airport","Denmark",56.2975,9.12463
+618,"Bornholm Airport","Denmark",55.0633,14.7596
+619,"Sønderborg Airport","Denmark",54.9644,9.79173
+625,"Vagar Airport","Faroe Islands",62.0636,-7.27722
+628,"Aalborg Airport","Denmark",57.0928,9.84924
+629,"Luxembourg-Findel International Airport","Luxembourg",49.6233,6.20444
+630,"Ålesund Airport","Norway",62.5625,6.1197
+631,"Andøya Airport","Norway",69.2925,16.1442
+632,"Alta Airport","Norway",69.9761,23.3717
+634,"Brønnøysund Airport","Norway",65.4611,12.2175
+635,"Bodø Airport","Norway",67.2692,14.3653
+636,"Bergen Airport Flesland","Norway",60.2934,5.21814
+637,"Båtsfjord Airport","Norway",70.6005,29.6914
+638,"Kristiansand Airport","Norway",58.2042,8.08537
+640,"Bardufoss Airport","Norway",69.0558,18.5404
+641,"Harstad/Narvik Airport,"Norway",68.4913,16.6781
+642,"Leirin Airport","Norway",61.0156,9.28806
+643,"Florø Airport","Norway",61.5836,5.02472
+644,"Oslo Lufthavn","Norway",60.121,11.0502
+645,"Haugesund Airport","Norway",59.3453,5.20836
+646,"Hasvik Airport","Norway",70.4867,22.1397
+647,"Kristiansund Airport (Kvernberget)","Norway",63.1118,7.82452
+649,"Kirkenes Airport (Høybuktmoen)","Norway",69.7258,29.8913
+651,"Molde Airport","Norway",62.7447,7.2625
+652,"Mosjøen Airport (Kjærstad)","Norway",65.784,13.2149
+653,"Banak Airport","Norway",70.0688,24.9735
+655,"Ørland Airport","Norway",63.6989,9.604
+656,"Røros Airport","Norway",62.5784,11.3423
+657,"Moss Airport,"Norway",59.3788,10.7854
+658,"Svalbard Airport,"Norway",78.2461,15.4656
+659,"Skien Airport","Norway",59.185,9.56694
+660,"Stord Airport","Norway",59.7919,5.34085
+662,"Sandnessjøen Airport (Stokka)","Norway",65.9568,12.4689
+663,"Tromsø Airport,"Norway",69.6833,18.9189
+664,"Sandefjord Airport,"Norway",59.1867,10.2586
+665,"Trondheim Airport Værnes","Norway",63.4578,10.924
+666,"Stavanger Airport Sola","Norway",58.8767,5.63778
+668,"Gdańsk Lech Wałęsa Airport","Poland",54.3776,18.4662
+669,"Kraków John Paul II International Airport","Poland",50.0777,19.7848
+671,"Katowice International Airport","Poland",50.4743,19.08
+674,"Poznań-Ławica Airport","Poland",52.421,16.8263
+675,"Rzeszów-Jasionka Airport","Poland",50.11,22.019
+676,"Szczecin-Goleniów ""Solidarność"" Airport","Poland",53.5847,14.9022
+679,"Warsaw Chopin Airport","Poland",52.1657,20.9671
+680,"Copernicus Wrocław Airport","Poland",51.1027,16.8858
+685,"Ronneby Airport","Sweden",56.2667,15.265
+687,"Gothenburg-Landvetter Airport","Sweden",57.6628,12.2798
+688,"Jönköping Airport","Sweden",57.7576,14.0687
+691,"Gothenburg City Airport","Sweden",57.7747,11.8704
+693,"Trollhättan-Vänersborg Airport","Sweden",58.3181,12.345
+698,"Mora Airport","Sweden",60.9579,14.5114
+699,"Stockholm Skavsta Airport","Sweden",58.7886,16.9122
+703,"Kristianstad Airport","Sweden",55.9217,14.0855
+707,"Kalmar Airport","Sweden",56.6855,16.2876
+708,"Malmö Sturup Airport","Sweden",55.5363,13.3762
+709,"Halmstad Airport","Sweden",56.6911,12.8202
+711,"Växjö Kronoberg Airport","Sweden",56.9291,14.728
+714,"Sveg Airport","Sweden",62.0478,14.4229
+715,"Gällivare Airport","Sweden",67.1324,20.8146
+718,"Kramfors Sollefteå Airport","Sweden",63.0486,17.7689
+719,"Lycksele Airport","Sweden",64.5483,18.7162
+721,"Sundsvall-Härnösand Airport","Sweden",62.5281,17.4439
+722,"Örnsköldsvik Airport","Sweden",63.4083,18.99
+724,"Kiruna Airport","Sweden",67.822,20.3368
+726,"Skellefteå Airport","Sweden",64.6248,21.0769
+728,"Umeå Airport","Sweden",63.7918,20.2828
+729,"Vilhelmina Airport","Sweden",64.5791,16.8336
+730,"Arvidsjaur Airport","Sweden",65.5903,19.2819
+731,"Örebro Airport","Sweden",59.2237,15.038
+733,"Stockholm Västerås Airport","Sweden",59.5894,16.6336
+734,"Luleå Airport","Sweden",65.5438,22.122
+737,"Stockholm-Arlanda Airport","Sweden",59.6519,17.9186
+738,"Stockholm-Bromma Airport","Sweden",59.3544,17.9417
+739,"Borlange Airport","Sweden",60.422,15.5152
+742,"Linköping City Airport","Sweden",58.4062,15.6805
+743,"Norrköping Airport","Sweden",58.5863,16.2506
+746,"Visby Airport","Sweden",57.6628,18.3462
+772,"Rostock-Laage Airport","Germany",53.9182,12.2783
+794,"Bram Fischer International Airport","South Africa",-29.0927,26.3024
+797,"Cape Town International Airport","South Africa",-33.9648,18.6017
+799,"King Shaka International Airport","South Africa",-29.6144,31.1197
+800,"Ben Schoeman Airport","South Africa",-33.0356,27.8259
+804,"George Airport","South Africa",-34.0056,22.3789
+811,"Hoedspruit Air Force Base Airport","South Africa",-24.3686,31.0487
+813,"OR Tambo International Airport","South Africa",-26.1392,28.246
+815,"Kimberley Airport","South Africa",-28.8028,24.7652
+820,"Lanseria Airport","South Africa",-25.9385,27.9261
+827,"Margate Airport","South Africa",-30.8574,30.343
+838,"Port Elizabeth Airport","South Africa",-33.9849,25.6173
+840,"Hendrik Van Eck Airport","South Africa",-23.9372,31.1554
+843,"Pietermaritzburg Airport","South Africa",-29.649,30.3987
+845,"Polokwane International Airport","South Africa",-23.8453,29.4586
+849,"Richards Bay Airport","South Africa",-28.741,32.0921
+865,"Pierre Van Ryneveld Airport","South Africa",-28.3991,21.2602
+866,"K. D. Matanzima Airport","South Africa",-31.5464,28.6734
+877,"Francistown Airport","Botswana",-21.1596,27.4745
+879,"Kasane Airport","Botswana",-17.8329,25.1624
+880,"Maun Airport","Botswana",-19.9726,23.4311
+881,"Sir Seretse Khama International Airport","Botswana",-24.5552,25.9182
+883,"Maya-Maya Airport","Congo (Brazzaville)",-4.2517,15.253
+886,"Pointe Noire Airport","Congo (Brazzaville)",-4.81603,11.8866
+887,"Matsapha Airport","Swaziland",-26.529,31.3075
+888,"Bangui M'Poko International Airport","Central African Republic",4.39848,18.5188
+890,"Bata Airport","Equatorial Guinea",1.90547,9.80568
+891,"Malabo Airport","Equatorial Guinea",3.75527,8.70872
+893,"Sir Seewoosagur Ramgoolam International Airport","Mauritius",-20.4302,57.6836
+894,"Sir Charles Gaetan Duval Airport","Mauritius",-19.7577,63.361
+897,"Douala International Airport","Cameroon",4.00608,9.71948
+898,"Salak Airport","Cameroon",10.4514,14.2574
+900,"N'Gaoundéré Airport","Cameroon",7.35701,13.5592
+901,"Garoua International Airport","Cameroon",9.33589,13.3701
+906,"Livingstone Airport","Zambia",-17.8218,25.8227
+907,"Kenneth Kaunda International Airport Lusaka","Zambia",-15.3308,28.4526
+908,"Mfuwe Airport","Zambia",-13.2589,31.9366
+910,"Simon Mwansa Kapwepwe International Airport","Zambia",-12.9981,28.6649
+912,"Prince Said Ibrahim International Airport","Comoros",-11.5337,43.2719
+915,"Dzaoudzi Pamandzi International Airport","Mayotte",-12.8047,45.2811
+916,"Roland Garros Airport","Reunion",-20.8871,55.5103
+917,"Pierrefonds Airport","Reunion",-21.3209,55.425
+918,"Ivato Airport","Madagascar",-18.7969,47.4788
+920,"Sainte Marie Airport","Madagascar",-17.0939,49.8158
+921,"Toamasina Airport","Madagascar",-18.1095,49.3925
+922,"Morondava Airport","Madagascar",-20.2847,44.3176
+923,"Arrachart Airport","Madagascar",-12.3494,49.2917
+924,"Mananara Nord Airport","Madagascar",-16.1639,49.7738
+927,"Antsirabato Airport","Madagascar",-14.9994,50.3202
+929,"Amborovy Airport","Madagascar",-15.6668,46.3512
+930,"Fascene Airport","Madagascar",-13.3121,48.3148
+932,"Maroantsetra Airport","Madagascar",-15.4367,49.6883
+933,"Sambava Airport","Madagascar",-14.2786,50.1747
+937,"Tôlanaro Airport","Madagascar",-25.0381,46.9561
+943,"Toliara Airport","Madagascar",-23.3834,43.7285
+944,"Mbanza Congo Airport","Angola",-6.2699,14.247
+946,"Cabinda Airport","Angola",-5.59699,12.1884
+948,"Nova Lisboa Airport","Angola",-12.8089,15.7605
+949,"Kuito Airport","Angola",-12.4046,16.9474
+951,"Quatro de Fevereiro Airport","Angola",-8.85837,13.2312
+952,"Malanje Airport","Angola",-9.52509,16.3124
+953,"Menongue Airport","Angola",-14.6576,17.7198
+957,"Saurimo Airport","Angola",-9.68907,20.4319
+958,"Soyo Airport","Angola",-6.14109,12.3718
+959,"Lubango Airport","Angola",-14.9247,13.575
+960,"Luena Airport","Angola",-11.7681,19.8977
+967,"Port Gentil Airport","Gabon",-0.711739,8.75438
+970,"Libreville Leon M'ba International Airport","Gabon",0.4586,9.41228
+973,"São Tomé International Airport","Sao Tome and Principe",0.378175,6.71215
+974,"Beira Airport","Mozambique",-19.7964,34.9076
+976,"Inhambane Airport","Mozambique",-23.8764,35.4085
+977,"Lichinga Airport","Mozambique",-13.274,35.2663
+979,"Maputo Airport","Mozambique",-25.9208,32.5726
+984,"Nampula Airport","Mozambique",-15.1056,39.2818
+985,"Pemba Airport","Mozambique",-12.9918,40.524
+986,"Quelimane Airport","Mozambique",-17.8555,36.8691
+988,"Chingozi Airport","Mozambique",-16.1048,33.6402
+990,"Vilankulo Airport","Mozambique",-22.0184,35.3133
+994,"Seychelles International Airport","Seychelles",-4.67434,55.5218
+995,"Praslin Airport","Seychelles",-4.31929,55.6914
+999,"N'Djamena International Airport","Chad",12.1337,15.034
+1001,"Joshua Mqabuko Nkomo International Airport","Zimbabwe",-20.0174,28.6179
+1004,"Victoria Falls International Airport","Zimbabwe",-18.0959,25.839
+1005,"Robert Gabriel Mugabe International Airport","Zimbabwe",-17.9318,31.0928
+1013,"Chileka International Airport","Malawi",-15.6791,34.974
+1016,"Lilongwe International Airport","Malawi",-13.7894,33.781
+1018,"Moshoeshoe I International Airport","Lesotho",-29.4623,27.5525
+1020,"Ndjili International Airport","Congo (Kinshasa)",-4.38575,15.4446
+1026,"Mbandaka Airport","Congo (Kinshasa)",0.0226,18.2887
+1028,"Gemena Airport","Congo (Kinshasa)",3.23537,19.7713
+1031,"Bangoka International Airport","Congo (Kinshasa)",0.481639,25.338
+1032,"Matari Airport","Congo (Kinshasa)",2.82761,27.5883
+1033,"Bunia Airport","Congo (Kinshasa)",1.56572,30.2208
+1035,"Bukavu Kavumu Airport","Congo (Kinshasa)",-2.30898,28.8088
+1036,"Goma International Airport","Congo (Kinshasa)",-1.67081,29.2385
+1037,"Kindu Airport","Congo (Kinshasa)",-2.91918,25.9154
+1038,"Lubumbashi International Airport","Congo (Kinshasa)",-11.5913,27.5309
+1042,"Kananga Airport","Congo (Kinshasa)",-5.90005,22.4692
+1043,"Mbuji Mayi Airport","Congo (Kinshasa)",-6.12124,23.569
+1044,"Modibo Keita International Airport","Mali",12.5335,-7.94994
+1050,"Banjul International Airport","Gambia",13.338,-16.6522
+1051,"Fuerteventura Airport","Spain",28.4527,-13.8638
+1052,"Hierro Airport","Spain",27.8148,-17.8871
+1053,"La Palma Airport","Spain",28.6265,-17.7556
+1054,"Gran Canaria Airport","Spain",27.9319,-15.3866
+1055,"Lanzarote Airport","Spain",28.9455,-13.6052
+1056,"Tenerife South Airport","Spain",28.0445,-16.5725
+1057,"Tenerife Norte Airport","Spain",28.4827,-16.3415
+1058,"Melilla Airport","Spain",35.2798,-2.95626
+1059,"Lungi International Airport","Sierra Leone",8.61644,-13.1955
+1062,"Spriggs Payne Airport","Liberia",6.28906,-10.7587
+1063,"Roberts International Airport","Liberia",6.23379,-10.3623
+1064,"Al Massira Airport","Morocco",30.325,-9.41307
+1065,"Tan Tan Airport","Morocco",28.4482,-11.1613
+1066,"Saïss Airport","Morocco",33.9273,-4.97796
+1070,"Angads Airport","Morocco",34.7872,-1.92399
+1072,"Rabat-Salé Airport","Morocco",34.0515,-6.75152
+1074,"Mohammed V International Airport","Morocco",33.3675,-7.58997
+1075,"Menara Airport","Morocco",31.6069,-8.0363
+1077,"Ouarzazate Airport","Morocco",30.9391,-6.90943
+1078,"Cherif Al Idrissi Airport","Morocco",35.1771,-3.83952
+1079,"Saniat R'mel Airport","Morocco",35.5943,-5.32002
+1080,"Ibn Batouta Airport","Morocco",35.7269,-5.91689
+1081,"Ziguinchor Airport","Senegal",12.5556,-16.2818
+1082,"Cap Skirring Airport","Senegal",12.3953,-16.748
+1084,"Léopold Sédar Senghor International Airport","Senegal",14.7397,-17.4902
+1094,"Nouakchott–Oumtounsy International Airport","Mauritania",18.31,-15.9697
+1097,"Nouadhibou International Airport","Mauritania",20.9331,-17.03
+1102,"Amílcar Cabral International Airport","Cape Verde",16.7414,-22.9494
+1103,"Rabil Airport","Cape Verde",16.1365,-22.8889
+1104,"Maio Airport","Cape Verde",15.1559,-23.2137
+1105,"Preguiça Airport","Cape Verde",16.5884,-24.2847
+1106,"São Pedro Airport","Cape Verde",16.8332,-25.0553
+1107,"Addis Ababa Bole International Airport","Ethiopia",8.97789,38.7993
+1109,"Arba Minch Airport","Ethiopia",6.03939,37.5905
+1110,"Axum Airport","Ethiopia",14.1468,38.7728
+1111,"Bahir Dar Airport","Ethiopia",11.6081,37.3216
+1112,"Aba Tenna Dejazmach Yilma International Airport","Ethiopia",9.6247,41.8542
+1113,"Gambella Airport","Ethiopia",8.12876,34.5631
+1114,"Gonder Airport","Ethiopia",12.5199,37.434
+1116,"Jimma Airport","Ethiopia",7.66609,36.8166
+1117,"Lalibella Airport","Ethiopia",11.975,38.98
+1118,"Mekele Airport","Ethiopia",13.4674,39.5335
+1119,"Asosa Airport","Ethiopia",10.0185,34.5863
+1120,"Bujumbura International Airport","Burundi",-3.32402,29.3185
+1121,"Egal International Airport","Somalia",9.51817,44.0888
+1122,"Berbera Airport","Somalia",10.3892,44.9411
+1127,"Abu Simbel Airport","Egypt",22.376,31.6117
+1128,"Cairo International Airport","Egypt",30.1219,31.4056
+1130,"Hurghada International Airport","Egypt",27.1783,33.7994
+1132,"Luxor International Airport","Egypt",25.671,32.7066
+1136,"Aswan International Airport","Egypt",23.9644,32.82
+1138,"Eldoret International Airport","Kenya",0.404458,35.2389
+1140,"Kisumu Airport","Kenya",-0.086139,34.7289
+1141,"Kitale Airport","Kenya",0.971989,34.9586
+1143,"Lodwar Airport","Kenya",3.12197,35.6087
+1144,"Manda Airstrip","Kenya",-2.25242,40.9131
+1145,"Mombasa Moi International Airport","Kenya",-4.03483,39.5942
+1147,"Nairobi Wilson Airport","Kenya",-1.32172,36.8148
+1149,"Wajir Airport","Kenya",1.73324,40.0916
+1152,"Ghat Airport","Libya",25.1456,10.1426
+1153,"Kufra Airport","Libya",24.1787,23.314
+1154,"Benina International Airport","Libya",32.0968,20.2695
+1157,"Tripoli International Airport","Libya",32.6635,13.159
+1162,"Ghadames East Airport","Libya",30.1517,9.71531
+1165,"Kigali International Airport","Rwanda",-1.96863,30.1395
+1166,"Kamembe Airport","Rwanda",-2.46224,28.9079
+1169,"El Fasher Airport","Sudan",13.6149,25.3246
+1173,"Juba International Airport","South Sudan",4.87201,31.6011
+1175,"Khartoum International Airport","Sudan",15.5895,32.5532
+1176,"Arusha Airport","Tanzania",-3.36779,36.6333
+1177,"Julius Nyerere International Airport","Tanzania",-6.87811,39.2026
+1180,"Kilimanjaro International Airport","Tanzania",-3.42941,37.0745
+1182,"Mtwara Airport","Tanzania",-10.3391,40.1818
+1183,"Mwanza Airport","Tanzania",-2.44449,32.9327
+1186,"Abeid Amani Karume International Airport","Tanzania",-6.22202,39.2249
+1187,"Entebbe International Airport","Uganda",0.042386,32.4435
+1190,"Tirana International Airport Mother Teresa","Albania",41.4147,19.7206
+1191,"Burgas Airport","Bulgaria",42.5696,27.5152
+1193,"Plovdiv International Airport","Bulgaria",42.0678,24.8508
+1194,"Sofia Airport","Bulgaria",42.6967,23.4114
+1196,"Varna Airport","Bulgaria",43.2321,27.8251
+1197,"Larnaca International Airport","Cyprus",34.8751,33.6249
+1198,"Paphos International Airport","Cyprus",34.718,32.4857
+1200,"Dubrovnik Airport","Croatia",42.5614,18.2682
+1202,"Osijek Airport","Croatia",45.4627,18.8102
+1203,"Pula Airport","Croatia",44.8935,13.9222
+1205,"Rijeka Airport","Croatia",45.2169,14.5703
+1206,"Split Airport","Croatia",43.5389,16.298
+1208,"Zagreb Airport","Croatia",45.7429,16.0688
+1209,"Zadar Airport","Croatia",44.1083,15.3467
+1212,"Alicante International Airport","Spain",38.2822,-0.558156
+1213,"Almería International Airport","Spain",36.8439,-2.3701
+1214,"Asturias Airport","Spain",43.5636,-6.03462
+1216,"Bilbao Airport","Spain",43.3011,-2.91061
+1218,"Barcelona International Airport","Spain",41.2971,2.07846
+1219,"Badajoz Airport","Spain",38.8913,-6.82133
+1220,"A Coruña Airport","Spain",43.3021,-8.37726
+1222,"Girona Airport","Spain",41.901,2.76055
+1223,"Federico Garcia Lorca Airport","Spain",37.1887,-3.77736
+1225,"Ibiza Airport","Spain",38.8729,1.37312
+1226,"Jerez Airport","Spain",36.7446,-6.06011
+1227,"San Javier Airport","Spain",37.775,-0.812389
+1229,"Adolfo Suárez Madrid–Barajas Airport","Spain",40.4719,-3.56264
+1230,"Málaga Airport","Spain",36.6749,-4.49911
+1231,"Menorca Airport","Spain",39.8626,4.21865
+1234,"Pamplona Airport","Spain",42.77,-1.64633
+1236,"Reus Air Base","Spain",41.1474,1.16717
+1238,"Salamanca Airport","Spain",40.9521,-5.50199
+1242,"San Sebastian Airport","Spain",43.3565,-1.79061
+1243,"Santiago de Compostela Airport","Spain",42.8963,-8.41514
+1246,"Valencia Airport","Spain",39.4893,-0.481625
+1247,"Valladolid Airport","Spain",41.7061,-4.85194
+1250,"Vigo Airport","Spain",42.2318,-8.62677
+1251,"Santander Airport","Spain",43.4271,-3.82001
+1252,"Zaragoza Air Base","Spain",41.6662,-1.04155
+1253,"Sevilla Airport","Spain",37.418,-5.89311
+1262,"Agen-La Garenne Airport","France",44.1747,0.590556
+1264,"Bordeaux-Mérignac Airport","France",44.8283,-0.715556
+1265,"Bergerac-Roumanière Airport","France",44.8253,0.518611
+1268,"Poitiers-Biard Airport","France",46.5877,0.306666
+1270,"Limoges Airport","France",45.8628,1.17944
+1273,"Toulouse-Blagnac Airport","France",43.6291,1.36382
+1274,"Pau Pyrénées Airport","France",43.38,-0.418611
+1276,"Tarbes-Lourdes-Pyrénées Airport","France",43.1787,-0.006439
+1277,"Angoulême-Brie-Champniers Airport","France",45.7292,0.221456
+1278,"Brive Souillac Airport","France",45.0397,1.48556
+1279,"Périgueux-Bassillac Airport","France",45.1981,0.815556
+1280,"Biarritz-Anglet-Bayonne Airport","France",43.4683,-1.53111
+1285,"Castres-Mazamet Airport","France",43.5563,2.28918
+1289,"Rodez-Marcillac Airport","France",44.4079,2.48267
+1309,"Dole-Tavaux Airport","France",47.0427,5.43506
+1313,"Le Puy-Loudes Airport","France",45.0807,3.76289
+1320,"Metz-Nancy-Lorraine Airport","France",48.9821,6.25132
+1321,"Bastia-Poretta Airport","France",42.5527,9.48373
+1322,"Calvi-Sainte-Catherine Airport","France",42.5244,8.79306
+1323,"Figari Sud-Corse Airport","France",41.5006,9.09778
+1324,"Ajaccio-Napoléon Bonaparte Airport","France",41.9236,8.80292
+1330,"Clermont-Ferrand Auvergne Airport","France",45.7867,3.16917
+1335,"Lyon Saint-Exupéry Airport","France",45.7256,5.08111
+1344,"Aurillac Airport","France",44.8914,2.42194
+1350,"Saint-Étienne-Bouthéon Airport","France",45.5406,4.29639
+1352,"Carcassonne Airport","France",43.216,2.30632
+1353,"Marseille Provence Airport","France",43.4393,5.22142
+1354,"Nice-Côte d'Azur Airport","France",43.6584,7.21587
+1356,"Perpignan-Rivesaltes (Llabanère) Airport","France",42.7404,2.87067
+1359,"Montpellier-Méditerranée Airport","France",43.5762,3.96301
+1360,"Béziers-Vias Airport","France",43.3235,3.3539
+1361,"Avignon-Caumont Airport","France",43.9073,4.90183
+1367,"Paris Beauvais Tillé Airport","France",49.4544,2.11278
+1371,"Le Havre Octeville Airport","France",49.5339,0.088056
+1374,"Châlons-Vatry Airport","France",48.7733,4.20611
+1376,"Tours-Val-de-Loire Airport","France",47.4322,0.727606
+1382,"Charles de Gaulle International Airport","France",49.0128,2.55
+1386,"Paris-Orly Airport","France",48.7233,2.37944
+1399,"Lille-Lesquin Airport","France",50.5633,3.08689
+1403,"Brest Bretagne Airport","France",48.4479,-4.41854
+1405,"Dinard-Pleurtuit-Saint-Malo Airport","France",48.5877,-2.07996
+1408,"Deauville-Saint-Gatien Airport","France",49.3653,0.154306
+1409,"Lorient South Brittany (Bretagne Sud) Airport","France",47.7606,-3.44
+1412,"Caen-Carpiquet Airport","France",49.1733,-0.45
+1415,"Rennes-Saint-Jacques Airport","France",48.0695,-1.73479
+1416,"Lannion-Côte de Granit Airport","France",48.7544,-3.47166
+1417,"Quimper-Cornouaille Airport","France",47.975,-4.16779
+1418,"Nantes Atlantique Airport","France",47.1532,-1.61073
+1423,"EuroAirport Basel-Mulhouse-Freiburg Airport","France",47.59,7.52917
+1425,"Dijon-Bourgogne Airport","France",47.2689,5.09
+1435,"Strasbourg Airport","France",48.5383,7.62823
+1438,"Toulon-Hyères Airport","France",43.0973,6.14603
+1439,"Nîmes-Arles-Camargue Airport","France",43.7574,4.41635
+1441,"St Pierre Airport","Saint Pierre and Miquelon",46.7629,-56.1731
+1446,"Dimokritos Airport","Greece",40.8559,25.9563
+1448,"Nea Anchialos Airport","Greece",39.2196,22.7943
+1450,"Chios Island National Airport","Greece",38.3432,26.1406
+1451,"Ioannina Airport","Greece",39.6964,20.8225
+1452,"Heraklion International Nikos Kazantzakis Airport","Greece",35.3397,25.1803
+1453,"Kastoria National Airport","Greece",40.4463,21.2822
+1454,"Kithira Airport","Greece",36.2743,23.017
+1455,"Kefallinia Airport","Greece",38.1201,20.5005
+1456,"Kalamata Airport","Greece",37.0683,22.0255
+1458,"Kos Airport","Greece",36.7933,27.0917
+1459,"Karpathos Airport","Greece",35.4214,27.146
+1460,"Ioannis Kapodistrias International Airport","Greece",39.6019,19.9117
+1461,"Kasos Airport","Greece",35.4214,26.91
+1462,"Alexander the Great International Airport","Greece",40.9133,24.6192
+1464,"Leros Airport","Greece",37.1849,26.8003
+1465,"Limnos Airport","Greece",39.9171,25.2363
+1468,"Mikonos Airport","Greece",37.4351,25.3481
+1469,"Mytilene International Airport","Greece",39.0567,26.5983
+1470,"Aktion National Airport","Greece",38.9255,20.7653
+1472,"Diagoras Airport","Greece",36.4054,28.0862
+1473,"Araxos Airport","Greece",38.1511,21.4256
+1474,"Chania International Airport","Greece",35.5317,24.1497
+1475,"Skiathos Island National Airport","Greece",39.1771,23.5037
+1476,"Samos Airport","Greece",37.69,26.9117
+1479,"Santorini Airport","Greece",36.3992,25.4793
+1480,"Sitia Airport","Greece",35.2161,26.1013
+1482,"Skiros Airport","Greece",38.9676,24.4872
+1486,"Thessaloniki Macedonia International Airport","Greece",40.5197,22.9709
+1488,"Zakynthos International Airport ""Dionysios Solomos""","Greece",37.7509,20.8843
+1489,"Budapest Liszt Ferenc International Airport","Hungary",47.4298,19.2611
+1490,"Debrecen International Airport","Hungary",47.4889,21.6153
+1501,"Bari Karol Wojtyła Airport","Italy",41.1389,16.7606
+1505,"Pescara International Airport","Italy",42.4317,14.1811
+1506,"Brindisi – Salento Airport","Italy",40.6576,17.947
+1508,"Lamezia Terme Airport","Italy",38.9054,16.2423
+1509,"Catania-Fontanarossa Airport","Italy",37.4668,15.0664
+1510,"Lampedusa Airport","Italy",35.4979,12.6181
+1511,"Pantelleria Airport","Italy",36.8165,11.9689
+1512,"Falcone–Borsellino Airport","Italy",38.176,13.091
+1514,"Reggio Calabria Airport","Italy",38.0712,15.6516
+1515,"Vincenzo Florio Airport Trapani-Birgi","Italy",37.9114,12.488
+1517,"Alghero-Fertilia Airport","Italy",40.6321,8.29077
+1519,"Cagliari Elmas Airport","Italy",39.2515,9.05428
+1520,"Olbia Costa Smeralda Airport","Italy",40.8987,9.51763
+1524,"Malpensa International Airport","Italy",45.6306,8.72811
+1525,"Il Caravaggio International Airport","Italy",45.6739,9.70417
+1526,"Turin Airport","Italy",45.2008,7.64963
+1528,"Genoa Cristoforo Colombo Airport","Italy",44.4133,8.8375
+1529,"Milano Linate Airport","Italy",45.4451,9.27674
+1531,"Parma Airport","Italy",44.8245,10.2964
+1534,"Cuneo International Airport","Italy",44.547,7.62322
+1536,"Bolzano Airport","Italy",46.4602,11.3264
+1538,"Bologna Guglielmo Marconi Airport","Italy",44.5354,11.2887
+1539,"Treviso-Sant'Angelo Airport","Italy",45.6484,12.1944
+1545,"Trieste–Friuli Venezia Giulia Airport","Italy",45.8275,13.4722
+1546,"Federico Fellini International Airport","Italy",44.0203,12.6117
+1550,"Verona Villafranca Airport","Italy",45.3957,10.8885
+1551,"Venice Marco Polo Airport","Italy",45.5053,12.3519
+1553,"Ciampino–G. B. Pastine International Airport","Italy",41.7994,12.5949
+1555,"Leonardo da Vinci–Fiumicino Airport","Italy",41.8003,12.2389
+1558,"Marina Di Campo Airport","Italy",42.7603,10.2394
+1561,"Naples International Airport","Italy",40.886,14.2908
+1562,"Pisa International Airport","Italy",43.6839,10.3927
+1563,"Peretola Airport","Italy",43.81,11.2051
+1567,"Perugia San Francesco d'Assisi – Umbria International Airport","Italy",43.0959,12.5132
+1569,"Ljubljana Jože Pučnik Airport","Slovenia",46.2237,14.4576
+1579,"Karlovy Vary International Airport","Czech Republic",50.203,12.915
+1582,"Ostrava Leos Janáček Airport","Czech Republic",49.6963,18.1111
+1584,"Pardubice Airport","Czech Republic",50.0134,15.7386
+1587,"Václav Havel Airport Prague","Czech Republic",50.1008,14.26
+1588,"Brno-Tuřany Airport","Czech Republic",49.1513,16.6944
+1590,"Ben Gurion International Airport","Israel",32.0114,34.8867
+1594,"Eilat Airport","Israel",29.5613,34.9601
+1596,"Haifa International Airport","Israel",32.8094,35.0431
+1602,"Ovda International Airport","Israel",29.9403,34.9358
+1605,"Sde Dov Airport","Israel",32.1147,34.7822
+1606,"Malta International Airport","Malta",35.8575,14.4775
+1609,"Graz Airport","Austria",46.9911,15.4396
+1610,"Innsbruck Airport","Austria",47.2602,11.344
+1611,"Linz Hörsching Airport","Austria",48.2332,14.1875
+1612,"Salzburg Airport","Austria",47.7933,13.0043
+1613,"Vienna International Airport","Austria",48.1103,16.5697
+1617,"Santa Maria Airport","Portugal",36.9714,-25.1706
+1625,"Flores Airport","Portugal",39.4553,-31.1314
+1626,"Faro Airport","Portugal",37.0144,-7.96591
+1627,"Graciosa Airport","Portugal",39.0922,-28.0298
+1628,"Horta Airport","Portugal",38.5199,-28.7159
+1629,"Lajes Airport","Portugal",38.7618,-27.0908
+1633,"João Paulo II Airport","Portugal",37.7412,-25.6979
+1634,"Pico Airport","Portugal",38.5543,-28.4413
+1636,"Francisco de Sá Carneiro Airport","Portugal",41.2481,-8.68139
+1637,"Porto Santo Airport","Portugal",33.0734,-16.35
+1638,"Humberto Delgado Airport (Lisbon Portela Airport)","Portugal",38.7813,-9.13592
+1639,"São Jorge Airport","Portugal",38.6655,-28.1758
+1645,"Mostar International Airport","Bosnia and Herzegovina",43.2829,17.8459
+1646,"Sarajevo International Airport","Bosnia and Herzegovina",43.8246,18.3315
+1647,"Arad International Airport","Romania",46.1766,21.262
+1649,"Tautii Magheraus Airport","Romania",47.6584,23.47
+1651,"Mihail Kogălniceanu International Airport","Romania",44.3622,28.4883
+1652,"Cluj-Napoca International Airport","Romania",46.7852,23.6862
+1654,"Craiova Airport","Romania",44.3181,23.8886
+1655,"Iaşi Airport","Romania",47.1785,27.6206
+1656,"Oradea International Airport","Romania",47.0253,21.9025
+1657,"Henri Coandă International Airport","Romania",44.5711,26.085
+1658,"Sibiu International Airport","Romania",45.7856,24.0913
+1659,"Satu Mare Airport","Romania",47.7033,22.8857
+1662,"Transilvania Târgu Mureş International Airport","Romania",46.4677,24.4125
+1663,"Timişoara Traian Vuia Airport","Romania",45.8099,21.3379
+1665,"Geneva Cointrin International Airport","Switzerland",46.2381,6.10895
+1675,"Lugano Airport","Switzerland",46.0043,8.91058
+1676,"Bern Belp Airport","Switzerland",46.9141,7.49715
+1678,"Zürich Airport","Switzerland",47.4647,8.54917
+1679,"St Gallen Altenrhein Airport","Switzerland",47.485,9.56077
+1682,"Esenboğa International Airport","Turkey",40.1281,32.9951
+1685,"Adana Airport","Turkey",36.9822,35.2804
+1688,"Antalya International Airport","Turkey",36.8987,30.8005
+1689,"Gaziantep International Airport","Turkey",36.9472,37.4787
+1691,"Konya Airport","Turkey",37.979,32.5619
+1692,"Malatya Tulga Airport","Turkey",38.3537,38.2539
+1693,"Amasya Merzifon Airport","Turkey",40.8294,35.522
+1694,"Sivas Nuri Demirağ Airport","Turkey",39.8138,36.9035
+1696,"Kayseri Erkilet Airport","Turkey",38.7704,35.4954
+1699,"Çardak Airport","Turkey",37.7856,29.7013
+1701,"Atatürk International Airport","Turkey",40.9769,28.8146
+1706,"Adnan Menderes International Airport","Turkey",38.2924,27.157
+1715,"Dalaman International Airport","Turkey",36.7131,28.7925
+1721,"Elazığ Airport","Turkey",38.6069,39.2914
+1722,"Diyarbakir Airport","Turkey",37.8939,40.201
+1723,"Erzincan Airport","Turkey",39.7102,39.527
+1724,"Erzurum International Airport","Turkey",39.9565,41.1702
+1726,"Trabzon International Airport","Turkey",40.9951,39.7897
+1728,"Van Ferit Melen Airport","Turkey",38.4682,43.3323
+1729,"Batman Airport","Turkey",37.929,41.1166
+1735,"Chişinău International Airport","Moldova",46.9277,28.931
+1737,"Skopje Alexander the Great Airport","Macedonia",41.9616,21.6214
+1738,"Gibraltar Airport","Gibraltar",36.1512,-5.34966
+1739,"Belgrade Nikola Tesla Airport","Serbia",44.8184,20.3091
+1741,"Podgorica Airport","Montenegro",42.3594,19.2519
+1742,"Priština International Airport","Serbia",42.5728,21.0358
+1743,"Tivat Airport","Montenegro",42.4047,18.7233
+1745,"M. R. Štefánik Airport","Slovakia",48.1702,17.2127
+1746,"Košice Airport","Slovakia",48.6631,21.2411
+1754,"Providenciales Airport","Turks and Caicos Islands",21.7736,-72.2659
+1755,"South Caicos Airport","Turks and Caicos Islands",21.5157,-71.5285
+1759,"Casa De Campo International Airport","Dominican Republic",18.4507,-68.9118
+1760,"Punta Cana International Airport","Dominican Republic",18.5674,-68.3634
+1761,"Gregorio Luperon International Airport","Dominican Republic",19.7579,-70.57
+1762,"Las Américas International Airport","Dominican Republic",18.4297,-69.6689
+1764,"Cibao International Airport","Dominican Republic",19.4061,-70.6047
+1767,"La Aurora Airport","Guatemala",14.5833,-90.5275
+1771,"Goloson International Airport","Honduras",15.7425,-86.853
+1772,"Ramón Villeda Morales International Airport","Honduras",15.4526,-87.9236
+1773,"La Laguna Airport","Honduras",16.4454,-85.9066
+1774,"Juan Manuel Galvez International Airport","Honduras",16.3168,-86.523
+1776,"Toncontín International Airport","Honduras",14.0609,-87.2172
+1779,"Norman Manley International Airport","Jamaica",17.9357,-76.7875
+1780,"Sangster International Airport","Jamaica",18.5037,-77.9134
+1783,"General Juan N Alvarez International Airport","Mexico",16.7571,-99.754
+1785,"Jesús Terán Paredo International Airport","Mexico",21.7056,-102.318
+1786,"Bahías de Huatulco International Airport","Mexico",15.7753,-96.2626
+1789,"Ciudad del Carmen International Airport","Mexico",18.6537,-91.799
+1792,"Bachigualato Federal International Airport","Mexico",24.7645,-107.475
+1793,"Chetumal International Airport","Mexico",18.5047,-88.3268
+1794,"Ciudad Obregón International Airport","Mexico",27.3926,-109.833
+1795,"Ingeniero Alberto Acuña Ongay International Airport","Mexico",19.8168,-90.5003
+1796,"Abraham González International Airport","Mexico",31.6361,-106.429
+1797,"General Roberto Fierro Villalobos International Airport","Mexico",28.7029,-105.965
+1798,"General Pedro Jose Mendez International Airport","Mexico",23.7033,-98.9565
+1800,"Cozumel International Airport","Mexico",20.5224,-86.9256
+1801,"General Guadalupe Victoria International Airport","Mexico",24.1242,-104.528
+1802,"Amado Nervo National Airport","Mexico",21.4195,-104.843
+1804,"Don Miguel Hidalgo Y Costilla International Airport","Mexico",20.5218,-103.311
+1807,"General Ignacio P. Garcia International Airport","Mexico",29.0959,-111.048
+1808,"Licenciado Miguel de la Madrid Airport","Mexico",19.277,-103.577
+1810,"Plan De Guadalupe International Airport","Mexico",25.5495,-100.929
+1813,"Lázaro Cárdenas Airport","Mexico",18.0017,-102.221
+1814,"Valle del Fuerte International Airport","Mexico",25.6852,-109.081
+1815,"Del Bajío International Airport","Mexico",20.9935,-101.481
+1816,"Manuel Márquez de León International Airport","Mexico",24.0727,-110.362
+1817,"Loreto International Airport","Mexico",25.9892,-111.348
+1818,"General Servando Canales International Airport","Mexico",25.7699,-97.5253
+1819,"Licenciado Manuel Crescencio Rejon Int Airport","Mexico",20.937,-89.6577
+1820,"General Rodolfo Sánchez Taboada International Airport","Mexico",32.6306,-115.242
+1821,"General Francisco J. Mujica International Airport","Mexico",19.8499,-101.025
+1822,"Minatitlán/Coatzacoalcos National Airport","Mexico",18.1034,-94.5807
+1824,"Licenciado Benito Juarez International Airport","Mexico",19.4363,-99.0721
+1825,"General Mariano Escobedo International Airport","Mexico",25.7785,-100.107
+1826,"General Rafael Buelna International Airport","Mexico",23.1614,-106.266
+1828,"Quetzalcóatl International Airport","Mexico",27.4439,-99.5705
+1829,"Xoxocotlán International Airport","Mexico",16.9999,-96.7266
+1830,"El Tajín National Airport","Mexico",20.6027,-97.4608
+1831,"Hermanos Serdán International Airport","Mexico",19.1581,-98.3714
+1834,"Piedras Negras International Airport","Mexico",28.6274,-100.535
+1835,"Licenciado y General Ignacio Lopez Rayon Airport","Mexico",19.3967,-102.039
+1836,"Licenciado Gustavo Díaz Ordaz International Airport","Mexico",20.6801,-105.254
+1837,"Puerto Escondido International Airport","Mexico",15.8769,-97.0891
+1838,"Querétaro Intercontinental Airport","Mexico",20.6173,-100.186
+1839,"General Lucio Blanco International Airport","Mexico",26.0089,-98.2285
+1840,"Los Cabos International Airport","Mexico",23.1518,-109.721
+1842,"Ponciano Arriaga International Airport","Mexico",22.2543,-100.931
+1845,"Francisco Sarabia International Airport","Mexico",25.5683,-103.411
+1846,"Angel Albino Corzo International Airport","Mexico",16.5636,-93.0225
+1847,"General Abelardo L. Rodríguez International Airport","Mexico",32.5411,-116.97
+1848,"General Francisco Javier Mina International Airport","Mexico",22.2964,-97.8659
+1850,"Licenciado Adolfo Lopez Mateos International Airport","Mexico",19.3371,-99.566
+1851,"Tapachula International Airport","Mexico",14.7943,-92.37
+1852,"Cancún International Airport","Mexico",21.0365,-86.8771
+1853,"Carlos Rovirosa Pérez International Airport","Mexico",17.997,-92.8174
+1854,"General Heriberto Jara International Airport","Mexico",19.1459,-96.1873
+1855,"General Leobardo C. Ruiz International Airport","Mexico",22.8971,-102.687
+1856,"Ixtapa Zihuatanejo International Airport","Mexico",17.6016,-101.461
+1858,"Playa De Oro International Airport","Mexico",19.1448,-104.559
+1863,"Augusto C. Sandino (Managua) International Airport","Nicaragua",12.1415,-86.1682
+1865,"Bocas Del Toro International Airport","Panama",9.34085,-82.2508
+1866,"Cap Manuel Niño International Airport","Panama",9.45896,-82.5151
+1867,"Enrique Malek International Airport","Panama",8.391,-82.435
+1869,"Marcos A. Gelabert International Airport","Panama",8.97334,-79.5556
+1871,"Tocumen International Airport","Panama",9.07136,-79.3835
+1879,"Golfito Airport","Costa Rica",8.65401,-83.1822
+1881,"Daniel Oduber Quiros International Airport","Costa Rica",10.5933,-85.5444
+1884,"Nosara Airport","Costa Rica",9.97649,-85.653
+1885,"Juan Santamaria International Airport","Costa Rica",9.99386,-84.2088
+1887,"Palmar Sur Airport","Costa Rica",8.95103,-83.4686
+1889,"Quepos Managua Airport","Costa Rica",9.44316,-84.1298
+1892,"Monseñor Óscar Arnulfo Romero International Airport","El Salvador",13.4409,-89.0557
+1895,"Cap Haitien International Airport","Haiti",19.733,-72.1947
+1897,"Toussaint Louverture International Airport","Haiti",18.58,-72.2925
+1901,"Jardines Del Rey Airport","Cuba",22.461,-78.3284
+1903,"Vilo Acuña International Airport","Cuba",21.6165,-81.546
+1904,"Ignacio Agramonte International Airport","Cuba",21.4203,-77.8475
+1905,"Antonio Maceo International Airport","Cuba",19.9698,-75.8354
+1908,"Mariana Grajales Airport","Cuba",20.0853,-75.1583
+1909,"José Martí International Airport","Cuba",22.9892,-82.4091
+1910,"Frank Pais International Airport","Cuba",20.7856,-76.3151
+1918,"Abel Santamaria Airport","Cuba",22.4922,-79.9436
+1923,"Juan Gualberto Gomez International Airport","Cuba",23.0344,-81.4353
+1925,"Gerrard Smith International Airport","Cayman Islands",19.687,-79.8828
+1926,"Owen Roberts International Airport","Cayman Islands",19.2928,-81.3577
+1930,"Leonard M Thompson International Airport","Bahamas",26.5114,-77.0835
+1932,"Spring Point Airport","Bahamas",22.4418,-73.9709
+1934,"Treasure Cay Airport","Bahamas",26.7453,-77.3913
+1937,"South Bimini Airport","Bahamas",25.6999,-79.2647
+1941,"Exuma International Airport","Bahamas",23.5626,-75.878
+1943,"North Eleuthera Airport","Bahamas",25.4749,-76.6835
+1944,"Governor's Harbour Airport","Bahamas",25.2847,-76.331
+1946,"Rock Sound Airport","Bahamas",24.8951,-76.1769
+1948,"Grand Bahama International Airport","Bahamas",26.5587,-78.6956
+1949,"Inagua Airport","Bahamas",20.975,-73.6669
+1950,"Deadman's Cay Airport","Bahamas",23.179,-75.0936
+1951,"Stella Maris Airport","Bahamas",23.5823,-75.2686
+1952,"Mayaguana Airport","Bahamas",22.3795,-73.0135
+1953,"Lynden Pindling International Airport","Bahamas",25.039,-77.4662
+1956,"San Salvador Airport","Bahamas",24.0633,-74.524
+1957,"Philip S. W. Goldson International Airport","Belize",17.5391,-88.3082
+1958,"Aitutaki Airport","Cook Islands",-18.8309,-159.764
+1959,"Rarotonga International Airport","Cook Islands",-21.2027,-159.806
+1960,"Nadi International Airport","Fiji",-17.7554,177.443
+1961,"Nausori International Airport","Fiji",-18.0433,178.559
+1963,"Fua'amotu International Airport","Tonga",-21.2412,-175.15
+1965,"Bonriki International Airport","Kiribati",1.38164,173.147
+1968,"Hihifo Airport","Wallis and Futuna",-13.2383,-176.199
+1969,"Faleolo International Airport","Samoa",-13.83,-172.008
+1970,"Pago Pago International Airport","American Samoa",-14.331,-170.71
+1971,"Rurutu Airport","French Polynesia",-22.4341,-151.361
+1972,"Tubuai Airport","French Polynesia",-23.3654,-149.524
+1975,"Tikehau Airport","French Polynesia",-15.1196,-148.231
+1977,"Fakarava Airport","French Polynesia",-16.0541,-145.657
+1978,"Manihi Airport","French Polynesia",-14.4368,-146.07
+1979,"Totegegie Airport","French Polynesia",-23.0799,-134.89
+1980,"Kaukura Airport","French Polynesia",-15.6633,-146.885
+1981,"Makemo Airport","French Polynesia",-16.5839,-143.658
+1983,"Takapoto Airport","French Polynesia",-14.7095,-145.246
+1984,"Arutua Airport","French Polynesia",-15.2483,-146.617
+1985,"Mataiva Airport","French Polynesia",-14.8681,-148.717
+1986,"Takaroa Airport","French Polynesia",-14.4558,-145.025
+1987,"Nuku Hiva Airport","French Polynesia",-8.7956,-140.229
+1989,"Bora Bora Airport","French Polynesia",-16.4444,-151.751
+1990,"Rangiroa Airport","French Polynesia",-14.9543,-147.661
+1991,"Huahine-Fare Airport","French Polynesia",-16.6872,-151.022
+1992,"Moorea Airport","French Polynesia",-17.49,-149.762
+1993,"Hao Airport","French Polynesia",-18.0748,-140.946
+1994,"Maupiti Airport","French Polynesia",-16.4265,-152.244
+1995,"Raiatea Airport","French Polynesia",-16.7229,-151.466
+1997,"Bauerfield International Airport","Vanuatu",-17.6993,168.32
+1998,"Koné Airport","New Caledonia",-21.0543,164.837
+1999,"Koumac Airport","New Caledonia",-20.5463,164.256
+2000,"Lifou Airport","New Caledonia",-20.7748,167.24
+2001,"Nouméa Magenta Airport","New Caledonia",-22.2583,166.473
+2002,"Maré Airport","New Caledonia",-21.4817,168.038
+2003,"Touho Airport","New Caledonia",-20.79,165.259
+2004,"Ouvéa Airport","New Caledonia",-20.6406,166.573
+2005,"La Tontouta International Airport","New Caledonia",-22.0146,166.213
+2006,"Auckland International Airport","New Zealand",-37.0081,174.792
+2007,"Taupo Airport","New Zealand",-38.7397,176.084
+2009,"Christchurch International Airport","New Zealand",-43.4894,172.532
+2011,"Dunedin Airport","New Zealand",-45.9281,170.198
+2012,"Gisborne Airport","New Zealand",-38.6633,177.978
+2014,"Hokitika Airfield","New Zealand",-42.7136,170.985
+2015,"Hamilton International Airport","New Zealand",-37.8667,175.332
+2017,"Kerikeri Airport","New Zealand",-35.2628,173.912
+2018,"Kaitaia Airport","New Zealand",-35.07,173.285
+2023,"New Plymouth Airport","New Zealand",-39.0086,174.179
+2024,"Nelson Airport","New Zealand",-41.2983,173.221
+2025,"Invercargill Airport","New Zealand",-46.4124,168.313
+2028,"Palmerston North Airport","New Zealand",-40.3206,175.617
+2029,"Paraparaumu Airport","New Zealand",-40.9047,174.989
+2030,"Queenstown International Airport","New Zealand",-45.0211,168.739
+2031,"Rotorua Regional Airport","New Zealand",-38.1092,176.317
+2034,"Tauranga Airport","New Zealand",-37.6719,176.196
+2035,"Timaru Airport","New Zealand",-44.3028,171.225
+2037,"Woodbourne Airport","New Zealand",-41.5183,173.87
+2041,"Whakatane Airport","New Zealand",-37.9206,176.914
+2042,"Wellington International Airport","New Zealand",-41.3272,174.805
+2045,"Whangarei Airport","New Zealand",-35.7683,174.365
+2046,"Westport Airport","New Zealand",-41.7381,171.581
+2047,"Wanganui Airport","New Zealand",-39.9622,175.025
+2048,"Herat Airport","Afghanistan",34.21,62.2283
+2050,"Hamid Karzai International Airport","Afghanistan",34.5659,69.2123
+2051,"Kandahar Airport","Afghanistan",31.5058,65.8478
+2053,"Mazar I Sharif Airport","Afghanistan",36.7069,67.2097
+2057,"Bahrain International Airport","Bahrain",26.2708,50.6336
+2059,"Abha Regional Airport","Saudi Arabia",18.2404,42.6566
+2060,"Al Ahsa Airport","Saudi Arabia",25.2853,49.4852
+2061,"Al Baha Airport","Saudi Arabia",20.2961,41.6343
+2062,"Bisha Airport","Saudi Arabia",19.9844,42.6209
+2064,"King Fahd International Airport","Saudi Arabia",26.4712,49.7979
+2066,"Jizan Regional Airport","Saudi Arabia",16.9011,42.5858
+2067,"Gassim Airport","Saudi Arabia",26.3028,43.7744
+2068,"Gurayat Domestic Airport","Saudi Arabia",31.4124,37.2789
+2069,"Ha'il Airport","Saudi Arabia",27.4379,41.6863
+2072,"King Abdulaziz International Airport","Saudi Arabia",21.6796,39.1565
+2074,"Prince Mohammad Bin Abdulaziz Airport","Saudi Arabia",24.5534,39.7051
+2075,"Nejran Airport","Saudi Arabia",17.6114,44.4192
+2076,"Al Qaisumah/Hafr Al Batin Airport","Saudi Arabia",28.3352,46.1251
+2081,"Rafha Domestic Airport","Saudi Arabia",29.6264,43.4906
+2082,"King Khaled International Airport","Saudi Arabia",24.9576,46.6988
+2084,"Arar Domestic Airport","Saudi Arabia",30.9066,41.1382
+2086,"Sharurah Airport","Saudi Arabia",17.4669,47.1214
+2089,"Tabuk Airport","Saudi Arabia",28.3654,36.6189
+2090,"Ta’if Regional Airport","Saudi Arabia",21.483,40.5434
+2093,"Turaif Domestic Airport","Saudi Arabia",31.6922,38.7315
+2095,"Al Wajh Domestic Airport","Saudi Arabia",26.1986,36.4764
+2096,"Prince Abdulmohsin Bin Abdulaziz Airport","Saudi Arabia",24.1442,38.0634
+2097,"Abadan Airport","Iran",30.3711,48.2283
+2103,"Mahshahr Airport","Iran",30.5562,49.1519
+2104,"Ahwaz Airport","Iran",31.3374,48.762
+2106,"Bushehr Airport","Iran",28.9448,50.8346
+2109,"Kish International Airport","Iran",26.5262,53.9802
+2110,"Bandar Lengeh Airport","Iran",26.532,54.8248
+2114,"Shahid Ashrafi Esfahani Airport","Iran",34.3459,47.1581
+2117,"Sanandaj Airport","Iran",35.2459,47.0092
+2121,"Esfahan Shahid Beheshti International Airport","Iran",32.7508,51.8613
+2123,"Sardar-e-Jangal Airport","Iran",37.3233,49.6178
+2131,"Mehrabad International Airport","Iran",35.6892,51.3134
+2134,"Bandar Abbas International Airport","Iran",27.2183,56.3778
+2136,"Kerman Airport","Iran",30.2744,56.9511
+2142,"Birjand Airport","Iran",32.8981,59.2661
+2151,"Ramsar Airport","Iran",36.9099,50.6796
+2157,"Shiraz Shahid Dastghaib International Airport","Iran",29.5392,52.5898
+2162,"Tabriz International Airport","Iran",38.1339,46.235
+2164,"Shahid Sadooghi Airport","Iran",31.9049,54.2765
+2165,"Zabol Airport","Iran",31.0983,61.5439
+2166,"Konarak Airport","Iran",25.4433,60.3821
+2167,"Zahedan International Airport","Iran",29.4757,60.9062
+2170,"Queen Alia International Airport","Jordan",31.7226,35.9932
+2172,"Aqaba King Hussein International Airport","Jordan",29.6116,35.0181
+2176,"Kuwait International Airport","Kuwait",29.2266,47.9689
+2177,"Beirut Rafic Hariri International Airport","Lebanon",33.8209,35.4884
+2179,"Abu Dhabi International Airport","United Arab Emirates",24.433,54.6511
+2180,"Bateen Airport","United Arab Emirates",24.4283,54.4581
+2188,"Dubai International Airport","United Arab Emirates",25.2528,55.3644
+2189,"Fujairah International Airport","United Arab Emirates",25.1122,56.324
+2191,"Sharjah International Airport","United Arab Emirates",25.3286,55.5172
+2192,"Khasab Air Base","Oman",26.171,56.2406
+2194,"Muscat International Airport","Oman",23.5933,58.2844
+2195,"Salalah Airport","Oman",17.0387,54.0913
+2202,"Faisalabad International Airport","Pakistan",31.365,72.9948
+2203,"Gwadar International Airport","Pakistan",25.2333,62.3295
+2204,"Gilgit Airport","Pakistan",35.9188,74.3336
+2206,"Jinnah International Airport","Pakistan",24.9065,67.1608
+2207,"Alama Iqbal International Airport","Pakistan",31.5216,74.4036
+2212,"Moenjodaro Airport","Pakistan",27.3352,68.1431
+2214,"Multan International Airport","Pakistan",30.2032,71.4191
+2217,"Panjgur Airport","Pakistan",26.9545,64.1325
+2219,"Peshawar International Airport","Pakistan",33.9939,71.5146
+2221,"Quetta International Airport","Pakistan",30.2514,66.9378
+2222,"Shaikh Zaid Airport","Pakistan",28.3839,70.2796
+2223,"Benazir Bhutto International Airport","Pakistan",33.6167,73.0992
+2227,"Sukkur Airport","Pakistan",27.722,68.7917
+2233,"Zhob Airport","Pakistan",31.3584,69.4636
+2234,"Basrah International Airport","Iraq",30.5491,47.6621
+2243,"Rota International Airport","Northern Mariana Islands",14.1743,145.243
+2244,"Saipan International Airport","Northern Mariana Islands",15.119,145.729
+2246,"Antonio B. Won Pat International Airport","Guam",13.4834,144.796
+2249,"Marshall Islands International Airport","Marshall Islands",7.06476,171.272
+2251,"Bucholz Army Air Field","Marshall Islands",8.72012,167.732
+2252,"Cassidy International Airport","Kiribati",1.98616,-157.35
+2254,"Chuuk International Airport","Micronesia",7.46187,151.843
+2255,"Pohnpei International Airport","Micronesia",6.9851,158.209
+2256,"Babelthuap Airport","Palau",7.36731,134.544
+2257,"Kosrae International Airport","Micronesia",5.35698,162.958
+2258,"Yap International Airport","Micronesia",9.49891,138.083
+2259,"Kinmen Airport","Taiwan",24.4279,118.359
+2262,"Taitung Airport","Taiwan",22.755,121.102
+2264,"Kaohsiung International Airport","Taiwan",22.5771,120.35
+2268,"Taichung Ching Chuang Kang Airport","Taiwan",24.2647,120.621
+2270,"Tainan Airport","Taiwan",22.9504,120.206
+2272,"Makung Airport","Taiwan",23.5687,119.628
+2275,"Taipei Songshan Airport","Taiwan",25.0694,121.552
+2276,"Taiwan Taoyuan International Airport","Taiwan",25.0777,121.233
+2278,"Hualien Airport","Taiwan",24.0231,121.618
+2279,"Narita International Airport","Japan",35.7647,140.386
+2280,"Matsumoto Airport","Japan",36.1668,137.923
+2281,"Hyakuri Airport","Japan",36.1811,140.415
+2284,"Nanki Shirahama Airport","Japan",33.6622,135.364
+2286,"Tokachi-Obihiro Airport","Japan",42.7333,143.217
+2287,"New Chitose Airport","Japan",42.7752,141.692
+2288,"Hakodate Airport","Japan",41.77,140.822
+2290,"Memanbetsu Airport","Japan",43.8806,144.164
+2291,"Nakashibetsu Airport","Japan",43.5775,144.96
+2294,"Wakkanai Airport","Japan",45.4042,141.801
+2295,"Iki Airport","Japan",33.749,129.785
+2296,"Yamaguchi Ube Airport","Japan",33.93,131.279
+2297,"Tsushima Airport","Japan",34.2849,129.331
+2298,"Monbetsu Airport","Japan",44.3039,143.404
+2299,"Asahikawa Airport","Japan",43.6708,142.447
+2304,"Fukue Airport","Japan",32.6663,128.833
+2305,"Fukuoka Airport","Japan",33.5859,130.451
+2307,"Kagoshima Airport","Japan",31.8034,130.719
+2308,"Miyazaki Airport","Japan",31.8772,131.449
+2310,"Oita Airport","Japan",33.4794,131.737
+2311,"Kitakyūshū Airport","Japan",33.8459,131.035
+2312,"Kumamoto Airport","Japan",32.8373,130.855
+2313,"Nagasaki Airport","Japan",32.9169,129.914
+2316,"Amami Airport","Japan",28.4306,129.713
+2322,"Komatsu Airport","Japan",36.3946,136.407
+2324,"Toyama Airport","Japan",36.6483,137.188
+2326,"Hiroshima Airport","Japan",34.4361,132.919
+2327,"Okayama Airport","Japan",34.7569,133.855
+2328,"Izumo Airport","Japan",35.4136,132.89
+2330,"Miho Yonago Airport","Japan",35.4922,133.236
+2332,"Kōchi Ryōma Airport","Japan",33.5461,133.669
+2333,"Matsuyama Airport","Japan",33.8272,132.7
+2334,"Osaka International Airport","Japan",34.7855,135.438
+2335,"Tottori Airport","Japan",35.5301,134.167
+2336,"Tokushima Airport/JMSDF Air Base","Japan",34.1328,134.607
+2337,"Takamatsu Airport","Japan",34.2142,134.016
+2340,"Aomori Airport","Japan",40.7347,140.691
+2341,"Yamagata Airport","Japan",38.4119,140.371
+2344,"Hanamaki Airport","Japan",39.4286,141.135
+2345,"Akita Airport","Japan",39.6156,140.219
+2346,"Misawa Air Base","Japan",40.7032,141.368
+2347,"Sendai Airport","Japan",38.1397,140.917
+2352,"Hachijojima Airport","Japan",33.115,139.786
+2356,"Oshima Airport","Japan",34.782,139.36
+2359,"Tokyo Haneda International Airport","Japan",35.5523,139.78
+2361,"Gwangju Airport","South Korea",35.1232,126.805
+2365,"Yeosu Airport","South Korea",34.8423,127.617
+2370,"Jeju International Airport","South Korea",33.5113,126.493
+2372,"Gimhae International Airport","South Korea",35.1795,128.938
+2374,"Ulsan Airport","South Korea",35.5935,129.352
+2378,"Gimpo International Airport","South Korea",37.5583,126.791
+2380,"Pohang Airport (G-815/K-3)","South Korea",35.988,129.42
+2381,"Daegu Airport","South Korea",35.8969,128.655
+2384,"Naha Airport","Japan",26.1958,127.646
+2387,"New Ishigaki Airport","Japan",24.3964,124.245
+2388,"Kumejima Airport","Japan",26.3635,126.714
+2390,"Miyako Airport","Japan",24.7828,125.295
+2397,"Ninoy Aquino International Airport","Philippines",14.5086,121.02
+2399,"Awang Airport","Philippines",7.16524,124.21
+2400,"Cagayan De Oro Airport","Philippines",8.41562,124.611
+2401,"Pagadian Airport","Philippines",7.83073,123.461
+2402,"General Santos International Airport","Philippines",6.058,125.096
+2404,"Zamboanga International Airport","Philippines",6.92242,122.06
+2409,"San Jose Airport","Philippines",12.3615,121.047
+2422,"Daniel Z. Romualdez Airport","Philippines",11.228,125.028
+2423,"Bacolod-Silay Airport","Philippines",10.7764,123.015
+2425,"Sibulan Airport","Philippines",9.33371,123.3
+2426,"Godofredo P. Ramos Airport","Philippines",11.9245,121.954
+2429,"Iloilo International Airport","Philippines",10.833,122.493
+2430,"Kalibo International Airport","Philippines",11.6794,122.376
+2433,"Puerto Princesa Airport","Philippines",9.74212,118.759
+2439,"General Urquiza Airport","Argentina",-31.7948,-60.4804
+2440,"Islas Malvinas Airport","Argentina",-32.9036,-60.785
+2441,"Sauce Viejo Airport","Argentina",-31.7117,-60.8117
+2442,"Jorge Newbery Airpark","Argentina",-34.5592,-58.4156
+2443,"Ingeniero Ambrosio Taravella Airport","Argentina",-31.3236,-64.208
+2452,"El Plumerillo Airport","Argentina",-32.8317,-68.7929
+2454,"Suboficial Ay Santiago Germano Airport","Argentina",-34.5883,-68.4039
+2455,"Catamarca Airport","Argentina",-28.5956,-65.7517
+2456,"Vicecomodoro Angel D. La Paz Aragonés Airport","Argentina",-27.7656,-64.31
+2458,"Capitan V A Almonacid Airport","Argentina",-29.3816,-66.7958
+2460,"Teniente Benjamin Matienzo Airport","Argentina",-26.8409,-65.1049
+2461,"Domingo Faustino Sarmiento Airport","Argentina",-31.5715,-68.4182
+2467,"Brigadier Mayor D Cesar Raul Ojeda Airport","Argentina",-33.2732,-66.3564
+2469,"Resistencia International Airport","Argentina",-27.45,-59.0561
+2470,"Formosa Airport","Argentina",-26.2127,-58.2281
+2471,"Cataratas Del Iguazú International Airport","Argentina",-25.7373,-54.4734
+2474,"Libertador Gral D Jose De San Martin Airport","Argentina",-27.3858,-55.9707
+2476,"Martin Miguel De Guemes International Airport","Argentina",-24.856,-65.4862
+2477,"Gobernador Horacio Guzman International Airport","Argentina",-24.3928,-65.0978
+2487,"General E. Mosconi Airport","Argentina",-45.7853,-67.4655
+2488,"Brigadier Antonio Parodi Airport","Argentina",-42.908,-71.1395
+2490,"Almirante Marco Andres Zar Airport","Argentina",-43.2105,-65.2703
+2491,"Gobernador Castello Airport","Argentina",-40.8692,-63.0004
+2492,"El Tehuelche Airport","Argentina",-42.7592,-65.1027
+2495,"Hermes Quijada International Airport","Argentina",-53.7777,-67.7494
+2496,"Piloto Civil N. Fernández Airport","Argentina",-51.6089,-69.3126
+2497,"Malvinas Argentinas Airport","Argentina",-54.8433,-68.2958
+2501,"Comandante Espora Airport","Argentina",-38.725,-62.1693
+2508,"Ástor Piazzola International Airport","Argentina",-37.9342,-57.5733
+2509,"Presidente Peron Airport","Argentina",-38.949,-68.1557
+2512,"Santa Rosa Airport","Argentina",-36.5883,-64.2757
+2513,"San Carlos De Bariloche Airport","Argentina",-41.1512,-71.1575
+2517,"Aviador C. Campos Airport","Argentina",-40.0754,-71.1373
+2518,"Conceição do Araguaia Airport","Brazil",-8.34835,-49.3015
+2521,"Araraquara Airport","Brazil",-21.812,-48.133
+2522,"Santa Maria Airport","Brazil",-10.984,-37.0703
+2524,"Piloto Osvaldo Marques Dias Airport","Brazil",-9.86639,-56.105
+2525,"Araçatuba Airport","Brazil",-21.1413,-50.4247
+2526,"Val de Cans/Júlio Cezar Ribeiro International Airport","Brazil",-1.37925,-48.4763
+2528,"Pampulha - Carlos Drummond de Andrade Airport","Brazil",-19.8512,-43.9506
+2531,"Presidente Juscelino Kubistschek International Airport","Brazil",-15.8692,-47.9208
+2533,"Atlas Brasil Cantanhede Airport","Brazil",2.84139,-60.6922
+2535,"Cascavel Airport","Brazil",-25.0003,-53.5008
+2537,"Tancredo Neves International Airport","Brazil",-19.6244,-43.9719
+2538,"Campo Grande Airport","Brazil",-20.4687,-54.6725
+2539,"Serafin Enoss Bertaso Airport","Brazil",-27.1342,-52.6566
+2541,"Diomício Freitas Airport","Brazil",-28.7244,-49.4214
+2543,"Bartolomeu Lisandro Airport","Brazil",-21.6983,-41.3017
+2544,"Corumbá International Airport","Brazil",-19.0119,-57.6714
+2545,"Afonso Pena Airport","Brazil",-25.5285,-49.1758
+2547,"Hugo Cantergiani Regional Airport","Brazil",-29.1971,-51.1875
+2548,"Marechal Rondon Airport","Brazil",-15.6529,-56.1167
+2549,"Cruzeiro do Sul Airport","Brazil",-7.59991,-72.7695
+2550,"Presidente Prudente Airport","Brazil",-22.1751,-51.4246
+2551,"Eduardo Gomes International Airport","Brazil",-3.03861,-60.0497
+2554,"Cataratas International Airport","Brazil",-25.6003,-54.485
+2555,"Hercílio Luz International Airport","Brazil",-27.6703,-48.5525
+2556,"Fernando de Noronha Airport","Brazil",-3.85493,-32.4233
+2559,"Pinto Martins International Airport","Brazil",-3.77628,-38.5326
+2560,"Rio Galeão – Tom Jobim International Airport","Brazil",-22.81,-43.2506
+2562,"Santa Genoveva Airport","Brazil",-16.632,-49.2207
+2564,"Guarulhos - Governador André Franco Montoro International Airport","Brazil",-23.4356,-46.4731
+2566,"Altamira Airport","Brazil",-3.25391,-52.254
+2568,"Itaituba Airport","Brazil",-4.24234,-56.0007
+2569,"Bahia - Jorge Amado Airport","Brazil",-14.816,-39.0332
+2570,"Usiminas Airport","Brazil",-19.4707,-42.4876
+2572,"Prefeito Renato Moreira Airport","Brazil",-5.53129,-47.46
+2575,"Presidente Castro Pinto International Airport","Brazil",-7.14583,-34.9486
+2576,"Lauro Carneiro de Loyola Airport","Brazil",-26.2245,-48.7974
+2577,"Presidente João Suassuna Airport","Brazil",-7.26992,-35.8964
+2578,"Viracopos International Airport","Brazil",-23.0074,-47.1345
+2581,"Governador José Richa Airport","Brazil",-23.3336,-51.1301
+2582,"Bom Jesus da Lapa Airport","Brazil",-13.2621,-43.4081
+2584,"João Correa da Rocha Airport","Brazil",-5.36859,-49.138
+2586,"Regional de Maringá - Sílvio Nane Junior Airport","Brazil",-23.4794,-52.0122
+2587,"Mário Ribeiro Airport","Brazil",-16.7069,-43.8189
+2590,"Zumbi dos Palmares Airport","Brazil",-9.51081,-35.7917
+2591,"Alberto Alcolumbre Airport","Brazil",0.050664,-51.0722
+2595,"Ministro Victor Konder International Airport","Brazil",-26.88,-48.6514
+2596,"Santo Ângelo Airport","Brazil",-28.2817,-54.1691
+2597,"Governador Aluízio Alves International Airport","Brazil",-5.76806,-35.3761
+2599,"Salgado Filho Airport","Brazil",-29.9944,-51.1714
+2602,"Lauro Kurtz Airport","Brazil",-28.244,-52.3266
+2603,"João Simões Lopes Neto International Airport","Brazil",-31.7184,-52.3277
+2604,"Senador Nilo Coelho Airport","Brazil",-9.36241,-40.5691
+2607,"Governador Jorge Teixeira de Oliveira Airport","Brazil",-8.70929,-63.9023
+2609,"Plácido de Castro Airport","Brazil",-9.86889,-67.8981
+2610,"Guararapes - Gilberto Freyre International Airport","Brazil",-8.12649,-34.9236
+2612,"Santos Dumont Airport","Brazil",-22.9105,-43.1631
+2613,"Leite Lopes Airport","Brazil",-21.1364,-47.7767
+2615,"Professor Urbano Ernesto Stumpf Airport","Brazil",-23.2292,-45.8615
+2616,"Marechal Cunha Machado International Airport","Brazil",-2.58536,-44.2341
+2618,"Congonhas Airport","Brazil",-23.6261,-46.6564
+2619,"Prof. Eribelto Manoel Reino State Airport","Brazil",-20.8166,-49.4065
+2621,"Deputado Luiz Eduardo Magalhães International Airport","Brazil",-12.9086,-38.3225
+2622,"Trombetas Airport","Brazil",-1.4896,-56.3968
+2623,"Senador Petrônio Portela Airport","Brazil",-5.05994,-42.8235
+2624,"Tefé Airport","Brazil",-3.38294,-64.7241
+2628,"Tabatinga Airport","Brazil",-4.25567,-69.9358
+2629,"Tucuruí Airport","Brazil",-3.78601,-49.7203
+2630,"São Gabriel da Cachoeira Airport","Brazil",-0.14835,-66.9855
+2631,"Paulo Afonso Airport","Brazil",-9.40088,-38.2506
+2632,"Rubem Berta Airport","Brazil",-29.7822,-57.0382
+2633,"Ten. Cel. Aviador César Bombonato Airport","Brazil",-18.8836,-48.2253
+2635,"Mário de Almeida Franco Airport","Brazil",-19.7647,-47.9661
+2637,"Brigadeiro Camarão Airport","Brazil",-12.6944,-60.0983
+2638,"Eurico de Aguiar Salles Airport","Brazil",-20.2581,-40.2864
+2641,"Chacalluta Airport","Chile",-18.3485,-70.3387
+2642,"Balmaceda Airport","Chile",-45.9161,-71.6895
+2645,"El Loa Airport","Chile",-22.4982,-68.9036
+2647,"Pdte. Carlos Ibañez del Campo Airport","Chile",-53.0026,-70.8546
+2649,"Diego Aracena Airport","Chile",-20.5352,-70.1813
+2650,"Comodoro Arturo Merino Benítez International Airport","Chile",-33.393,-70.7858
+2651,"Andrés Sabella Gálvez International Airport","Chile",-23.4445,-70.4451
+2656,"Carriel Sur Airport","Chile",-36.7727,-73.0631
+2657,"Mataveri Airport","Chile",-27.1648,-109.422
+2658,"Cañal Bajo Carlos - Hott Siebert Airport","Chile",-40.6112,-73.061
+2662,"La Florida Airport","Chile",-29.9162,-71.1995
+2664,"Maquehue Airport","Chile",-38.7668,-72.6371
+2665,"El Tepual Airport","Chile",-41.4389,-73.094
+2667,"Pichoy Airport","Chile",-39.65,-73.0861
+2670,"Francisco De Orellana Airport","Ecuador",-0.462886,-76.9868
+2671,"Mariscal Lamar Airport","Ecuador",-2.88947,-78.9844
+2672,"Seymour Airport","Ecuador",-0.453758,-90.2659
+2673,"José Joaquín de Olmedo International Airport","Ecuador",-2.15742,-79.8836
+2678,"Cotopaxi International Airport","Ecuador",-0.906833,-78.6158
+2680,"Coronel E Carvajal Airport","Ecuador",-2.29917,-78.1208
+2683,"Eloy Alfaro International Airport","Ecuador",-0.946078,-80.6788
+2688,"Mariscal Sucre International Airport","Ecuador",-0.129167,-78.3575
+2690,"Santa Rosa International Airport","Ecuador",-3.44199,-79.997
+2699,"Silvio Pettirossi International Airport","Paraguay",-25.24,-57.52
+2705,"El Eden Airport","Colombia",4.45278,-75.7664
+2706,"Tres De Mayo Airport","Colombia",0.505228,-76.5008
+2708,"Palonegro Airport","Colombia",7.1265,-73.1848
+2709,"El Dorado International Airport","Colombia",4.70159,-74.1469
+2710,"Ernesto Cortissoz International Airport","Colombia",10.8896,-74.7808
+2711,"José Celestino Mutis Airport","Colombia",6.20292,-77.3947
+2712,"Gerardo Tobar López Airport","Colombia",3.81963,-76.9898
+2713,"Camilo Daza International Airport","Colombia",7.92757,-72.5115
+2714,"Rafael Nuñez International Airport","Colombia",10.4424,-75.513
+2715,"Alfonso Bonilla Aragon International Airport","Colombia",3.54322,-76.3816
+2716,"La Florida Airport","Colombia",1.81442,-78.7492
+2717,"Las Brujas Airport","Colombia",9.33274,-75.2856
+2718,"Yariguíes Airport","Colombia",7.02433,-73.8068
+2719,"Gustavo Artunduaga Paredes Airport","Colombia",1.58919,-75.5644
+2722,"Juan Casiano Airport","Colombia",2.57013,-77.8986
+2724,"Perales Airport","Colombia",4.42161,-75.1333
+2725,"San Luis Airport","Colombia",0.861925,-77.6718
+2726,"Antonio Roldan Betancourt Airport","Colombia",7.81196,-76.7164
+2728,"Alfredo Vásquez Cobo International Airport","Colombia",-4.19355,-69.9432
+2729,"Enrique Olaya Herrera Airport","Colombia",6.22055,-75.5906
+2731,"Los Garzones Airport","Colombia",8.82374,-75.8258
+2732,"Fabio Alberto Leon Bentley Airport","Colombia",1.25366,-70.2339
+2733,"La Nubia Airport","Colombia",5.0296,-75.4647
+2734,"Benito Salas Airport","Colombia",2.95015,-75.294
+2738,"German Olano Airport","Colombia",6.18472,-67.4932
+2739,"Matecaña International Airport","Colombia",4.81267,-75.7395
+2741,"Guillermo León Valencia Airport","Colombia",2.4544,-76.6093
+2742,"Antonio Narino Airport","Colombia",1.39625,-77.2915
+2743,"El Embrujo Airport","Colombia",13.3569,-81.3583
+2745,"Jose Maria Córdova International Airport","Colombia",6.16454,-75.4231
+2746,"Almirante Padilla Airport","Colombia",11.5262,-72.926
+2747,"Jorge E. Gonzalez Torres Airport","Colombia",2.57969,-72.6394
+2748,"Simón Bolívar International Airport","Colombia",11.1196,-74.2306
+2749,"Gustavo Rojas Pinilla International Airport","Colombia",12.5836,-81.7112
+2750,"Eduardo Falla Solano Airport","Colombia",2.15217,-74.7663
+2751,"Gustavo Vargas Airport","Colombia",6.45108,-71.7603
+2752,"Santiago Perez Airport","Colombia",7.06888,-70.7369
+2753,"El Caraño Airport","Colombia",5.69076,-76.6412
+2755,"Alfonso López Pumarejo Airport","Colombia",10.435,-73.2495
+2756,"Vanguardia Airport","Colombia",4.16787,-73.6138
+2759,"Jorge Wilsterman International Airport","Bolivia",-17.4211,-66.1771
+2761,"Capitán Aníbal Arab Airport","Bolivia",-11.0404,-68.783
+2762,"El Alto International Airport","Bolivia",-16.5133,-68.1923
+2764,"Capitan Nicolas Rojas Airport","Bolivia",-19.5431,-65.7237
+2767,"Juana Azurduy De Padilla Airport","Bolivia",-19.0071,-65.2887
+2768,"Capitan Oriel Lea Plaza Airport","Bolivia",-21.5557,-64.7013
+2769,"Teniente Av. Jorge Henrich Arauz Airport","Bolivia",-14.8187,-64.918
+2771,"Viru Viru International Airport","Bolivia",-17.6448,-63.1354
+2772,"Yacuiba Airport","Bolivia",-21.9609,-63.6517
+2773,"Johan Adolf Pengel International Airport","Suriname",5.45283,-55.1878
+2774,"Cayenne-Rochambeau Airport","French Guiana",4.81981,-52.3604
+2781,"Cap FAP David Abenzur Rengifo International Airport","Peru",-8.37794,-74.5743
+2785,"Capitan FAP Jose A Quinones Gonzales International Airport","Peru",-6.78748,-79.8281
+2786,"Coronel FAP Alfredo Mendivil Duarte Airport","Peru",-13.1548,-74.2044
+2787,"Andahuaylas Airport","Peru",-13.7064,-73.3504
+2788,"Comandante FAP German Arias Graziani Airport","Peru",-9.34744,-77.5984
+2789,"Jorge Chávez International Airport","Peru",-12.0219,-77.1143
+2792,"Inca Manco Capac International Airport","Peru",-15.4671,-70.1582
+2796,"Capitan FAP Pedro Canga Rodriguez Airport","Peru",-3.55253,-80.3814
+2801,"Coronel FAP Francisco Secada Vignetta International Airport","Peru",-3.78474,-73.3088
+2802,"Rodríguez Ballón International Airport","Peru",-16.3411,-71.5831
+2804,"Capitan FAP Carlos Martinez De Pinillos International Airport","Peru",-8.08141,-79.1088
+2806,"Cadete FAP Guillermo Del Castillo Paredes Airport","Peru",-6.50874,-76.3732
+2807,"Coronel FAP Carlos Ciriani Santa Rosa International Airport","Peru",-18.0533,-70.2758
+2808,"Padre Aldamiz International Airport","Peru",-12.6136,-69.2286
+2809,"Capitán FAP Guillermo Concha Iberico International Airport","Peru",-5.20575,-80.6164
+2812,"Alejandro Velasco Astete International Airport","Peru",-13.5357,-71.9388
+2816,"Carrasco International /General C L Berisso Airport","Uruguay",-34.8384,-56.0308
+2821,"General José Antonio Anzoategui International Airport","Venezuela",10.1111,-64.6922
+2822,"Barinas Airport","Venezuela",8.615,-70.2142
+2824,"Barquisimeto International Airport","Venezuela",10.0427,-69.3586
+2830,"Canaima Airport","Venezuela",6.23199,-62.8544
+2833,"José Leonardo Chirinos Airport","Venezuela",11.4149,-69.6809
+2835,"Cumaná (Antonio José de Sucre) Airport","Venezuela",10.4503,-64.1305
+2844,"Josefa Camejo International Airport","Venezuela",11.7808,-70.1515
+2846,"La Fria Airport","Venezuela",8.23917,-72.271
+2848,"La Chinita International Airport","Venezuela",10.5582,-71.7279
+2849,"Alberto Carnevalli Airport","Venezuela",8.58208,-71.161
+2850,"Del Caribe Santiago Mariño International Airport","Venezuela",10.9126,-63.9666
+2851,"Simón Bolívar International Airport","Venezuela",10.6012,-66.9912
+2852,"Maturín Airport","Venezuela",9.75453,-63.1474
+2853,"Cacique Aramare Airport","Venezuela",5.61999,-67.6061
+2854,"General Bartolome Salom International Airport","Venezuela",10.4805,-68.073
+2856,"General Manuel Carlos Piar International Airport","Venezuela",8.28853,-62.7604
+2858,"San Antonio Del Tachira Airport","Venezuela",7.84083,-72.4397
+2860,"Santa Elena de Uairen Airport","Venezuela",4.555,-61.15
+2861,"Mayor Buenaventura Vivas International Airport","Venezuela",7.56538,-72.0351
+2864,"San Tomé Airport","Venezuela",8.94515,-64.1511
+2868,"Arturo Michelena International Airport","Venezuela",10.1497,-67.9284
+2870,"Dr. Antonio Nicolás Briceño Airport","Venezuela",9.34048,-70.5841
+2874,"V.C. Bird International Airport","Antigua and Barbuda",17.1367,-61.7927
+2875,"Sir Grantley Adams International Airport","Barbados",13.0746,-59.4925
+2877,"Douglas-Charles Airport","Dominica",15.547,-61.3
+2878,"Martinique Aimé Césaire International Airport","Martinique",14.591,-61.0032
+2879,"L'Espérance Airport","Guadeloupe",18.0999,-63.0472
+2881,"Pointe-à-Pitre Le Raizet","Guadeloupe",16.2653,-61.5318
+2882,"Point Salines International Airport","Grenada",12.0042,-61.7862
+2883,"Cyril E. King Airport","Virgin Islands",18.3373,-64.9734
+2884,"Henry E Rohlsen Airport","Virgin Islands",17.7019,-64.7986
+2885,"Rafael Hernandez Airport","Puerto Rico",18.4949,-67.1294
+2888,"Eugenio Maria De Hostos Airport","Puerto Rico",18.2557,-67.1485
+2889,"Mercedita Airport","Puerto Rico",18.0083,-66.563
+2890,"Luis Munoz Marin International Airport","Puerto Rico",18.4394,-66.0018
+2891,"Robert L. Bradshaw International Airport","Saint Kitts and Nevis",17.3112,-62.7187
+2893,"George F. L. Charles Airport","Saint Lucia",14.0202,-60.9929
+2894,"Hewanorra International Airport","Saint Lucia",13.7332,-60.9526
+2895,"Queen Beatrix International Airport","Aruba",12.5014,-70.0152
+2896,"Flamingo International Airport","Netherlands Antilles",12.131,-68.2685
+2897,"Hato International Airport","Netherlands Antilles",12.1889,-68.9598
+2898,"F. D. Roosevelt Airport","Netherlands Antilles",17.4965,-62.9794
+2899,"Princess Juliana International Airport","Netherlands Antilles",18.041,-63.1089
+2900,"Clayton J Lloyd International Airport","Anguilla",18.2048,-63.0551
+2901,"Tobago-Crown Point Airport","Trinidad and Tobago",11.1497,-60.8322
+2902,"Piarco International Airport","Trinidad and Tobago",10.5954,-61.3372
+2903,"Terrance B. Lettsome International Airport","British Virgin Islands",18.4448,-64.543
+2907,"Argyle International Airport","Saint Vincent and the Grenadines",13.1567,-61.1499
+2908,"Almaty Airport","Kazakhstan",43.3521,77.0405
+2910,"Astana International Airport","Kazakhstan",51.0222,71.4669
+2911,"Taraz Airport","Kazakhstan",42.8536,71.3036
+2912,"Manas International Airport","Kyrgyzstan",43.0613,74.4776
+2913,"Osh Airport","Kyrgyzstan",40.609,72.7933
+2914,"Shymkent Airport","Kazakhstan",42.3642,69.4789
+2916,"Uralsk Airport","Kazakhstan",51.1508,51.5431
+2917,"Pavlodar Airport","Kazakhstan",52.195,77.0739
+2918,"Semipalatinsk Airport","Kazakhstan",50.3513,80.2344
+2920,"Aktobe Airport","Kazakhstan",50.2458,57.2067
+2922,"Heydar Aliyev International Airport","Azerbaijan",40.4675,50.0467
+2923,"Yakutsk Airport","Russia",62.0933,129.771
+2925,"Mirny Airport","Russia",62.5347,114.039
+2926,"Ignatyevo Airport","Russia",50.4254,127.412
+2927,"Khabarovsk-Novy Airport","Russia",48.528,135.188
+2930,"Sokol Airport","Russia",59.911,150.72
+2931,"Pevek Airport","Russia",69.7833,170.597
+2932,"Yelizovo Airport","Russia",53.1679,158.454
+2933,"Yuzhno-Sakhalinsk Airport","Russia",46.8887,142.718
+2934,"Vladivostok International Airport","Russia",43.399,132.148
+2935,"Chita-Kadala Airport","Russia",52.0263,113.306
+2936,"Bratsk Airport","Russia",56.3706,101.698
+2937,"Irkutsk Airport","Russia",52.268,104.389
+2938,"Ulan-Ude Airport (Mukhino)","Russia",51.8078,107.438
+2939,"Boryspil International Airport","Ukraine",50.345,30.8947
+2940,"Donetsk International Airport","Ukraine",48.0736,37.7397
+2941,"Dnipropetrovsk International Airport","Ukraine",48.3572,35.1006
+2942,"Simferopol International Airport","Ukraine",45.0522,33.9751
+2944,"Kiev Zhuliany International Airport","Ukraine",50.4019,30.4519
+2945,"Lviv International Airport","Ukraine",49.8125,23.9561
+2947,"Odessa International Airport","Ukraine",46.4268,30.6765
+2948,"Pulkovo Airport","Russia",59.8003,30.2625
+2949,"Murmansk Airport","Russia",68.7817,32.7508
+2952,"Khrabrovo Airport","Russia",54.89,20.5926
+2954,"Minsk National Airport","Belarus",53.8825,28.0307
+2955,"Abakan Airport","Russia",53.74,91.385
+2956,"Barnaul Airport","Russia",53.3638,83.5385
+2957,"Kemerovo Airport","Russia",55.2701,86.1072
+2958,"Omsk Central Airport","Russia",54.967,73.3105
+2960,"Krasnodar Pashkovsky International Airport","Russia",45.0347,39.1705
+2961,"Uytash Airport","Russia",42.8168,47.6523
+2962,"Mineralnyye Vody Airport","Russia",44.2251,43.0819
+2963,"Stavropol Shpakovskoye Airport","Russia",45.1092,42.1128
+2964,"Platov International Airport","Russia",47.4939,39.9247
+2965,"Sochi International Airport","Russia",43.4499,39.9566
+2966,"Astrakhan Airport","Russia",46.2833,48.0063
+2967,"Volgograd International Airport","Russia",48.7825,44.3455
+2968,"Chelyabinsk Balandino Airport","Russia",55.3058,61.5033
+2969,"Magnitogorsk International Airport","Russia",53.3931,58.7557
+2972,"Nizhnevartovsk Airport","Russia",60.9493,76.4836
+2973,"Bolshoye Savino Airport","Russia",57.9145,56.0212
+2974,"Surgut Airport","Russia",61.3437,73.4018
+2975,"Koltsovo Airport","Russia",56.7431,60.8027
+2976,"Ashgabat International Airport","Turkmenistan",37.9868,58.361
+2979,"Dushanbe Airport","Tajikistan",38.5433,68.825
+2980,"Bukhara Airport","Uzbekistan",39.775,64.4833
+2981,"Samarkand Airport","Uzbekistan",39.7005,66.9838
+2983,"Tashkent International Airport","Uzbekistan",41.2579,69.2812
+2985,"Sheremetyevo International Airport","Russia",55.9726,37.4146
+2987,"Voronezh International Airport","Russia",51.8142,39.2296
+2988,"Vnukovo International Airport","Russia",55.5915,37.2615
+2989,"Syktyvkar Airport","Russia",61.647,50.8451
+2990,"Kazan International Airport","Russia",55.6062,49.2787
+2991,"Orenburg Central Airport","Russia",51.7958,55.4567
+2992,"Ufa International Airport","Russia",54.5575,55.8744
+2993,"Kurumoch International Airport","Russia",53.5049,50.1643
+2994,"Sardar Vallabhbhai Patel International Airport","India",23.0772,72.6347
+2996,"Aurangabad Airport","India",19.8627,75.3981
+2997,"Chhatrapati Shivaji International Airport","India",19.0887,72.8679
+2999,"Bhuj Airport","India",23.2878,69.6702
+3000,"Belgaum Airport","India",15.8593,74.6183
+3001,"Vadodara Airport","India",22.3362,73.2263
+3002,"Raja Bhoj International Airport","India",23.2875,77.3374
+3003,"Bhavnagar Airport","India",21.7522,72.1852
+3007,"Dabolim Airport","India",15.3808,73.8314
+3008,"Devi Ahilyabai Holkar Airport","India",22.7218,75.8011
+3009,"Jabalpur Airport","India",23.1778,80.052
+3010,"Jamnagar Airport","India",22.4655,70.0126
+3012,"Khajuraho Airport","India",24.8172,79.9186
+3015,"Dr. Babasaheb Ambedkar International Airport","India",21.0922,79.0472
+3017,"Pune Airport","India",18.5821,73.9197
+3018,"Porbandar Airport","India",21.6487,69.6572
+3019,"Rajkot Airport","India",22.3092,70.7795
+3020,"Raipur Airport","India",21.1804,81.7388
+3022,"Surat Airport","India",21.1141,72.7418
+3023,"Maharana Pratap Airport","India",24.6177,73.8961
+3024,"Bandaranaike International Colombo Airport","Sri Lanka",7.18076,79.8841
+3030,"China Bay Airport","Sri Lanka",8.53851,81.1819
+3034,"Phnom Penh International Airport","Cambodia",11.5466,104.844
+3035,"Siem Reap International Airport","Cambodia",13.4107,103.813
+3038,"Agartala Airport","India",23.887,91.2404
+3039,"Lengpui Airport","India",23.8406,92.6197
+3040,"Bagdogra Airport","India",26.6812,88.3286
+3042,"Biju Patnaik Airport","India",20.2444,85.8178
+3043,"Netaji Subhash Chandra Bose International Airport","India",22.6547,88.4467
+3050,"Imphal Airport","India",24.76,93.8967
+3055,"Silchar Airport","India",24.9129,92.9787
+3057,"Dibrugarh Airport","India",27.4839,95.0169
+3061,"Lok Nayak Jayaprakash Airport","India",25.5913,85.088
+3063,"Birsa Munda Airport","India",23.3143,85.3217
+3066,"Vishakhapatnam Airport","India",17.7212,83.2245
+3068,"Cox's Bazar Airport","Bangladesh",21.4522,91.9639
+3069,"Shah Amanat International Airport","Bangladesh",22.2496,91.8133
+3071,"Jessore Airport","Bangladesh",23.1838,89.1608
+3072,"Shah Mokhdum Airport","Bangladesh",24.4372,88.6165
+3073,"Saidpur Airport","Bangladesh",25.7592,88.9089
+3074,"Osmany International Airport","Bangladesh",24.9632,91.8668
+3076,"Hazrat Shahjalal International Airport","Bangladesh",23.8433,90.3978
+3077,"Hong Kong International Airport","Hong Kong",22.3089,113.915
+3079,"Agra Airport","India",27.1558,77.9609
+3080,"Allahabad Airport","India",25.4401,81.7339
+3081,"Sri Guru Ram Dass Jee International Airport","India",31.7096,74.7973
+3084,"Lal Bahadur Shastri Airport","India",25.4524,82.8593
+3085,"Kullu Manali Airport","India",31.8767,77.1544
+3089,"Chandigarh Airport","India",30.6735,76.7885
+3092,"Dehradun Airport","India",30.1897,78.1803
+3093,"Indira Gandhi International Airport","India",28.5665,77.1031
+3094,"Gwalior Airport","India",26.2933,78.2278
+3097,"Jodhpur Airport","India",26.2511,73.0489
+3098,"Jaipur International Airport","India",26.8242,75.8122
+3100,"Jammu Airport","India",32.6891,74.8374
+3101,"Kanpur Civil Airport","India",26.4414,80.3649
+3103,"Ludhiana Airport","India",30.8547,75.9526
+3104,"Leh Kushok Bakula Rimpochee Airport","India",34.1359,77.5465
+3105,"Chaudhary Charan Singh International Airport","India",26.7606,80.8893
+3112,"Sheikh ul Alam Airport","India",33.9871,74.7742
+3115,"Luang Phabang International Airport","Laos",19.8973,102.161
+3116,"Pakse International Airport","Laos",15.1321,105.781
+3118,"Savannakhet Airport","Laos",16.5566,104.76
+3120,"Wattay International Airport","Laos",17.9883,102.563
+3121,"Macau International Airport","Macau",22.1496,113.592
+3122,"Gautam Buddha Airport","Nepal",27.5057,83.4163
+3125,"Tribhuvan International Airport","Nepal",27.6966,85.3591
+3127,"Pokhara Airport","Nepal",28.2009,83.9821
+3129,"Biratnagar Airport","Nepal",26.4815,87.264
+3130,"Agatti Airport","India",10.8237,72.176
+3131,"Kempegowda International Airport","India",13.1979,77.7063
+3134,"Vijayawada Airport","India",16.5304,80.7968
+3135,"Coimbatore International Airport","India",11.03,77.0434
+3136,"Cochin International Airport","India",10.152,76.4019
+3137,"Calicut International Airport","India",11.1368,75.9553
+3142,"Madurai Airport","India",9.83451,78.0934
+3143,"Mangalore International Airport","India",12.9613,74.8901
+3144,"Chennai International Airport","India",12.99,80.1693
+3146,"Vir Savarkar International Airport","India",11.6412,92.7297
+3152,"Tiruchirapally Civil Airport Airport","India",10.7654,78.7097
+3153,"Trivandrum International Airport","India",8.48212,76.9201
+3155,"Paro Airport","Bhutan",27.4032,89.4246
+3156,"Malé International Airport","Maldives",4.19183,73.5291
+3157,"Don Mueang International Airport","Thailand",13.9126,100.607
+3161,"U-Tapao International Airport","Thailand",12.6799,101.005
+3163,"Lampang Airport","Thailand",18.2709,99.5042
+3164,"Phrae Airport","Thailand",18.1322,100.165
+3170,"Phitsanulok Airport","Thailand",16.7829,100.279
+3173,"Narathiwat Airport","Thailand",6.51992,101.743
+3174,"Krabi Airport","Thailand",8.09912,98.9862
+3177,"Samui Airport","Thailand",9.54779,100.062
+3179,"Phuket International Airport","Thailand",8.1132,98.3169
+3180,"Ranong Airport","Thailand",9.77762,98.5855
+3181,"Hat Yai International Airport","Thailand",6.93321,100.393
+3182,"Trang Airport","Thailand",7.50874,99.6166
+3183,"Udon Thani Airport","Thailand",17.3864,102.788
+3184,"Sakon Nakhon Airport","Thailand",17.1951,104.119
+3186,"Loei Airport","Thailand",17.4391,101.722
+3196,"Da Nang International Airport","Vietnam",16.0439,108.199
+3199,"Noi Bai International Airport","Vietnam",21.2212,105.807
+3201,"Phu Bai Airport","Vietnam",16.4015,107.703
+3204,"Phu Quoc International Airport","Vietnam",10.1698,103.993
+3205,"Tan Son Nhat International Airport","Vietnam",10.8188,106.652
+3209,"Bagan Airport","Burma",21.1788,94.9302
+3213,"Heho Airport","Burma",20.747,96.792
+3215,"Kengtung Airport","Burma",21.3016,99.636
+3217,"Kyaukpyu Airport","Burma",19.4264,93.5348
+3222,"Mandalay International Airport","Burma",21.7022,95.9779
+3223,"Myeik Airport","Burma",12.4398,98.6215
+3224,"Myitkyina Airport","Burma",25.3836,97.3519
+3232,"Putao Airport","Burma",27.3299,97.4263
+3235,"Sittwe Airport","Burma",20.1327,92.8726
+3236,"Thandwe Airport","Burma",18.4607,94.3001
+3237,"Tachileik Airport","Burma",20.4838,99.9354
+3239,"Yangon International Airport","Burma",16.9073,96.1332
+3240,"Hasanuddin International Airport","Indonesia",-5.06163,119.554
+3241,"Frans Kaisiepo Airport","Indonesia",-1.19002,136.108
+3242,"Nabire Airport","Indonesia",-3.36818,135.496
+3243,"Moses Kilangin Airport","Indonesia",-4.52828,136.887
+3244,"Sentani International Airport","Indonesia",-2.57695,140.516
+3245,"Wamena Airport","Indonesia",-4.10251,138.957
+3246,"Mopah Airport","Indonesia",-8.52029,140.418
+3247,"Jalaluddin Airport","Indonesia",0.637119,122.85
+3249,"Mutiara Airport","Indonesia",-0.918542,119.91
+3250,"Sam Ratulangi Airport","Indonesia",1.54926,124.926
+3251,"Kasiguncu Airport","Indonesia",-1.41675,120.658
+3253,"Sultan Khairun Babullah Airport","Indonesia",0.831414,127.381
+3254,"Syukuran Aminuddin Amir Airport","Indonesia",-1.03892,122.772
+3256,"Pattimura Airport,"Indonesia",-3.71026,128.089
+3257,"Fakfak Airport","Indonesia",-2.92019,132.267
+3258,"Kaimana Airport","Indonesia",-3.64452,133.696
+3259,"Babo Airport","Indonesia",-2.53224,133.439
+3260,"Rendani Airport","Indonesia",-0.891833,134.049
+3261,"Dominique Edward Osok Airport","Indonesia",-0.894,131.287
+3262,"Bintulu Airport","Malaysia",3.12385,113.02
+3263,"Kuching International Airport","Malaysia",1.4847,110.347
+3264,"Limbang Airport","Malaysia",4.8083,115.01
+3265,"Marudi Airport","Malaysia",4.17898,114.329
+3266,"Miri Airport","Malaysia",4.32201,113.987
+3267,"Sibu Airport","Malaysia",2.2616,111.985
+3268,"Lahad Datu Airport","Malaysia",5.03225,118.324
+3269,"Kota Kinabalu International Airport","Malaysia",5.93721,116.051
+3270,"Labuan Airport","Malaysia",5.30068,115.25
+3271,"Tawau Airport","Malaysia",4.32016,118.128
+3272,"Brunei International Airport","Brunei",4.9442,114.928
+3273,"Sultan Syarif Kasim Ii (Simpang Tiga) Airport","Indonesia",0.460786,101.445
+3275,"Soekarno-Hatta International Airport","Indonesia",-6.12557,106.656
+3282,"Ketapang(Rahadi Usman) Airport","Indonesia",-1.81664,109.963
+3284,"Supadio Airport","Indonesia",-0.150711,109.404
+3287,"Sultan Thaha Airport","Indonesia",-1.63802,103.644
+3288,"Fatmawati Soekarno Airport","Indonesia",-3.8637,102.339
+3289,"Sultan Mahmud Badaruddin II Airport","Indonesia",-2.89825,104.7
+3294,"Sultan Iskandar Muda International Airport","Indonesia",5.52287,95.4206
+3296,"Sultan Abdul Halim Airport","Malaysia",6.18967,100.398
+3298,"Sultan Ismail Petra Airport","Malaysia",6.16685,102.293
+3299,"Kuantan Airport","Malaysia",3.77539,103.209
+3300,"Kerteh Airport","Malaysia",4.53722,103.427
+3302,"Sultan Azlan Shah Airport","Malaysia",4.56797,101.092
+3303,"Senai International Airport","Malaysia",1.64131,103.67
+3304,"Kuala Lumpur International Airport","Malaysia",2.74558,101.71
+3305,"Langkawi International Airport","Malaysia",6.32973,99.7287
+3307,"Sultan Mahmud Airport","Malaysia",5.38264,103.103
+3308,"Penang International Airport","Malaysia",5.29714,100.277
+3310,"Presidente Nicolau Lobato International Airport","East Timor",-8.5464,125.526
+3316,"Singapore Changi Airport","Singapore",1.35019,103.994
+3318,"Northern Peninsula Airport","Australia",-10.9508,142.459
+3319,"Alice Springs Airport","Australia",-23.8067,133.902
+3320,"Brisbane International Airport","Australia",-27.3842,153.117
+3321,"Gold Coast Airport","Australia",-28.1644,153.505
+3322,"Cairns International Airport","Australia",-16.8858,145.755
+3323,"Charleville Airport","Australia",-26.4133,146.262
+3324,"Mount Isa Airport","Australia",-20.6639,139.489
+3325,"Sunshine Coast Airport","Australia",-26.6033,153.091
+3326,"Mackay Airport","Australia",-21.1717,149.18
+3328,"Proserpine Whitsunday Coast Airport","Australia",-20.495,148.552
+3329,"Rockhampton Airport","Australia",-23.3819,150.475
+3330,"Townsville Airport","Australia",-19.2525,146.765
+3331,"Weipa Airport","Australia",-12.6786,141.925
+3332,"Avalon Airport","Australia",-38.0394,144.469
+3333,"Albury Airport","Australia",-36.0678,146.958
+3334,"Melbourne Essendon Airport","Australia",-37.7281,144.902
+3336,"Hobart International Airport","Australia",-42.8361,147.51
+3337,"Launceston Airport","Australia",-41.5453,147.214
+3339,"Melbourne International Airport","Australia",-37.6733,144.843
+3341,"Adelaide International Airport","Australia",-34.945,138.531
+3345,"Karratha Airport","Australia",-20.7122,116.773
+3346,"Kalgoorlie Boulder Airport","Australia",-30.7894,121.462
+3347,"Kununurra Airport","Australia",-15.7781,128.708
+3348,"Learmonth Airport","Australia",-22.2356,114.089
+3349,"Port Hedland International Airport","Australia",-20.3778,118.626
+3351,"Perth International Airport","Australia",-31.9403,115.967
+3353,"Christmas Island Airport","Christmas Island",-10.4506,105.69
+3355,"Canberra International Airport","Australia",-35.3069,149.195
+3356,"Coffs Harbour Airport","Australia",-30.3206,153.116
+3358,"Dubbo City Regional Airport","Australia",-32.2167,148.575
+3359,"Norfolk Island International Airport","Norfolk Island",-29.0416,167.939
+3361,"Sydney Kingsford Smith International Airport","Australia",-33.9461,151.177
+3362,"Tamworth Airport","Australia",-31.0839,150.847
+3363,"Wagga Wagga City Airport","Australia",-35.1653,147.466
+3364,"Beijing Capital International Airport","China",40.0801,116.585
+3366,"Dongshan Airport","China",49.205,119.825
+3368,"Tianjin Binhai International Airport","China",39.1244,117.346
+3369,"Taiyuan Wusu Airport","China",37.7469,112.628
+3370,"Guangzhou Baiyun International Airport","China",23.3924,113.299
+3371,"Changsha Huanghua International Airport","China",28.1892,113.22
+3372,"Guilin Liangjiang International Airport","China",25.2181,110.039
+3373,"Nanning Wuxu Airport","China",22.6083,108.172
+3374,"Shenzhen Bao'an International Airport","China",22.6393,113.811
+3375,"Zhengzhou Xinzheng International Airport","China",34.5197,113.841
+3376,"Wuhan Tianhe International Airport","China",30.7838,114.208
+3377,"Pyongyang Sunan International Airport","North Korea",39.2241,125.67
+3378,"Lanzhou Zhongchuan Airport","China",36.5152,103.62
+3379,"Xi'an Xianyang International Airport","China",34.4471,108.752
+3380,"Chinggis Khaan International Airport","Mongolia",47.8431,106.767
+3381,"Xishuangbanna Gasa Airport","China",21.9739,100.76
+3382,"Kunming Changshui International Airport","China",25.1019,102.929
+3383,"Xiamen Gaoqi International Airport","China",24.544,118.128
+3384,"Nanchang Changbei International Airport","China",28.865,115.9
+3385,"Fuzhou Changle International Airport","China",25.9351,119.663
+3386,"Hangzhou Xiaoshan International Airport","China",30.2295,120.434
+3387,"Ningbo Lishe International Airport","China",29.8267,121.462
+3388,"Nanjing Lukou Airport","China",31.742,118.862
+3389,"Hefei Luogang International Airport","China",31.78,117.298
+3390,"Liuting Airport","China",36.2661,120.374
+3391,"Shanghai Hongqiao International Airport","China",31.1979,121.336
+3392,"Yantai Laishan Airport","China",37.4017,121.372
+3393,"Chongqing Jiangbei International Airport","China",29.7192,106.642
+3394,"Longdongbao Airport","China",26.5385,106.801
+3395,"Chengdu Shuangliu International Airport","China",30.5785,103.947
+3396,"Xichang Qingshan Airport","China",27.9891,102.184
+3397,"Kashgar Airport","China",39.5429,76.02
+3398,"Hotan Airport","China",37.0385,79.8649
+3399,"Ürümqi Diwopu International Airport","China",43.9071,87.4742
+3400,"Taiping Airport","China",45.6234,126.25
+3402,"Mudanjiang Hailang International Airport","China",44.5241,129.569
+3404,"Zhoushuizi Airport","China",38.9657,121.539
+3406,"Shanghai Pudong International Airport","China",31.1434,121.805
+3408,"Sultan Abdul Aziz Shah International Airport","Malaysia",3.13058,101.549
+3409,"Noto Airport","Japan",37.2931,136.962
+3410,"Borg El Arab International Airport","Egypt",30.9177,29.6964
+3411,"Barter Island LRRS Airport","United States",70.134,-143.582
+3413,"Cape Lisburne LRRS Airport","United States",68.8751,-166.11
+3414,"Point Lay LRRS Airport","United States",69.7329,-163.005
+3415,"Hilo International Airport","United States",19.7214,-155.048
+3417,"Bettles Airport","United States",66.9139,-151.529
+3420,"Fort Yukon Airport","United States",66.5715,-145.25
+3423,"Tatalina LRRS Airport","United States",62.8944,-155.977
+3426,"St Paul Island Airport","United States",57.1673,-170.22
+3428,"St George Airport","United States",56.5783,-169.662
+3429,"Iliamna Airport","United States",59.7544,-154.911
+3430,"Platinum Airport","United States",59.0114,-161.82
+3437,"Fort Smith Regional Airport","United States",35.3366,-94.3674
+3442,"Grand Forks International Airport","United States",47.9493,-97.1761
+3445,"Hana Airport","United States",20.7956,-156.014
+3446,"Ernest A. Love Field","United States",34.6545,-112.42
+3447,"Trenton Mercer Airport","United States",40.2767,-74.8135
+3448,"General Edward Lawrence Logan International Airport","United States",42.3643,-71.0052
+3453,"Metropolitan Oakland International Airport","United States",37.7213,-122.221
+3454,"Eppley Airfield","United States",41.3032,-95.8941
+3456,"Kahului Airport","United States",20.8986,-156.43
+3457,"Wichita Eisenhower National Airport","United States",37.6499,-97.4331
+3458,"Kansas City International Airport","United States",39.2976,-94.7139
+3459,"Dane County Regional Truax Field","United States",43.1399,-89.3375
+3460,"Dillingham Airport","United States",59.0447,-158.505
+3461,"Boone County Airport","United States",36.2615,-93.1547
+3462,"Phoenix Sky Harbor International Airport","United States",33.4343,-112.012
+3463,"Bangor International Airport","United States",44.8074,-68.8281
+3465,"East Texas Regional Airport","United States",32.384,-94.7115
+3467,"Spokane International Airport","United States",47.6199,-117.534
+3469,"San Francisco International Airport","United States",37.619,-122.375
+3472,"Gainesville Regional Airport","United States",29.6901,-82.2718
+3473,"Memphis International Airport","United States",35.0424,-89.9767
+3484,"Los Angeles International Airport","United States",33.9425,-118.408
+3486,"Cleveland Hopkins International Airport","United States",41.4117,-81.8498
+3488,"Cincinnati Northern Kentucky International Airport","United States",39.0488,-84.6678
+3491,"Huron Regional Airport","United States",44.3852,-98.2285
+3492,"Juneau International Airport","United States",58.355,-134.576
+3493,"Lafayette Regional Airport","United States",30.2053,-91.9876
+3494,"Newark Liberty International Airport","United States",40.6925,-74.1687
+3495,"Boise Air Terminal/Gowen Field","United States",43.5644,-116.223
+3497,"Garden City Regional Airport","United States",37.9275,-100.724
+3498,"Minot International Airport","United States",48.2594,-101.28
+3502,"Dallas Love Field","United States",32.8471,-96.8518
+3504,"Helena Regional Airport","United States",46.6068,-111.983
+3513,"Lake Charles Regional Airport","United States",30.1261,-93.2233
+3514,"Ellison Onizuka Kona International At Keahole Airport","United States",19.7388,-156.046
+3515,"Myrtle Beach International Airport","United States",33.6797,-78.9283
+3517,"Nantucket Memorial Airport","United States",41.2531,-70.0602
+3520,"Ronald Reagan Washington National Airport","United States",38.8521,-77.0377
+3524,"Atlantic City International Airport","United States",39.4576,-74.5772
+3527,"Pueblo Memorial Airport","United States",38.2891,-104.497
+3528,"Northern Maine Regional Airport at Presque Isle","United States",46.689,-68.0448
+3531,"Kodiak Airport","United States",57.75,-152.494
+3533,"Fort Lauderdale Hollywood International Airport","United States",26.0726,-80.1527
+3535,"Falls International Airport","United States",48.5662,-93.4031
+3536,"Salt Lake City International Airport","United States",40.7884,-111.978
+3542,"Harrisburg International Airport","United States",40.1935,-76.7634
+3543,"Lincoln Airport","United States",40.851,-96.7592
+3544,"Capital City Airport","United States",42.7787,-84.5874
+3545,"Waimea Kohala Airport","United States",20.0013,-155.668
+3546,"Massena International Richards Field","United States",44.9358,-74.8456
+3550,"George Bush Intercontinental Houston Airport","United States",29.9844,-95.3414
+3558,"Meadows Field","United States",35.4336,-119.057
+3559,"El Paso International Airport","United States",31.8072,-106.378
+3560,"Valley International Airport","United States",26.2285,-97.6544
+3561,"Columbia Metropolitan Airport","United States",33.9388,-81.1195
+3564,"Pensacola Regional Airport","United States",30.4734,-87.1866
+3566,"William P Hobby Airport","United States",29.6454,-95.2789
+3570,"Pittsburgh International Airport","United States",40.4915,-80.2329
+3571,"Wiley Post Will Rogers Memorial Airport","United States",71.2854,-156.766
+3576,"Miami International Airport","United States",25.7932,-80.2906
+3577,"Seattle Tacoma International Airport","United States",47.449,-122.309
+3578,"Lovell Field","United States",35.0353,-85.2038
+3580,"Jackson-Medgar Wiley Evers International Airport","United States",32.3112,-90.0759
+3582,"Long Beach /Daugherty Field/ Airport","United States",33.8177,-118.152
+3584,"Williamsport Regional Airport","United States",41.2418,-76.9211
+3585,"Indianapolis International Airport","United States",39.7173,-86.2944
+3589,"Westchester County Airport","United States",41.067,-73.7076
+3591,"Jonesboro Municipal Airport","United States",35.8317,-90.6464
+3596,"Yuma MCAS/Yuma International Airport","United States",32.6566,-114.606
+3597,"Cavern City Air Terminal","United States",32.3375,-104.263
+3598,"Duluth International Airport","United States",46.8421,-92.1936
+3599,"Bethel Airport","United States",60.7798,-161.838
+3602,"Lihue Airport","United States",21.976,-159.339
+3604,"Havre City County Airport","United States",48.543,-109.762
+3608,"Richmond International Airport","United States",37.5052,-77.3197
+3609,"Shreveport Regional Airport","United States",32.4466,-93.8256
+3610,"Merle K (Mudhole) Smith Airport","United States",60.4918,-145.478
+3611,"Norfolk International Airport","United States",36.8946,-76.2012
+3612,"Southeast Texas Regional Airport","United States",29.9508,-94.0207
+3613,"Savannah Hilton Head International Airport","United States",32.1276,-81.2021
+3615,"Nome Airport","United States",64.5122,-165.445
+3617,"St Petersburg Clearwater International Airport","United States",27.9102,-82.6874
+3620,"Deadhorse Airport","United States",70.1947,-148.465
+3621,"San Antonio International Airport","United States",29.5337,-98.4698
+3622,"Greater Rochester International Airport","United States",43.1189,-77.6724
+3624,"Teterboro Airport","United States",40.8501,-74.0608
+3626,"Raleigh Durham International Airport","United States",35.8776,-78.7875
+3627,"James M Cox Dayton International Airport","United States",39.9024,-84.2194
+3628,"Kenai Municipal Airport","United States",60.5731,-151.245
+3630,"Niagara Falls International Airport","United States",43.1073,-78.9462
+3633,"Newport News Williamsburg International Airport","United States",37.1319,-76.493
+3636,"Tucson International Airport","United States",32.1161,-110.941
+3641,"Theodore Francis Green State Airport","United States",41.7326,-71.4204
+3642,"Salisbury Ocean City Wicomico Regional Airport","United States",38.3405,-75.5103
+3644,"Bob Hope Airport","United States",34.2007,-118.359
+3645,"Detroit Metropolitan Wayne County Airport","United States",42.2124,-83.3534
+3646,"Tampa International Airport","United States",27.9755,-82.5332
+3650,"Range Regional Airport","United States",47.3866,-92.839
+3652,"Midland International Airport","United States",31.9425,-102.202
+3653,"Austin Straubel International Airport","United States",44.4851,-88.1296
+3658,"Augusta Regional At Bush Field","United States",33.3699,-81.9645
+3659,"Sloulin Field International Airport","United States",48.1779,-103.642
+3660,"Bill & Hillary Clinton National Airport/Adams Field","United States",34.7294,-92.2243
+3661,"Stewart International Airport","United States",41.5041,-74.1048
+3664,"Homer Airport","United States",59.6456,-151.477
+3665,"Waynesville-St. Robert Regional Forney field","United States",37.7416,-92.1407
+3670,"Dallas Fort Worth International Airport","United States",32.8968,-97.038
+3671,"Melbourne International Airport","United States",28.1028,-80.6453
+3673,"Austin Bergstrom International Airport","United States",30.1945,-97.6699
+3674,"Rickenbacker International Airport","United States",39.8138,-82.9278
+3675,"Sawyer International Airport","United States",46.3536,-87.3954
+3676,"McGhee Tyson Airport","United States",35.811,-83.994
+3678,"St Louis Lambert International Airport","United States",38.7487,-90.37
+3680,"Sheppard Air Force Base-Wichita Falls Municipal Airport","United States",33.9888,-98.4919
+3681,"Cincinnati Municipal Airport Lunken Field","United States",39.1033,-84.4186
+3682,"Hartsfield Jackson Atlanta International Airport","United States",33.6367,-84.4281
+3685,"Gerald R. Ford International Airport","United States",42.8808,-85.5228
+3687,"Fresno Yosemite International Airport","United States",36.7762,-119.718
+3689,"Imperial County Airport","United States",32.8342,-115.579
+3690,"Nashville International Airport","United States",36.1245,-86.6782
+3691,"Laredo International Airport","United States",27.5438,-99.4616
+3693,"Ralph Wien Memorial Airport","United States",66.8847,-162.599
+3694,"Altoona Blair County Airport","United States",40.2964,-78.32
+3696,"South Arkansas Regional At Goodwin Field","United States",33.221,-92.8133
+3697,"La Guardia Airport","United States",40.7772,-73.8726
+3698,"Tallahassee Regional Airport","United States",30.3965,-84.3503
+3700,"Waco Regional Airport","United States",31.6113,-97.2305
+3701,"Augusta State Airport","United States",44.3206,-69.7973
+3704,"McKellar-Sipes Regional Airport","United States",35.5999,-88.9156
+3705,"Molokai Airport","United States",21.1529,-157.096
+3708,"San Angelo Regional Mathis Field","United States",31.3577,-100.496
+3710,"Chico Municipal Airport","United States",39.7954,-121.858
+3711,"Burlington International Airport","United States",44.4719,-73.1533
+3712,"Jacksonville International Airport","United States",30.4941,-81.6879
+3713,"Durango La Plata County Airport","United States",37.1515,-107.754
+3714,"Washington Dulles International Airport","United States",38.9445,-77.4558
+3715,"Easterwood Field","United States",30.5886,-96.3638
+3717,"General Mitchell International Airport","United States",42.9472,-87.8966
+3718,"Abilene Regional Airport","United States",32.4113,-99.6819
+3719,"Columbia Regional Airport","United States",38.8181,-92.2196
+3720,"Portland International Airport","United States",45.5887,-122.598
+3722,"Palm Beach International Airport","United States",26.6832,-80.0956
+3724,"Ogdensburg International Airport","United States",44.6819,-75.4655
+3726,"Boeing Field King County International Airport","United States",47.53,-122.302
+3728,"Daniel K Inouye International Airport","United States",21.3206,-157.924
+3729,"Des Moines International Airport","United States",41.534,-93.6631
+3730,"Coastal Carolina Regional Airport","United States",35.073,-77.0429
+3731,"San Diego International Airport","United States",32.7336,-117.19
+3732,"Monroe Regional Airport","United States",32.5109,-92.0377
+3734,"Ontario International Airport","United States",34.056,-117.601
+3736,"Roswell International Air Center Airport","United States",33.3016,-104.531
+3738,"Brownsville South Padre Island International Airport","United States",25.9068,-97.4259
+3739,"Dothan Regional Airport","United States",31.3213,-85.4496
+3743,"Four Corners Regional Airport","United States",36.7412,-108.23
+3744,"Corpus Christi International Airport","United States",27.7704,-97.5012
+3745,"Syracuse Hancock International Airport","United States",43.1112,-76.1063
+3747,"Chicago Midway International Airport","United States",41.786,-87.7524
+3748,"Norman Y. Mineta San Jose International Airport","United States",37.3626,-121.929
+3749,"Lea County Regional Airport","United States",32.6875,-103.217
+3751,"Denver International Airport","United States",39.8617,-104.673
+3752,"Philadelphia International Airport","United States",39.8719,-75.2411
+3753,"Sioux Gateway Col. Bud Day Field","United States",42.4026,-96.3844
+3754,"Middle Georgia Regional Airport","United States",32.6928,-83.6492
+3759,"John Glenn Columbus International Airport","United States",39.998,-82.8919
+3764,"Edward G. Pitka Sr Airport","United States",64.7362,-156.937
+3770,"Texarkana Regional Webb Field","United States",33.4537,-93.991
+3771,"Plattsburgh International Airport","United States",44.6509,-73.4681
+3774,"Ted Stevens Anchorage International Airport","United States",61.1744,-149.996
+3775,"Robert Gray  Army Air Field Airport","United States",31.0672,-97.8289
+3777,"Bellingham International Airport","United States",48.7928,-122.538
+3782,"Mobile Regional Airport","United States",30.6912,-88.2428
+3784,"Santa Fe Municipal Airport","United States",35.6171,-106.089
+3790,"Scott AFB/Midamerica Airport","United States",38.5452,-89.8352
+3793,"Southwest Florida International Airport","United States",26.5362,-81.7552
+3794,"King Salmon Airport","United States",58.6768,-156.649
+3796,"Kapalua Airport","United States",20.9629,-156.673
+3797,"John F Kennedy International Airport","United States",40.6398,-73.7789
+3804,"Cheyenne Regional Jerry Olson Field","United States",41.1557,-104.812
+3805,"Stockton Metropolitan Airport","United States",37.8942,-121.238
+3806,"Charleston Air Force Base-International Airport","United States",32.8986,-80.0405
+3807,"Reno Tahoe International Airport","United States",39.4991,-119.768
+3808,"Ketchikan International Airport","United States",55.3556,-131.714
+3811,"Birmingham-Shuttlesworth International Airport","United States",33.5629,-86.7535
+3816,"Modesto City Co-Harry Sham Field","United States",37.6258,-120.954
+3817,"Sacramento International Airport","United States",38.6954,-121.591
+3819,"City of Colorado Springs Municipal Airport","United States",38.8058,-104.701
+3820,"Buffalo Niagara International Airport","United States",42.9405,-78.7322
+3824,"Cedar City Regional Airport","United States",37.701,-113.099
+3825,"Bradley International Airport","United States",41.9389,-72.6832
+3826,"Mc Allen Miller International Airport","United States",26.1758,-98.2386
+3829,"Lubbock Preston Smith International Airport","United States",33.6636,-101.823
+3830,"Chicago O'Hare International Airport","United States",41.9786,-87.9048
+3832,"Fairbanks International Airport","United States",64.8151,-147.856
+3838,"Watertown International Airport","United States",43.9919,-76.0217
+3839,"Palm Springs International Airport","United States",33.8297,-116.507
+3840,"Rick Husband Amarillo International Airport","United States",35.2194,-101.706
+3843,"Topeka Regional Airport - Forbes Field","United States",38.9509,-95.6636
+3845,"Wilmington International Airport","United States",34.2706,-77.9026
+3846,"Baton Rouge Metropolitan Airport","United States",30.5332,-91.1496
+3848,"Tyler Pounds Regional Airport","United States",32.3541,-95.4024
+3849,"Baltimore/Washington International Thurgood Marshall Airport","United States",39.1754,-76.6683
+3851,"Lanai Airport","United States",20.7856,-156.951
+3852,"Alexandria International Airport","United States",31.3274,-92.5498
+3854,"Cold Bay Airport","United States",55.2061,-162.725
+3855,"Tulsa International Airport","United States",36.1984,-95.8881
+3856,"Sitka Rocky Gutierrez Airport","United States",57.0471,-135.362
+3857,"Long Island Mac Arthur Airport","United States",40.7952,-73.1002
+3858,"Minneapolis-St Paul International/Wold-Chamberlain Airport","United States",44.882,-93.2218
+3859,"New Castle Airport","United States",39.6787,-75.6065
+3860,"Unalaska Airport","United States",53.9001,-166.544
+3861,"Louis Armstrong New Orleans International Airport","United States",29.9934,-90.258
+3862,"Portland International Jetport Airport","United States",43.6462,-70.3093
+3863,"Will Rogers World Airport","United States",35.3931,-97.6007
+3864,"Albany International Airport","United States",42.7483,-73.8017
+3865,"Valdez Pioneer Field","United States",61.1339,-146.248
+3867,"John Wayne Airport-Orange County Airport","United States",33.6757,-117.868
+3872,"Casper-Natrona County International Airport","United States",42.908,-106.464
+3873,"Destin-Ft Walton Beach Airport","United States",30.4832,-86.5254
+3875,"Key West International Airport","United States",24.5561,-81.7596
+3876,"Charlotte Douglas International Airport","United States",35.214,-80.9431
+3877,"McCarran International Airport","United States",36.0801,-115.152
+3878,"Orlando International Airport","United States",28.4294,-81.309
+3879,"Florence Regional Airport","United States",34.1854,-79.7239
+3880,"Great Falls International Airport","United States",47.482,-111.371
+3881,"Youngstown Warren Regional Airport","United States",41.2607,-80.6791
+3885,"Suvarnabhumi Airport","Thailand",13.6811,100.747
+3886,"Naha Airport","Indonesia",3.68321,125.528
+3890,"Wolter Monginsidi Airport","Indonesia",-4.08161,122.418
+3894,"Abdul Rachman Saleh Airport","Indonesia",-7.92656,112.715
+3896,"Husein Sastranegara International Airport","Indonesia",-6.90063,107.576
+3898,"Adi Sutjipto International Airport","Indonesia",-7.78818,110.432
+3901,"Achmad Yani Airport","Indonesia",-6.97273,110.375
+3903,"Hang Nadim International Airport","Indonesia",1.12103,104.119
+3904,"Buluh Tumbang (H A S Hanandjoeddin) Airport","Indonesia",-2.74572,107.755
+3905,"Pangkal Pinang (Depati Amir) Airport","Indonesia",-2.1622,106.139
+3906,"Raja Haji Fisabilillah International Airport","Indonesia",0.922683,104.532
+3908,"Syamsudin Noor Airport","Indonesia",-3.44236,114.763
+3910,"Iskandar Airport","Indonesia",-2.7052,111.673
+3911,"Tjilik Riwut Airport","Indonesia",-2.22513,113.943
+3913,"Maumere(Wai Oti) Airport","Indonesia",-8.64065,122.237
+3914,"Ende (H Hasan Aroeboesman) Airport","Indonesia",-8.84929,121.661
+3916,"El Tari Airport","Indonesia",-10.1716,123.671
+3917,"Komodo Airport","Indonesia",-8.48666,119.889
+3919,"Sultan Aji Muhamad Sulaiman Airport","Indonesia",-1.26827,116.894
+3920,"Juwata Airport","Indonesia",3.32667,117.569
+3924,"Muhammad Salahuddin Airport","Indonesia",-8.53965,118.687
+3927,"Umbu Mehang Kunda Airport","Indonesia",-9.66922,120.302
+3928,"Juanda International Airport","Indonesia",-7.37983,112.787
+3929,"Adi Sumarmo Wiryokusumo Airport","Indonesia",-7.51609,110.757
+3930,"Incheon International Airport","South Korea",37.4691,126.451
+3931,"Chiang Mai International Airport","Thailand",18.7668,98.9626
+3932,"Chiang Rai International Airport","Thailand",19.9523,99.8829
+3933,"Nakhon Si Thammarat Airport","Thailand",8.53962,99.9447
+3936,"Nakhon Phanom Airport","Thailand",17.3838,104.643
+3937,"Ubon Ratchathani Airport","Thailand",15.2513,104.87
+3938,"Khon Kaen Airport","Thailand",16.4666,102.784
+3939,"Sukhothai Airport","Thailand",17.238,99.8182
+3940,"Ngurah Rai (Bali) International Airport","Indonesia",-8.74817,115.167
+3941,"Eleftherios Venizelos International Airport","Greece",37.9364,23.9445
+3942,"Chubu Centrair International Airport","Japan",34.8584,136.805
+3943,"Kobe Airport","Japan",34.6328,135.224
+3944,"Pullman Moscow Regional Airport","United States",46.7439,-117.11
+3945,"Lewiston Nez Perce County Airport","United States",46.3745,-117.015
+3946,"Elmira Corning Regional Airport","United States",42.1599,-76.8916
+3947,"Ithaca Tompkins Regional Airport","United States",42.491,-76.4584
+3948,"Monterey Peninsula Airport","United States",36.587,-121.843
+3949,"Santa Barbara Municipal Airport","United States",34.4262,-119.84
+3950,"Daytona Beach International Airport","United States",29.1799,-81.0581
+3953,"Riga International Airport","Latvia",56.9236,23.9711
+3956,"Kaunas International Airport","Lithuania",54.9639,24.0848
+3958,"Palanga International Airport","Lithuania",55.9732,21.0939
+3959,"Vilnius International Airport","Lithuania",54.6341,25.2858
+3964,"Zvartnots International Airport","Armenia",40.1473,44.3959
+3965,"Gyumri Shirak Airport","Armenia",40.7504,43.8593
+3967,"Asmara International Airport","Eritrea",15.2919,38.9107
+3968,"Massawa International Airport","Eritrea",15.67,39.3701
+3971,"Batumi International Airport","Georgia",41.6103,41.5997
+3972,"Kopitnari Airport","Georgia",42.1767,42.4826
+3973,"Tbilisi International Airport","Georgia",41.6692,44.9547
+3974,"Mukalla International Airport","Yemen",14.6626,49.375
+3975,"Ta'izz International Airport","Yemen",13.686,44.1391
+3976,"Hodeidah International Airport","Yemen",14.753,42.9763
+3977,"Aden International Airport","Yemen",12.8295,45.0288
+3978,"Ataq Airport","Yemen",14.5513,46.8262
+3979,"Al Ghaidah International Airport","Yemen",16.1917,52.175
+3980,"Sana'a International Airport","Yemen",15.4763,44.2197
+3984,"Socotra International Airport","Yemen",12.6307,53.9058
+3986,"Memmingen Allgau Airport","Germany",47.9888,10.2395
+3987,"Nevşehir Kapadokya Airport","Turkey",38.7719,34.5345
+3988,"Ministro Pistarini International Airport","Argentina",-34.8222,-58.5358
+3989,"Erbil International Airport","Iraq",36.2376,43.9632
+3990,"Emerald Airport","Australia",-23.5675,148.179
+3992,"Kansai International Airport","Japan",34.4273,135.244
+3994,"Tagbilaran Airport","Philippines",9.66544,123.854
+3995,"Ilulissat Airport","Greenland",69.2432,-51.0571
+3997,"Aasiaat Airport","Greenland",68.7218,-52.7847
+3998,"Palma De Mallorca Airport","Spain",39.5517,2.73881
+3999,"Darwin International Airport","Australia",-12.4147,130.877
+4000,"Surat Thani Airport","Thailand",9.1326,99.1356
+4006,"Tweed New Haven Airport","United States",41.2637,-72.8868
+4007,"Asheville Regional Airport","United States",35.4362,-82.5418
+4008,"Piedmont Triad International Airport","United States",36.0978,-79.9373
+4009,"Joe Foss Field Airport","United States",43.582,-96.7419
+4010,"Ayers Rock Connellan Airport","Australia",-25.1861,130.976
+4011,"Manchester-Boston Regional Airport","United States",42.9326,-71.4357
+4012,"Naples Municipal Airport","United States",26.1526,-81.7753
+4013,"LTS Pulau Redang Airport","Malaysia",5.76528,103.007
+4014,"Louisville International Standiford Field","United States",38.1744,-85.736
+4015,"Charlottesville Albemarle Airport","United States",38.1386,-78.4529
+4016,"Roanoke–Blacksburg Regional Airport","United States",37.3255,-79.9754
+4017,"Blue Grass Airport","United States",38.0365,-84.6059
+4018,"Evansville Regional Airport","United States",38.037,-87.5324
+4019,"Albuquerque International Sunport","United States",35.0402,-106.609
+4020,"Gallatin Field","United States",45.7775,-111.153
+4021,"Billings Logan International Airport","United States",45.8077,-108.543
+4022,"Bert Mooney Airport","United States",45.9548,-112.497
+4023,"Cherry Capital Airport","United States",44.7414,-85.5822
+4024,"Mundo Maya International Airport","Guatemala",16.9138,-89.8664
+4025,"Hancock County-Bar Harbor Airport","United States",44.45,-68.3615
+4026,"Knox County Regional Airport","United States",44.0601,-69.0992
+4027,"Jackson Hole Airport","United States",43.6073,-110.738
+4028,"Chicago Rockford International Airport","United States",42.1954,-89.0972
+4029,"Domodedovo International Airport","Russia",55.4088,37.9063
+4030,"Sanya Phoenix International Airport","China",18.3029,109.412
+4033,"Lijiang Airport","China",26.68,100.246
+4034,"Greenville Spartanburg International Airport","United States",34.8957,-82.2189
+4037,"Central Illinois Regional Airport at Bloomington-Normal","United States",40.4771,-88.9159
+4038,"Gulfport Biloxi International Airport","United States",30.4073,-89.0701
+4039,"Kalamazoo Battle Creek International Airport","United States",42.2349,-85.5521
+4040,"Toledo Express Airport","United States",41.5868,-83.8078
+4041,"Fort Wayne International Airport","United States",40.9785,-85.1951
+4042,"Decatur Airport","United States",39.8346,-88.8657
+4043,"The Eastern Iowa Airport","United States",41.8847,-91.7108
+4044,"La Crosse Municipal Airport","United States",43.879,-91.2567
+4045,"Central Wisconsin Airport","United States",44.7776,-89.6668
+4046,"General Wayne A. Downing Peoria International Airport","United States",40.6642,-89.6933
+4047,"Appleton International Airport","United States",44.2581,-88.5191
+4048,"Rochester International Airport","United States",43.9083,-92.5
+4049,"University of Illinois Willard Airport","United States",40.0392,-88.2781
+4050,"Manhattan Regional Airport","United States",39.141,-96.6708
+4051,"Kingscote Airport","Australia",-35.7139,137.521
+4052,"Hervey Bay Airport","Australia",-25.3189,152.88
+4054,"Dali Airport","China",25.6494,100.319
+4056,"Mulu Airport","Malaysia",4.04833,114.805
+4057,"Sharm El Sheikh International Airport","Egypt",27.9773,34.395
+4058,"Venango Regional Airport","United States",41.3779,-79.8604
+4059,"Jomo Kenyatta International Airport","Kenya",-1.31924,36.9278
+4061,"El Calafate Airport","Argentina",-50.2803,-72.0531
+4062,"Armidale Airport","Australia",-30.5281,151.617
+4063,"Grand Junction Regional Airport","United States",39.1224,-108.527
+4064,"St George Municipal Airport","United States",37.0364,-113.51
+4067,"Sarasota Bradenton International Airport","United States",27.3954,-82.5544
+4069,"L.F. Wade International International Airport","Bermuda",32.364,-64.6787
+4072,"Quad City International Airport","United States",41.4485,-90.5075
+4074,"Honiara International Airport","Solomon Islands",-9.428,160.055
+4075,"Faa'a International Airport","French Polynesia",-17.5537,-149.607
+4076,"Nauru International Airport","Nauru",-0.547458,166.919
+4077,"Funafuti International Airport","Tuvalu",-8.525,179.196
+4078,"Tolmachevo Airport","Russia",55.0126,82.6507
+4081,"Xieng Khouang Airport","Laos",19.45,103.158
+4083,"Bismarck Municipal Airport","United States",46.7727,-100.746
+4085,"Yinchuan Airport","China",38.4819,106.009
+4086,"Mae Hong Son Airport","Thailand",19.3013,97.9758
+4087,"Rapid City Regional Airport","United States",44.0453,-103.057
+4088,"Mc Clellan-Palomar Airport","United States",33.1283,-117.28
+4089,"Bishop International Airport","United States",42.9654,-83.7436
+4090,"Francisco Bangoy International Airport","Philippines",7.12552,125.646
+4091,"Madeira Airport","Portugal",32.6979,-16.7745
+4092,"Maestro Wilson Fonseca Airport","Brazil",-2.42472,-54.7858
+4093,"Sihanoukville International Airport","Cambodia",10.5797,103.637
+4095,"Hawke's Bay Airport","New Zealand",-39.4658,176.87
+4097,"Lhasa Gonggar Airport","China",29.2978,90.9119
+4098,"Redding Municipal Airport","United States",40.509,-122.293
+4099,"Mahlon Sweet Field","United States",44.1246,-123.212
+4100,"Idaho Falls Regional Airport","United States",43.5146,-112.071
+4101,"Rogue Valley International Medford Airport","United States",42.3742,-122.873
+4103,"Roberts Field","United States",44.2541,-121.15
+4105,"Hosea Kutako International Airport","Namibia",-22.4799,17.4709
+4106,"Victoria Harbour Seaplane Base","Canada",48.425,-123.389
+4108,"Yaoqiang Airport","China",36.8572,117.216
+4109,"Changzhou Benniu Airport","China",31.9197,119.779
+4110,"Yibin Caiba Airport","China",28.8006,104.545
+4111,"Roshchino International Airport","Russia",57.1896,65.3243
+4112,"Akron Canton Regional Airport","United States",40.9161,-81.4422
+4113,"Huntsville International Carl T Jones Field","United States",34.6372,-86.7751
+4114,"Mid Ohio Valley Regional Airport","United States",39.3451,-81.4392
+4115,"Montgomery Regional (Dannelly Field) Airport","United States",32.3006,-86.394
+4116,"Tri-Cities Regional TN/VA Airport","United States",36.4752,-82.4074
+4117,"Barkley Regional Airport","United States",37.0608,-88.7738
+4119,"Djibouti-Ambouli Airport","Djibouti",11.5473,43.1595
+4120,"Haikou Meilan International Airport","China",19.9349,110.459
+4124,"Page Municipal Airport","United States",36.9261,-111.448
+4127,"Glacier Park International Airport","United States",48.3105,-114.256
+4128,"MBS International Airport","United States",43.5329,-84.0796
+4129,"Greater Binghamton/Edwin A Link field","United States",42.2087,-75.9798
+4130,"Baghdad International Airport","Iraq",33.2625,44.2346
+4131,"Nan Airport","Thailand",18.8079,100.783
+4132,"Roi Et Airport","Thailand",16.1168,103.774
+4133,"Buri Ram Airport","Thailand",15.2295,103.253
+4135,"Trat Airport","Thailand",12.2746,102.319
+4140,"Diosdado Macapagal International Airport","Philippines",15.186,120.56
+4141,"Sandakan Airport","Malaysia",5.9009,118.059
+4142,"Luang Namtha Airport","Laos",20.967,101.4
+4143,"Oudomsay Airport","Laos",20.6827,101.994
+4144,"Taoxian Airport","China",41.6398,123.483
+4145,"Dongying Shengli Airport","China",37.5086,118.788
+4147,"Petersburg James A Johnson Airport","United States",56.8017,-132.945
+4148,"Luoyang Airport","China",34.7411,112.388
+4149,"Xuzhou Guanyin Airport","China",34.0591,117.555
+4153,"Lien Khuong Airport","Vietnam",11.75,108.367
+4154,"Dong Hoi Airport","Vietnam",17.515,106.591
+4155,"Rach Gia Airport","Vietnam",9.95803,105.132
+4156,"Cà Mau Airport","Vietnam",9.17767,105.178
+4157,"Chu Lai International Airport","Vietnam",15.4033,108.706
+4158,"Dong Tac Airport","Vietnam",13.0496,109.334
+4159,"Mae Hong Son Airport","Thailand",19.372,98.437
+4160,"Bol Airport","Croatia",43.2857,16.6797
+4161,"Yaoundé Nsimalen International Airport","Cameroon",3.72256,11.5533
+4162,"Conakry International Airport","Guinea",9.57689,-13.612
+4166,"Karlsruhe Baden-Baden Airport","Germany",48.7794,8.0805
+4167,"Orlando Sanford International Airport","United States",28.7776,-81.2375
+4169,"John Murtha Johnstown Cambria County Airport","United States",40.3161,-78.8339
+4183,"Tumling Tar Airport","Nepal",27.315,87.1933
+4188,"Dhangarhi Airport","Nepal",28.7533,80.5819
+4189,"Muan International Airport","South Korea",34.9914,126.383
+4190,"Astypalaia Airport","Greece",36.5799,26.3758
+4191,"Ikaria Airport","Greece",37.6827,26.3471
+4192,"Kalymnos Airport","Greece",36.9633,26.9406
+4193,"Milos Airport","Greece",36.6969,24.4769
+4194,"Naxos Airport","Greece",37.0811,25.3681
+4195,"Paros National Airport","Greece",37.0205,25.1132
+4196,"Kastelorizo Airport","Greece",36.1417,29.5764
+4197,"Marsa Alam International Airport","Egypt",25.5571,34.5837
+4198,"Weeze Airport","Germany",51.6024,6.14217
+4199,"Francisco B. Reyes Airport","Philippines",12.1215,120.1
+4200,"Bancasi Airport","Philippines",8.9515,125.479
+4201,"Dipolog Airport","Philippines",8.60198,123.342
+4202,"Laoag International Airport","Philippines",18.1781,120.532
+4203,"Legazpi City International Airport","Philippines",13.1575,123.735
+4204,"Labo Airport","Philippines",8.17851,123.842
+4206,"Mactan Cebu International Airport","Philippines",10.3075,123.979
+4209,"Porto Seguro Airport","Brazil",-16.4386,-39.0809
+4214,"Brigadeiro Lysias Rodrigues Airport","Brazil",-10.2915,-48.357
+4215,"Nelson Ribeiro Guimarães Airport","Brazil",-17.7253,-48.6075
+4216,"Missoula International Airport","United States",46.9163,-114.091
+4217,"Blackall Airport","Australia",-24.4278,145.429
+4218,"Bundaberg Airport","Australia",-24.9039,152.319
+4219,"Grand Canyon National Park Airport","United States",35.9524,-112.147
+4235,"Kaadedhdhoo Airport","Maldives",0.488131,72.9969
+4237,"Déline Airport","Canada",65.2111,-123.436
+4238,"Tulita Airport","Canada",64.9097,-125.573
+4239,"Fort Good Hope Airport","Canada",66.2408,-128.651
+4242,"Tanna Airport","Vanuatu",-19.4551,169.224
+4244,"Paulatuk (Nora Aliqatchialuk Ruben) Airport","Canada",69.3608,-124.075
+4247,"El Trompillo Airport","Bolivia",-17.8116,-63.1715
+4249,"Juancho E. Yrausquin Airport","Netherlands Antilles",17.645,-63.22
+4250,"Eagle County Regional Airport","United States",39.6426,-106.918
+4252,"Stokmarknes Skagen Airport","Norway",68.5788,15.0334
+4255,"Columbus Metropolitan Airport","United States",32.5163,-84.9389
+4256,"Lawton Fort Sill Regional Airport","United States",34.5677,-98.4166
+4261,"Flagstaff Pulliam Airport","United States",35.1385,-111.671
+4263,"Joslin Field Magic Valley Regional Airport","United States",42.4818,-114.488
+4265,"Martha's Vineyard Airport","United States",41.3931,-70.6143
+4271,"St Cloud Regional Airport","United States",45.5466,-94.0599
+4273,"Golden Triangle Regional Airport","United States",33.4503,-88.5914
+4274,"Nizhny Novgorod Strigino International Airport","Russia",56.2301,43.784
+4276,"Erie International Tom Ridge Field","United States",42.0831,-80.1739
+4278,"Barnstable Municipal Boardman Polando Field","United States",41.6693,-70.2804
+4279,"San Pedro Airport","Belize",17.9139,-87.9711
+4284,"Morgantown Municipal Walter L. Bill Hart Field","United States",39.6429,-79.9163
+4285,"Yeager Airport","United States",38.3731,-81.5932
+4286,"Wilkes Barre Scranton International Airport","United States",41.3385,-75.7234
+4287,"Bemidji Regional Airport","United States",47.5094,-94.9337
+4291,"Ballina Byron Gateway Airport","Australia",-28.8339,153.562
+4292,"Hector International Airport","United States",46.9207,-96.8158
+4296,"Gillette Campbell County Airport","United States",44.3489,-105.539
+4297,"Bogashevo Airport","Russia",56.3803,85.2083
+4300,"Chumphon Airport","Thailand",10.7112,99.3617
+4301,"Jiuzhai Huanglong Airport","China",32.8533,103.682
+4302,"Jieyang Chaoshan International Airport","China",23.552,116.503
+4304,"Cheddi Jagan International Airport","Guyana",6.49855,-58.2541
+4305,"Guarani International Airport","Paraguay",-25.4545,-54.8427
+4306,"Eugene F. Correira International Airport","Guyana",6.80628,-58.1059
+4308,"Dunhuang Airport","China",40.1611,94.8092
+4309,"Ancona Falconara Airport","Italy",43.6163,13.3623
+4312,"Chamonate Airport","Chile",-27.2969,-70.4131
+4314,"Edward Bodden Airfield","Cayman Islands",19.6602,-80.0888
+4315,"Milas Bodrum International Airport","Turkey",37.2506,27.6643
+4317,"Sabiha Gökçen International Airport","Turkey",40.8986,29.3092
+4318,"University Park Airport","United States",40.8493,-77.8487
+4319,"Broome International Airport","Australia",-17.9447,122.232
+4320,"Newcastle Airport","Australia",-32.795,151.834
+4322,"Klagenfurt Airport","Austria",46.6425,14.3377
+4325,"Hammerfest Airport","Norway",70.6797,23.6686
+4326,"Valan Airport","Norway",71.0097,25.9836
+4327,"Mehamn Airport","Norway",71.0297,27.8267
+4328,"Vadsø Airport","Norway",70.0653,29.8447
+4330,"Imam Khomeini International Airport","Iran",35.4161,51.1522
+4331,"Mashhad International Airport","Iran",36.2352,59.641
+4335,"Key Field","United States",32.3326,-88.7519
+4338,"Cortez Municipal Airport","United States",37.303,-108.628
+4339,"Yampa Valley Airport","United States",40.4812,-107.218
+4341,"Liberal Mid-America Regional Airport","United States",37.0442,-100.96
+4344,"Yellowstone Regional Airport","United States",44.5202,-109.024
+4345,"Ørsta-Volda Airport,"Norway",62.18,6.0741
+4347,"St. Mary's Airport","United Kingdom",49.9133,-6.29167
+4348,"Springfield Branson National Airport","United States",37.2457,-93.3886
+4349,"Narvik Framnes Airport","Norway",68.4369,17.3867
+4350,"Berlevåg Airport","Norway",70.8714,29.0342
+4352,"Norilsk-Alykel Airport","Russia",69.3111,87.3322
+4353,"Anapa Vityazevo Airport","Russia",45.0021,37.3473
+4354,"Joplin Regional Airport","United States",37.1518,-94.4983
+4355,"Lehigh Valley International Airport","United States",40.6521,-75.4408
+4356,"Northwest Arkansas Regional Airport","United States",36.2819,-94.3068
+4357,"Atyrau Airport","Kazakhstan",47.1219,51.8214
+4358,"Kzyl-Orda Southwest Airport","Kazakhstan",44.7069,65.5925
+4359,"South Bend Regional Airport","United States",41.7087,-86.3173
+4362,"Talagi Airport","Russia",64.6003,40.7167
+4363,"Saratov Central Airport","Russia",51.565,46.0467
+4364,"Novy Urengoy Airport","Russia",66.0694,76.5203
+4365,"Noyabrsk Airport","Russia",63.1833,75.27
+4367,"Aktau Airport","Kazakhstan",43.8601,51.092
+4368,"Ukhta Airport","Russia",63.5669,53.8047
+4369,"Usinsk Airport","Russia",66.0047,57.3672
+4371,"Naryan Mar Airport","Russia",67.64,53.1219
+4373,"Kogalym International Airport","Russia",62.1904,74.5338
+4374,"Yemelyanovo Airport","Russia",56.1729,92.4933
+4375,"Sary-Arka Airport","Kazakhstan",49.6708,73.3344
+4377,"Uray Airport","Russia",60.1033,64.8267
+4380,"Longjia Airport","China",43.9962,125.685
+4381,"Niigata Airport","Japan",37.9559,139.121
+4384,"California Redwood Coast-Humboldt County Airport","United States",40.9781,-124.109
+4386,"Albert J Ellis Airport","United States",34.8292,-77.6121
+4388,"Dubuque Regional Airport","United States",42.402,-90.7095
+5404,"Uru Harbour Airport","Solomon Islands",-8.87333,161.011
+5407,"Fera/Maringe Airport","Solomon Islands",-8.1075,159.577
+5409,"Ngorangora Airport","Solomon Islands",-10.4497,161.898
+5410,"Santa Cruz/Graciosa Bay/Luova Airport","Solomon Islands",-10.7203,165.795
+5411,"Munda Airport","Solomon Islands",-8.32797,157.263
+5412,"Nusatupe Airport","Solomon Islands",-8.09778,156.864
+5414,"Rennell/Tingoa Airport","Solomon Islands",-11.5339,160.063
+5415,"Marau Airport","Solomon Islands",-9.86167,160.825
+5416,"Suavanao Airport","Solomon Islands",-7.58556,158.731
+5417,"Kaghau Airport","Solomon Islands",-7.3305,157.585
+5418,"Ramata Airport","Solomon Islands",-8.16806,157.643
+5419,"Buka Airport","Papua New Guinea",-5.42232,154.673
+5420,"Chimbu Airport","Papua New Guinea",-6.02429,144.971
+5421,"Daru Airport","Papua New Guinea",-9.08676,143.208
+5422,"Gurney Airport","Papua New Guinea",-10.3115,150.334
+5423,"Girua Airport","Papua New Guinea",-8.80454,148.309
+5424,"Kimbe Airport","Papua New Guinea",-5.46217,150.405
+5425,"Kiunga Airport","Papua New Guinea",-6.12571,141.282
+5428,"Kavieng Airport","Papua New Guinea",-2.5794,150.808
+5429,"Mendi Airport","Papua New Guinea",-6.14774,143.657
+5430,"Momote Airport","Papua New Guinea",-2.06189,147.424
+5431,"Moro Airport","Papua New Guinea",-6.36333,143.238
+5432,"Misima Island Airport","Papua New Guinea",-10.6892,152.838
+5433,"Tari Airport","Papua New Guinea",-5.845,142.948
+5434,"Tabubil Airport","Papua New Guinea",-5.27861,141.226
+5435,"Tokua Airport","Papua New Guinea",-4.34046,152.38
+5436,"Vanimo Airport","Papua New Guinea",-2.6926,141.303
+5437,"Wapenamanda Airport","Papua New Guinea",-5.6433,143.895
+5438,"Alluitsup Paa Heliport","Greenland",60.4644,-45.5692
+5439,"Neerlerit Inaat Airport","Greenland",70.7431,-22.6505
+5440,"Paamiut Heliport","Greenland",61.9922,-49.6625
+5442,"Qaqortoq Heliport","Greenland",60.7157,-46.0299
+5443,"Maniitsoq Airport","Greenland",65.4125,-52.9394
+5444,"Nanortalik Heliport","Greenland",60.1419,-45.233
+5445,"Narsaq Heliport","Greenland",60.9173,-46.0599
+5446,"Qaanaaq Airport","Greenland",77.4886,-69.3887
+5447,"Sisimiut Airport","Greenland",66.9513,-53.7293
+5448,"Upernavik Airport","Greenland",72.7902,-56.1306
+5449,"Qaarsut Airport","Greenland",70.7342,-52.6962
+5457,"Anahim Lake Airport","Canada",52.4525,-125.303
+5461,"Rigolet Airport","Canada",54.1797,-58.4575
+5463,"Whatì Airport","Canada",63.1317,-117.246
+5464,"Summer Beaver Airport","Canada",52.7086,-88.5419
+5465,"Wapekeka Airport","Canada",53.8492,-89.5794
+5466,"Wunnumin Lake Airport","Canada",52.8939,-89.2892
+5467,"North Spirit Lake Airport","Canada",52.49,-92.9711
+5468,"Bearskin Lake Airport","Canada",53.9656,-91.0272
+5469,"Kingfisher Lake Airport","Canada",53.0125,-89.8553
+5470,"Ogoki Post Airport","Canada",51.6586,-85.9017
+5471,"Poplar Hill Airport","Canada",52.1133,-94.2556
+5472,"Chisasibi Airport","Canada",53.8056,-78.9169
+5473,"Tête-à-la-Baleine Airport","Canada",50.6744,-59.3836
+5474,"La Tabatière Airport","Canada",50.8308,-58.9756
+5478,"Cat Lake Airport","Canada",51.7272,-91.8244
+5479,"Fort Frances Municipal Airport","Canada",48.6542,-93.4397
+5480,"Kasabonika Airport","Canada",53.5247,-88.6428
+5481,"Kangirsuk Airport","Canada",60.0272,-69.9992
+5482,"Attawapiskat Airport","Canada",52.9275,-82.4319
+5485,"Lourdes de Blanc Sablon Airport","Canada",51.4436,-57.1853
+5487,"Chesterfield Inlet Airport","Canada",63.3469,-90.7311
+5488,"Nain Airport","Canada",56.5492,-61.6803
+5489,"Fort Severn Airport","Canada",56.0189,-87.6761
+5490,"Fort Albany Airport","Canada",52.2014,-81.6969
+5491,"Fort Hope Airport","Canada",51.5619,-87.9078
+5492,"Makkovik Airport","Canada",55.0769,-59.1864
+5495,"Igloolik Airport","Canada",69.3647,-81.8161
+5496,"Kuujjuarapik Airport","Canada",55.2819,-77.7653
+5497,"Gillam Airport","Canada",56.3575,-94.7106
+5498,"Grise Fiord Airport","Canada",76.4261,-82.9092
+5499,"Quaqtaq Airport","Canada",61.0464,-69.6178
+5500,"Vancouver Harbour Water Aerodrome","Canada",49.2944,-123.111
+5501,"Nemiscau Airport","Canada",51.6911,-76.1356
+5502,"Hopedale Airport","Canada",55.4483,-60.2286
+5503,"Chevery Airport","Canada",50.4689,-59.6367
+5504,"Ivujivik Airport","Canada",62.4173,-77.9253
+5506,"Akulivik Airport","Canada",60.8186,-78.1486
+5507,"Waskaganish Airport","Canada",51.4733,-78.7583
+5508,"Aupaluk Airport","Canada",59.2967,-69.5997
+5509,"Kimmirut Airport","Canada",62.85,-69.8833
+5510,"Lansdowne House Airport","Canada",52.1956,-87.9342
+5511,"St Georges Airport","Canada",46.0964,-70.7147
+5512,"Kangiqsualujjuaq (Georges River) Airport","Canada",58.7114,-65.9928
+5514,"Chapais Airport","Canada",49.7719,-74.5281
+5515,"Umiujaq Airport","Canada",56.5361,-76.5183
+5516,"Wemindji Airport","Canada",53.0106,-78.8311
+5520,"Inukjuak Airport","Canada",58.4719,-78.0769
+5521,"Pikangikum Airport","Canada",51.8197,-93.9733
+5522,"Peawanuck Airport","Canada",54.9881,-85.4433
+5523,"Powell River Airport","Canada",49.8342,-124.5
+5524,"The Pas Airport","Canada",53.9714,-101.091
+5526,"Rae Lakes Airport","Canada",64.1161,-117.31
+5527,"Red Lake Airport","Canada",51.0669,-93.7931
+5529,"Sanikiluaq Airport","Canada",56.5378,-79.2467
+5531,"Big Trout Lake Airport","Canada",53.8178,-89.8969
+5532,"Deer Lake Airport","Canada",52.6558,-94.0614
+5533,"Webequie Airport","Canada",52.9594,-87.3749
+5534,"Whale Cove Airport","Canada",62.24,-92.5981
+5535,"Salluit Airport","Canada",62.1794,-75.6672
+5538,"Bathurst Airport","Canada",47.6297,-65.7389
+5539,"Eastmain River Airport","Canada",52.2264,-78.5225
+5543,"Kashechewan Airport","Canada",52.2825,-81.6778
+5544,"Muskrat Dam Airport","Canada",53.4414,-91.7628
+5545,"Masset Airport","Canada",54.0275,-132.125
+5546,"Sachigo Lake Airport","Canada",53.8911,-92.1964
+5547,"Round Lake (Weagamow Lake) Airport","Canada",52.9436,-91.3128
+5548,"Sandy Lake Airport","Canada",53.0642,-93.3444
+5550,"Churchill Falls Airport","Canada",53.5619,-64.1064
+5552,"Batna Airport","Algeria",35.7521,6.30859
+5553,"Béchar Boudghene Ben Ali Lotfi Airport","Algeria",31.6457,-2.26986
+5554,"Bordj Badji Mokhtar Airport","Algeria",21.375,0.923889
+5555,"Guemar Airport","Algeria",33.5114,6.77679
+5556,"Kumasi Airport","Ghana",6.71456,-1.59082
+5557,"Heringsdorf Airport","Germany",53.8787,14.1523
+5562,"Robin Hood Doncaster Sheffield Airport","United Kingdom",53.4805,-1.01066
+5563,"Campbeltown Airport","United Kingdom",55.4372,-5.68639
+5564,"Eday Airport","United Kingdom",59.1906,-2.77222
+5566,"North Ronaldsay Airport","United Kingdom",59.3675,-2.43444
+5567,"Papa Westray Airport","United Kingdom",59.3517,-2.90028
+5568,"Stronsay Airport","United Kingdom",59.1553,-2.64139
+5569,"Sanday Airport","United Kingdom",59.2503,-2.57667
+5571,"Westray Airport","United Kingdom",59.3503,-2.95
+5572,"Land's End Airport","United Kingdom",50.1028,-5.67056
+5574,"Anglesey Airport","United Kingdom",53.2481,-4.53534
+5575,"Barra Airport","United Kingdom",57.0228,-7.44306
+5577,"Donegal Airport","Ireland",55.0442,-8.341
+5580,"Leknes Airport","Norway",68.1525,13.6094
+5581,"Namsos Høknesøra Airport","Norway",64.4722,11.5786
+5582,"Mo i Rana Airport,"Norway",66.3639,14.3014
+5583,"Rørvik Airport,"Norway",64.8383,11.1461
+5584,"Røst Airport","Norway",67.5278,12.1033
+5585,"Sandane Airport (Anda)","Norway",61.83,6.10583
+5586,"Sogndal Airport","Norway",61.1561,7.13778
+5587,"Svolvær Helle Airport","Norway",68.2433,14.6692
+5588,"Sørkjosen Airport","Norway",69.7868,20.9594
+5589,"Vardø Airport,"Norway",70.3554,31.0449
+5591,"Bydgoszcz Ignacy Jan Paderewski Airport","Poland",53.0968,17.9777
+5593,"Åre Östersund Airport","Sweden",63.1944,14.5003
+5594,"Hagfors Airport","Sweden",60.0201,13.5789
+5595,"Karlstad Airport","Sweden",59.4447,13.3374
+5596,"Torsby Airport","Sweden",60.1576,12.9913
+5597,"Ängelholm-Helsingborg Airport","Sweden",56.2961,12.8471
+5599,"Hemavan Airport","Sweden",65.8061,15.0828
+5604,"Kruger Mpumalanga International Airport","South Africa",-25.3832,31.1056
+5612,"Chipata Airport","Zambia",-13.5583,32.5872
+5613,"Los Alamitos Army Air Field","Zambia",33.79,-118.052
+5630,"Catumbela Airport","Angola",-12.4792,13.4869
+5632,"Ngjiva Pereira Airport","Angola",-17.0435,15.6838
+5633,"Namibe Airport","Angola",-15.2612,12.1468
+5637,"Chimoio Airport","Mozambique",-19.1513,33.429
+5641,"Luderitz Airport","Namibia",-26.6874,15.2429
+5642,"Ondangwa Airport","Namibia",-17.8782,15.9526
+5643,"Oranjemund Airport","Namibia",-28.5847,16.4467
+5645,"Eros Airport","Namibia",-22.6122,17.0804
+5652,"Tshikapa Airport","Congo (Kinshasa)",-6.43833,20.7947
+5653,"Lodja Airport","Congo (Kinshasa)",-3.417,23.45
+5659,"La Gomera Airport","Spain",28.0296,-17.2146
+5665,"Osvaldo Vieira International Airport","Guinea-Bissau",11.8948,-15.6537
+5670,"Dakhla Airport","Western Sahara",23.7183,-15.932
+5671,"Mogador Airport","Morocco",31.3975,-9.68167
+5672,"Hassan I Airport","Western Sahara",27.1517,-13.2192
+5673,"Nador International Airport","Morocco",34.9888,-3.02821
+5674,"Praia International Airport","Cape Verde",14.9245,-23.4935
+5675,"São Filipe Airport","Cape Verde",14.885,-24.48
+5680,"Gode Airport","Ethiopia",5.93513,43.5786
+5686,"Bosaso Airport","Somalia",11.2753,49.1494
+5687,"Aden Adde International Airport","Somalia",2.01444,45.3047
+5688,"Galcaio Airport","Somalia",6.78083,47.4547
+5691,"Assiut International Airport","Egypt",27.0465,31.012
+5692,"Amboseli Airport","Kenya",-2.64505,37.2531
+5693,"Lokichoggio Airport","Kenya",4.20412,34.3482
+5694,"Malindi Airport","Kenya",-3.22931,40.1017
+5695,"Nanyuki Airport","Kenya",-0.0623989,37.041
+5696,"Gardabya Airport","Libya",31.0635,16.595
+5697,"Gamal Abdel Nasser Airport","Libya",31.861,23.907
+5699,"La Abraq Airport","Libya",32.7887,21.9643
+5701,"Nyala Airport","Sudan",12.0535,24.9562
+5702,"Port Sudan New International Airport","Sudan",19.4336,37.2341
+5703,"Bukoba Airport","Tanzania",-1.332,31.8212
+5709,"Arua Airport","Uganda",3.05,30.917
+5711,"Diu Airport","India",20.7131,70.9211
+5714,"Aberdeen Regional Airport","United States",45.4491,-98.4218
+5715,"Southwest Georgia Regional Airport","United States",31.5355,-84.1945
+5716,"Athens Ben Epps Airport","United States",33.9486,-83.3263
+5718,"Waterloo Regional Airport","United States",42.5571,-92.4003
+5719,"Walla Walla Regional Airport","United States",46.0949,-118.288
+5720,"Alpena County Regional Airport","United States",45.0781,-83.5603
+5721,"Watertown Regional Airport","United States",44.914,-97.1547
+5722,"Bradford Regional Airport","United States",41.8031,-78.6401
+5723,"Western Neb. Rgnl/William B. Heilig Airport","United States",41.874,-103.596
+5724,"Raleigh County Memorial Airport","United States",37.7873,-81.1242
+5725,"Brunswick Golden Isles Airport","United States",31.2588,-81.4665
+5726,"Southeast Iowa Regional Airport","United States",40.7832,-91.1255
+5727,"Jack Mc Namara Field Airport","United States",41.7802,-124.237
+5728,"Cape Girardeau Regional Airport","United States",37.2253,-89.5708
+5729,"Chippewa County International Airport","United States",46.2508,-84.4724
+5730,"North Central West Virginia Airport","United States",39.2966,-80.2281
+5731,"William R Fairchild International Airport","United States",48.1202,-123.5
+5732,"Houghton County Memorial Airport","United States",47.1684,-88.4891
+5733,"Dodge City Regional Airport","United States",37.7634,-99.9656
+5734,"DuBois Regional Airport","United States",41.1783,-78.8987
+5735,"Chippewa Valley Regional Airport","United States",44.8658,-91.4843
+5736,"Elko Regional Airport","United States",40.8249,-115.792
+5737,"New Bedford Regional Airport","United States",41.6761,-70.9569
+5738,"Fayetteville Regional Grannis Field","United States",34.9912,-78.8803
+5739,"Wokal Field Glasgow International Airport","United States",48.2125,-106.615
+5740,"Central Nebraska Regional Airport","United States",40.9675,-98.3096
+5741,"Memorial Field","United States",34.478,-93.0962
+5742,"Tri-State/Milton J. Ferguson Field","United States",38.3667,-82.558
+5744,"Kirksville Regional Airport","United States",40.0935,-92.5449
+5746,"Laramie Regional Airport","United States",41.3121,-105.675
+5747,"Arnold Palmer Regional Airport","United States",40.2759,-79.4048
+5748,"North Platte Regional Airport Lee Bird Field","United States",41.1262,-100.684
+5749,"Lebanon Municipal Airport","United States",43.6261,-72.3042
+5750,"Crater Lake-Klamath Regional Airport","United States",42.1561,-121.733
+5751,"Lancaster Airport","United States",40.1217,-76.2961
+5753,"Lynchburg Regional Preston Glenn Field","United States",37.3267,-79.2004
+5754,"Muskegon County Airport","United States",43.1695,-86.2382
+5756,"Northwest Alabama Regional Airport","United States",34.7453,-87.6102
+5757,"Southwest Oregon Regional Airport","United States",43.4171,-124.246
+5758,"Owensboro Daviess County Airport","United States",37.7401,-87.1668
+5759,"Hattiesburg Laurel Regional Airport","United States",31.4671,-89.3371
+5760,"Pocatello Regional Airport","United States",42.9098,-112.596
+5761,"Pierre Regional Airport","United States",44.3827,-100.286
+5762,"Pellston Regional Airport of Emmet County Airport","United States",45.5709,-84.7967
+5763,"Portsmouth International at Pease Airport","United States",43.0779,-70.8233
+5765,"Rhinelander Oneida County Airport","United States",45.6312,-89.4675
+5766,"Southwest Wyoming Regional Airport","United States",41.5942,-109.065
+5767,"Rutland - Southern Vermont Regional Airport","United States",43.5294,-72.9496
+5768,"San Luis County Regional Airport","United States",35.2368,-120.642
+5769,"Sheridan County Airport","United States",44.7692,-106.98
+5770,"Adirondack Regional Airport","United States",44.3853,-74.2062
+5771,"Salina Municipal Airport","United States",38.791,-97.6522
+5772,"Santa Maria Pub/Capt G Allan Hancock Field","United States",34.8989,-120.457
+5773,"Tupelo Regional Airport","United States",34.2681,-88.7699
+5774,"Quincy Regional Baldwin Field","United States",39.9427,-91.1946
+5775,"Victoria Regional Airport","United States",28.8526,-96.9185
+5776,"Valdosta Regional Airport","United States",30.7825,-83.2767
+5777,"Worland Municipal Airport","United States",43.9657,-107.951
+5779,"Yakima Air Terminal McAllister Field","United States",46.5682,-120.544
+5780,"Ercan International Airport","Cyprus",35.1547,33.4961
+5781,"Logroño-Agoncillo Airport","Spain",42.461,-2.32224
+5787,"Syros Airport","Greece",37.4228,24.9509
+5793,"Corvo Airport","Portugal",39.6715,-31.1136
+5794,"Banja Luka International Airport","Bosnia and Herzegovina",44.9414,17.2975
+5796,"Kars Airport","Turkey",40.5622,43.115
+5798,"Kahramanmaraş Airport","Turkey",37.5388,36.9535
+5799,"Ağrı Airport","Turkey",39.6545,43.026
+5800,"Adıyaman Airport","Turkey",37.7314,38.4689
+5801,"Süleyman Demirel International Airport","Turkey",37.8554,30.3684
+5802,"Balıkesir Körfez Airport","Turkey",39.5546,27.0138
+5807,"JAGS McCartney International Airport","Turks and Caicos Islands",21.4445,-71.1423
+5809,"Salt Cay Airport","Turks and Caicos Islands",21.333,-71.2
+5810,"Samaná El Catey International Airport","Dominican Republic",19.267,-69.742
+5811,"La Isabela International Airport","Dominican Republic",18.5725,-69.9856
+5832,"Puerto Lempira Airport","Honduras",15.2622,-83.7812
+5837,"El Lencero Airport","Mexico",19.4751,-96.7975
+5840,"Jaqué Airport","Panama",7.51778,-78.1572
+5842,"Aerotortuguero Airport","Costa Rica",10.42,-83.6095
+5844,"Cabo Velas Airport","Costa Rica",10.3557,-85.8529
+5847,"Puerto Jimenez Airport","Costa Rica",8.53333,-83.3
+5848,"Tobias Bolanos International Airport","Costa Rica",9.95705,-84.1398
+5857,"Arthur's Town Airport","Bahamas",24.6294,-75.6738
+5859,"Colonel Hill Airport","Bahamas",22.7456,-74.1824
+5861,"Enua Airport","Cook Islands",-19.9678,-158.119
+5862,"Mangaia Island Airport","Cook Islands",-21.896,-157.907
+5864,"Mauke Airport","Cook Islands",-20.1361,-157.345
+5865,"Mitiaro Island Airport","Cook Islands",-19.8425,-157.703
+5867,"Cicia Airport","Fiji",-17.7433,-179.342
+5869,"Vunisea Airport","Fiji",-19.0581,178.157
+5873,"Lakeba Island Airport","Fiji",-18.1992,-178.817
+5874,"Labasa Airport","Fiji",-16.4667,179.34
+5875,"Matei Airport","Fiji",-16.6906,-179.877
+5877,"Rotuma Airport","Fiji",-12.4825,177.071
+5878,"Savusavu Airport","Fiji",-16.8028,179.341
+5883,"Vanua Balavu Airport","Fiji",-17.269,-178.976
+5884,"Niue International Airport","Niue",-19.079,-169.926
+5885,"Pointe Vele Airport","Wallis and Futuna",-14.3114,-178.066
+5889,"Ahe Airport","French Polynesia",-14.4281,-146.257
+5890,"Hiva Oa-Atuona Airport","French Polynesia",-9.76879,-139.011
+5891,"Ua Pou Airport","French Polynesia",-9.35167,-140.078
+5892,"Ua Huka Airport","French Polynesia",-8.93611,-139.552
+5893,"Mota Lava Airport","Vanuatu",-13.666,167.712
+5894,"Sola Airport","Vanuatu",-13.8517,167.537
+5895,"Torres Airstrip","Vanuatu",-13.328,166.638
+5896,"Siwo Airport","Vanuatu",-17.0903,168.343
+5897,"Craig Cove Airport","Vanuatu",-16.265,167.924
+5898,"Longana Airport","Vanuatu",-15.3067,167.967
+5899,"Sara Airport","Vanuatu",-15.4708,168.152
+5900,"Tavie Airport","Vanuatu",-16.439,168.257
+5901,"Lamap Airport","Vanuatu",-16.4611,167.829
+5902,"Lamen Bay Airport","Vanuatu",-16.5842,168.159
+5903,"Maewo-Naone Airport","Vanuatu",-15,168.083
+5904,"Lonorore Airport","Vanuatu",-15.8656,168.172
+5905,"Norsup Airport","Vanuatu",-16.0797,167.401
+5906,"Gaua Island Airport","Vanuatu",-14.2181,167.587
+5908,"Santo Pekoa International Airport","Vanuatu",-15.505,167.22
+5909,"Tongoa Airport","Vanuatu",-16.8911,168.551
+5910,"Uléi Airport","Vanuatu",-16.3297,168.301
+5911,"Valesdir Airport","Vanuatu",-16.7961,168.177
+5912,"Southwest Bay Airport","Vanuatu",-16.4864,167.447
+5914,"Aneityum Airport","Vanuatu",-20.2492,169.771
+5915,"Aniwa Airport","Vanuatu",-19.2346,169.601
+5916,"Dillon's Bay Airport","Vanuatu",-18.7694,169.001
+5917,"Futuna Airport","Vanuatu",-19.5164,170.232
+5918,"Ipota Airport","Vanuatu",-18.8564,169.283
+5919,"Tiga Airport","New Caledonia",-21.0961,167.804
+5920,"Île Art - Waala Airport","New Caledonia",-19.7206,163.661
+5921,"Île des Pins Airport","New Caledonia",-22.5889,167.456
+5924,"Dawadmi Domestic Airport","Saudi Arabia",24.5,44.4
+5925,"Al-Jawf Domestic Airport","Saudi Arabia",29.7851,40.1
+5927,"Khoram Abad Airport","Iran",33.4354,48.2829
+5928,"Bam Airport","Iran",29.0842,58.45
+5930,"Bojnord Airport","Iran",37.493,57.3082
+5931,"Sabzevar National Airport","Iran",36.1681,57.5952
+5932,"Noshahr Airport","Iran",36.6633,51.4647
+5933,"Dasht-e Naz Airport","Iran",36.6358,53.1936
+5934,"Lar Airport","Iran",27.6747,54.3833
+5935,"Ardabil Airport","Iran",38.3257,48.4244
+5936,"Urmia Airport","Iran",37.6681,45.0687
+5937,"Al Ain International Airport","United Arab Emirates",24.2617,55.6092
+5939,"Bahawalpur Airport","Pakistan",29.3481,71.718
+5940,"Chitral Airport","Pakistan",35.8866,71.8006
+5941,"Dalbandin Airport","Pakistan",28.8783,64.3998
+5942,"Dera Ghazi Khan Airport","Pakistan",29.961,70.4859
+5943,"Dera Ismael Khan Airport","Pakistan",31.9094,70.8966
+5949,"Skardu Airport","Pakistan",35.3355,75.536
+5951,"Turbat International Airport","Pakistan",25.9864,63.0302
+5952,"Sulaymaniyah International Airport","Iraq",35.5617,45.3167
+5954,"Sayun International Airport","Yemen",15.9661,48.7883
+5959,"Adak Airport","United States",51.878,-176.646
+5960,"Gustavus Airport","United States",58.4253,-135.707
+5961,"Skagway Airport","United States",59.4601,-135.316
+5962,"Holy Cross Airport","United States",62.1883,-159.775
+5963,"Haines Airport","United States",59.2438,-135.524
+5964,"Kalskag Airport","United States",61.5363,-160.341
+5965,"McGrath Airport","United States",62.9529,-155.606
+5966,"Mountain Village Airport","United States",62.0954,-163.682
+5967,"Aniak Airport","United States",61.5816,-159.543
+5968,"Chevak Airport","United States",61.5409,-165.601
+5969,"Wrangell Airport","United States",56.4843,-132.37
+5994,"Kushiro Airport","Japan",43.041,144.193
+5996,"Saga Airport","Japan",33.1497,130.302
+5997,"Nagoya Airport","Japan",35.255,136.924
+5998,"Iwami Airport","Japan",34.6764,131.79
+5999,"Fukushima Airport","Japan",37.2274,140.431
+6000,"Odate Noshiro Airport","Japan",40.1919,140.371
+6001,"Shonai Airport","Japan",38.8122,139.787
+6003,"Kunsan Air Base","South Korea",35.9038,126.616
+6005,"Wonju/Hoengseong Air Base (K-38/K-46)","South Korea",37.4412,127.964
+6006,"Yangyang International Airport","South Korea",38.0613,128.669
+6007,"Sacheon Air Base/Airport","South Korea",35.0886,128.072
+6008,"Cheongju International Airport/Cheongju Air Base (K-59/G-513)","South Korea",36.717,127.499
+6012,"Camiguin Airport","Philippines",9.25352,124.707
+6013,"Jolo Airport","Philippines",6.05367,121.011
+6016,"Surigao Airport","Philippines",9.75584,125.481
+6018,"Naga Airport","Philippines",13.5849,123.27
+6019,"Basco Airport","Philippines",20.4513,121.98
+6021,"Tuguegarao Airport","Philippines",17.6434,121.733
+6022,"Virac Airport","Philippines",13.5764,124.206
+6023,"Calbayog Airport","Philippines",12.0727,124.545
+6024,"Catarman National Airport","Philippines",12.5024,124.636
+6025,"Moises R. Espinosa Airport","Philippines",12.3697,123.63
+6026,"Roxas Airport","Philippines",11.5977,122.752
+6034,"Orlando Bezerra de Menezes Airport","Brazil",-7.21896,-39.2701
+6036,"Coronel Horácio de Mattos Airport","Brazil",-12.4823,-41.277
+6037,"Macaé Airport","Brazil",-22.343,-41.766
+6038,"Frank Miloye Milenkowichi–Marília State Airport","Brazil",-22.1969,-49.9264
+6039,"Vitória da Conquista Airport","Brazil",-14.8628,-40.8631
+6040,"Santa Maria Airport","Brazil",-29.7114,-53.6882
+6045,"San Cristóbal Airport","Ecuador",-0.910206,-89.6174
+6046,"Camilo Ponce Enriquez Airport","Ecuador",-3.99589,-79.3719
+6047,"General Rivadeneira Airport","Ecuador",0.978519,-79.6266
+6051,"Caucaya Airport","Colombia",-0.182278,-74.7708
+6052,"La Pedrera Airport","Colombia",-1.32861,-69.5797
+6053,"Reyes Murillo Airport","Colombia",5.6964,-77.2806
+6054,"Obando Airport","Colombia",3.85353,-67.9062
+6055,"El Yopal Airport","Colombia",5.31911,-72.384
+6056,"Capitán de Av. Emilio Beltrán Airport","Bolivia",-10.8206,-65.3456
+6058,"Capitán Av. Selin Zeitun Lopez Airport","Bolivia",-11,-66
+6066,"Mayor General FAP Armando Revoredo Iglesias Airport","Peru",-7.13918,-78.4894
+6067,"Alferez Fap David Figueroa Fernandini Airport","Peru",-9.87881,-76.2048
+6069,"Santa Rosa Airport","Brazil",-27.9067,-54.5204
+6072,"Juan Pablo Pérez Alfonso Airport","Venezuela",8.62414,-71.6727
+6073,"Ji-Paraná Airport","Brazil",-10.8708,-61.8465
+6079,"Vance W. Amory International Airport","Saint Kitts and Nevis",17.2057,-62.5899
+6080,"Virgin Gorda Airport","British Virgin Islands",18.4464,-64.4275
+6083,"Kokshetau Airport","Kazakhstan",53.3291,69.5946
+6084,"Petropavlosk South Airport","Kazakhstan",54.7747,69.1839
+6085,"Zhezkazgan Airport","Kazakhstan",47.7083,67.7333
+6086,"Ust-Kamennogorsk Airport","Kazakhstan",50.0366,82.4942
+6088,"Kostanay West Airport","Kazakhstan",53.2069,63.5503
+6089,"Ganja Airport","Azerbaijan",40.7377,46.3176
+6090,"Nakhchivan Airport","Azerbaijan",39.1888,45.4584
+6092,"Polyarny Airport","Russia",66.4004,112.03
+6093,"Chokurdakh Airport","Russia",70.6231,147.902
+6094,"Cherskiy Airport","Russia",68.7406,161.338
+6095,"Tiksi Airport","Russia",71.6977,128.903
+6098,"Ugolny Airport","Russia",64.7349,177.741
+6103,"Zaporizhzhia International Airport","Ukraine",47.867,35.3157
+6105,"Kharkiv International Airport","Ukraine",49.9248,36.29
+6106,"Ivano-Frankivsk International Airport","Ukraine",48.8842,24.6861
+6109,"Uzhhorod International Airport","Ukraine",48.6343,22.2634
+6110,"Solovki Airport","Russia",65.03,35.7333
+6111,"Cherepovets Airport","Russia",59.2736,38.0158
+6114,"Petrozavodsk Airport","Russia",61.8852,34.1547
+6118,"Kyzyl Airport","Russia",51.6694,94.4006
+6119,"Spichenkovo Airport","Russia",53.8114,86.8772
+6121,"Igarka Airport","Russia",67.4372,86.6219
+6122,"Khankala Air Base","Russia",43.2981,45.7841
+6124,"Beslan Airport","Russia",43.2051,44.6066
+6125,"Elista Airport","Russia",46.3739,44.3309
+6130,"Mid Delta Regional Airport","United States",33.4829,-90.9856
+6133,"Tri Cities Airport","United States",46.2647,-119.119
+6134,"Akutan Seaplane Base","United States",54.1338,-165.779
+6137,"Salekhard Airport","Russia",66.5908,66.611
+6138,"Khanty Mansiysk Airport","Russia",61.0285,69.0861
+6139,"Nyagan Airport","Russia",62.11,65.615
+6140,"Sovetskiy Airport","Russia",61.3266,63.6019
+6141,"Izhevsk Airport","Russia",56.8281,53.4575
+6142,"Pobedilovo Airport","Russia",58.5033,49.3483
+6143,"Nadym Airport","Russia",65.4809,72.6989
+6146,"Kurgan Airport","Russia",55.4753,65.4156
+6147,"Khudzhand Airport","Tajikistan",40.2154,69.6947
+6148,"Andizhan Airport","Uzbekistan",40.7277,72.294
+6149,"Fergana International Airport","Uzbekistan",40.3588,71.745
+6150,"Namangan Airport","Uzbekistan",40.9846,71.5567
+6151,"Nukus Airport","Uzbekistan",42.4884,59.6233
+6152,"Urgench Airport","Uzbekistan",41.5843,60.6417
+6153,"Karshi Khanabad Airport","Uzbekistan",38.8336,65.9215
+6154,"Termez Airport","Uzbekistan",37.2867,67.31
+6156,"Belgorod International Airport","Russia",50.6438,36.5901
+6157,"Kursk East Airport","Russia",51.7506,36.2956
+6159,"Vorkuta Airport","Russia",67.4886,63.9931
+6160,"Bugulma Airport","Russia",54.64,52.8017
+6162,"Cheboksary Airport","Russia",56.0903,47.3473
+6164,"Orsk Airport","Russia",51.0725,58.5956
+6165,"Penza Airport","Russia",53.1106,45.0211
+6166,"Saransk Airport","Russia",54.1251,45.2123
+6168,"Hubli Airport","India",15.3617,75.0849
+6169,"Koggala Airport","Sri Lanka",5.99368,80.3203
+6172,"Shillong Airport","India",25.7036,91.9787
+6173,"Lokpriya Gopinath Bordoloi International Airport","India",26.1061,91.5859
+6174,"Dimapur Airport","India",25.8839,93.7711
+6176,"Barisal Airport","Bangladesh",22.801,90.3012
+6179,"Bharatpur Airport","Nepal",27.6781,84.4294
+6180,"Bhadrapur Airport","Nepal",26.5708,88.0796
+6182,"Nepalgunj Airport","Nepal",28.1036,81.667
+6183,"Gan International Airport","Maldives",-0.693342,73.1556
+6184,"Hanimaadhoo Airport","Maldives",6.74423,73.1705
+6185,"Kadhdhoo Airport","Maldives",1.85917,73.5219
+6186,"Mae Sot Airport","Thailand",16.6999,98.5451
+6187,"Buon Ma Thuot Airport","Vietnam",12.6683,108.12
+6188,"Cat Bi International Airport","Vietnam",20.8194,106.725
+6189,"Cam Ranh Airport","Vietnam",11.9982,109.219
+6190,"Co Ong Airport","Vietnam",8.73183,106.633
+6191,"Can Tho International Airport","Vietnam",10.0851,105.712
+6192,"Dien Bien Phu Airport","Vietnam",21.3975,103.008
+6193,"Phu Cat Airport","Vietnam",13.955,109.042
+6194,"Pleiku Airport","Vietnam",14.0045,108.017
+6195,"Vinh Airport","Vietnam",18.7376,105.671
+6197,"Dawei Airport","Burma",14.1039,98.2036
+6198,"Kawthoung Airport","Burma",10.0493,98.538
+6204,"Tambolaka Airport","Indonesia",-9.40972,119.244
+6209,"Kalimarau Airport","Indonesia",2.1555,117.432
+6212,"Dumatumbun Airport","Indonesia",-5.66162,132.731
+6215,"Long Lellang Airport","Malaysia",3.421,115.154
+6216,"Long Seridan Airport","Malaysia",3.967,115.05
+6217,"Mukah Airport","Malaysia",2.90639,112.08
+6218,"Bakalalan Airport","Malaysia",3.974,115.618
+6219,"Lawas Airport","Malaysia",4.84917,115.408
+6220,"Bario Airport","Malaysia",3.73389,115.479
+6222,"Kudat Airport","Malaysia",6.9225,116.836
+6223,"Radin Inten II (Branti) Airport","Indonesia",-5.24056,105.176
+6225,"Ranai Airport","Indonesia",3.90871,108.388
+6235,"Albany Airport","Australia",-34.9433,117.809
+6237,"Aurukun Airport","Australia",-13.3541,141.721
+6238,"Barcaldine Airport","Australia",-23.5653,145.307
+6240,"Birdsville Airport","Australia",-25.8975,139.348
+6241,"Broken Hill Airport","Australia",-32.0014,141.472
+6242,"Hamilton Island Airport","Australia",-20.3581,148.952
+6243,"Bedourie Airport","Australia",-24.3461,139.46
+6245,"Burketown Airport","Australia",-17.7486,139.534
+6248,"Boulia Airport","Australia",-22.9133,139.9
+6249,"Bathurst Airport","Australia",-33.4094,149.652
+6253,"Coober Pedy Airport","Australia",-29.04,134.721
+6255,"Cloncurry Airport","Australia",-20.6686,140.504
+6256,"Ceduna Airport","Australia",-32.1306,133.71
+6258,"Cunnamulla Airport","Australia",-28.03,145.622
+6260,"Coen Airport","Australia",-13.7611,143.113
+6262,"Doomadgee Airport","Australia",-17.9403,138.822
+6264,"Devonport Airport","Australia",-41.1697,146.43
+6265,"Elcho Island Airport","Australia",-12.0194,135.571
+6266,"Esperance Airport","Australia",-33.6844,121.823
+6267,"Flinders Island Airport","Australia",-40.0917,147.993
+6268,"Geraldton Airport","Australia",-28.7961,114.707
+6269,"Gladstone Airport","Australia",-23.8697,151.223
+6270,"Groote Eylandt Airport","Australia",-13.975,136.46
+6271,"Griffith Airport","Australia",-34.2508,146.067
+6272,"Horn Island Airport","Australia",-10.5864,142.29
+6276,"Julia Creek Airport","Australia",-20.6683,141.723
+6278,"King Island Airport","Australia",-39.8775,143.878
+6281,"Kowanyama Airport","Australia",-15.4856,141.751
+6285,"Lord Howe Island Airport","Australia",-31.5383,159.077
+6286,"Lockhart River Airport","Australia",-12.7869,143.305
+6287,"Lismore Airport","Australia",-28.8303,153.26
+6289,"Longreach Airport","Australia",-23.4342,144.28
+6294,"Merimbula Airport","Australia",-36.9086,149.901
+6295,"Milingimbi Airport","Australia",-12.0944,134.894
+6296,"Maningrida Airport","Australia",-12.0561,134.234
+6297,"McArthur River Mine Airport","Australia",-16.4425,136.084
+6298,"Mildura Airport","Australia",-34.2292,142.086
+6300,"Moree Airport","Australia",-29.4989,149.845
+6301,"Moranbah Airport","Australia",-22.0578,148.077
+6302,"Moruya Airport","Australia",-35.8978,150.144
+6303,"Mount Gambier Airport","Australia",-37.7456,140.785
+6304,"Mornington Island Airport","Australia",-16.6625,139.178
+6307,"Narrandera Airport","Australia",-34.7022,146.512
+6309,"Normanton Airport","Australia",-17.6841,141.07
+6310,"Newman Airport","Australia",-23.4178,119.803
+6311,"Olympic Dam Airport","Australia",-30.485,136.877
+6312,"Port Augusta Airport","Australia",-32.5069,137.717
+6314,"Paraburdoo Airport","Australia",-23.1711,117.745
+6315,"Cocos (Keeling) Islands Airport","Cocos (Keeling) Islands",-12.1883,96.8339
+6316,"Gove Airport","Australia",-12.2694,136.818
+6317,"Parkes Airport","Australia",-33.1314,148.239
+6318,"Port Lincoln Airport","Australia",-34.6053,135.88
+6319,"Pormpuraaw Airport","Australia",-14.8965,141.609
+6320,"Port Macquarie Airport","Australia",-31.4358,152.863
+6321,"Portland Airport","Australia",-38.3181,141.471
+6322,"Quilpie Airport","Australia",-26.6122,144.253
+6324,"Roma Airport","Australia",-26.545,148.775
+6325,"St George Airport","Australia",-28.0497,148.595
+6329,"Thargomindah Airport","Australia",-27.9864,143.811
+6333,"Windorah Airport","Australia",-25.4131,142.667
+6334,"Whyalla Airport","Australia",-33.0589,137.514
+6337,"Winton Airport","Australia",-22.3636,143.086
+6338,"Wynyard Airport","Australia",-40.9989,145.731
+6341,"Beijing Nanyuan Airport","China",39.7828,116.388
+6342,"Chifeng Airport","China",42.235,118.908
+6343,"Changzhi Airport","China",36.2475,113.126
+6344,"Datong Airport","China",40.0603,113.482
+6345,"Baita International Airport","China",40.8514,111.824
+6346,"Baotou Airport","China",40.56,109.997
+6347,"Shijiazhuang Daguocun International Airport","China",38.2807,114.697
+6348,"Tongliao Airport","China",43.5567,122.2
+6349,"Ulanhot Airport","China",46.1953,122.008
+6350,"Xilinhot Airport","China",43.9156,115.964
+6351,"Beihai Airport","China",21.5394,109.294
+6352,"Changde Airport","China",28.9189,111.64
+6353,"Dayong Airport","China",29.1028,110.443
+6354,"Meixian Airport","China",24.35,116.133
+6355,"Zhuhai Jinwan Airport","China",22.0064,113.376
+6356,"Liuzhou Bailian Airport","China",24.2075,109.391
+6357,"Zhanjiang Airport","China",21.2144,110.358
+6358,"Enshi Airport","China",30.3203,109.485
+6359,"Nanyang Jiangying Airport","China",32.9808,112.615
+6360,"Xiangyang Liuji Airport","China",32.1506,112.291
+6361,"Yichang Sanxia Airport","China",30.5566,111.48
+6363,"Golmud Airport","China",36.4006,94.7861
+6365,"Qingyang Airport","China",35.7997,107.603
+6366,"Xining Caojiabu Airport","China",36.5275,102.043
+6367,"Yan'an Ershilipu Airport","China",36.6369,109.554
+6368,"Yulin Yuyang Airport","China",38.3597,109.591
+6370,"Altai Airport","Mongolia",46.3764,96.2211
+6371,"Bayankhongor Airport","Mongolia",46.1633,100.704
+6373,"Khovd Airport","Mongolia",47.9541,91.6282
+6374,"Mörön Airport","Mongolia",49.6633,100.099
+6375,"Diqing Airport","China",27.7936,99.6772
+6376,"Mangshi Airport","China",24.4011,98.5317
+6377,"Pu'er Simao Airport","China",22.7933,100.959
+6378,"Zhaotong Airport","China",27.3256,103.755
+6379,"Ganzhou Airport","China",25.8533,114.779
+6380,"Jingdezhen Airport","China",29.3386,117.176
+6381,"Jiujiang Lushan Airport","China",29.4769,115.801
+6382,"Quzhou Airport","China",28.9658,118.899
+6383,"Lianyungang Airport","China",34.5717,118.874
+6384,"Huangyan Luqiao Airport","China",28.5622,121.429
+6385,"Shubuling Airport","China",35.0461,118.412
+6386,"Quanzhou Jinjiang International Airport","China",24.7964,118.59
+6387,"Tunxi International Airport","China",29.7333,118.256
+6388,"Weifang Airport","China",36.6467,119.119
+6390,"Sunan Shuofang International Airport","China",31.4944,120.429
+6391,"Nanping Wuyishan Airport","China",27.7019,118.001
+6392,"Wenzhou Longwan International Airport","China",27.9122,120.852
+6393,"Yancheng Airport","China",33.4258,120.203
+6394,"Yiwu Airport","China",29.3447,120.032
+6395,"Zhoushan Airport","China",29.9342,122.362
+6396,"Qamdo Bangda Airport","China",30.5536,97.1083
+6397,"Dachuan Airport","China",31.1302,107.43
+6398,"Guangyuan Airport","China",32.3911,105.702
+6399,"Luzhou Airport","China",28.8522,105.393
+6400,"Mianyang Airport","China",31.4281,104.741
+6401,"Nanchong Airport","China",30.7954,106.163
+6402,"Nyingchi Airport","China",29.3033,94.3353
+6403,"Wanxian Airport","China",30.8017,108.433
+6404,"Aksu Airport","China",41.2625,80.2917
+6406,"Kuqa Airport","China",41.6779,82.8729
+6407,"Korla Airport","China",41.6978,86.1289
+6408,"Karamay Airport","China",45.4665,84.9527
+6409,"Yining Airport","China",43.9558,81.3303
+6410,"Heihe Airport","China",50.1716,127.309
+6411,"Jiamusi Airport","China",46.8434,130.465
+6412,"Jinzhou Airport","China",41.1014,121.062
+6413,"Qiqihar Sanjiazi Airport","China",47.2396,123.918
+6414,"Yanji Chaoyangchuan Airport","China",42.8828,129.451
+6426,"Worcester Regional Airport","United States",42.2673,-71.8757
+6427,"Anqing Tianzhushan Airport","China",30.5822,117.05
+6429,"Shanhaiguan Airport","China",39.9681,119.731
+6430,"Yuncheng Guangong Airport","China",35.1164,111.031
+6432,"Jiayuguan Airport","China",39.8569,98.3414
+6433,"Dandong Airport","China",40.0247,124.286
+6434,"Ordos Ejin Horo Airport","China",39.49,109.861
+6435,"Bao'anying Airport","China",26.54,101.799
+6456,"Provincetown Municipal Airport","United States",42.0719,-70.2214
+6460,"Gustaf III Airport","France",17.9044,-62.8436
+6466,"Donskoye Airport","Russia",52.8061,41.4828
+6477,"Erechim Airport","Brazil",-27.6619,-52.2683
+6485,"Navoi Airport","Uzbekistan",40.1172,65.1708
+6492,"Ain Arnat Airport","Algeria",36.1781,5.32449
+6493,"La Rochelle-Île de Ré Airport","France",46.1792,-1.19528
+6505,"Phoenix-Mesa-Gateway Airport","United States",33.3078,-111.655
+6712,"Anaktuvuk Pass Airport","United States",68.1336,-151.743
+6713,"Anvik Airport","United States",62.6467,-160.191
+6714,"Atqasuk Edward Burnell Sr Memorial Airport","United States",70.4673,-157.436
+6715,"Gambell Airport","United States",63.7668,-171.733
+6716,"Hooper Bay Airport","United States",61.5239,-166.147
+6717,"Kaltag Airport","United States",64.3191,-158.741
+6718,"St Mary's Airport","United States",62.0605,-163.302
+6719,"Kivalina Airport","United States",67.7362,-164.563
+6720,"Mekoryuk Airport","United States",60.3714,-166.271
+6722,"Ruby Airport","United States",64.7272,-155.47
+6723,"Shishmaref Airport","United States",66.2496,-166.089
+6724,"Savoonga Airport","United States",63.6864,-170.493
+6725,"Noatak Airport","United States",67.5661,-162.975
+6727,"Puvirnituq Airport","Canada",60.0506,-77.2869
+6728,"Tasiujaq Airport","Canada",58.6678,-69.9558
+6729,"Arctic Village Airport","United States",68.1147,-145.579
+6730,"Sam Mbakwe International Airport","Nigeria",5.42706,7.20603
+6731,"Arenal Airport","Costa Rica",10.478,-84.6345
+6732,"Tambor Airport","Costa Rica",9.73852,-85.0138
+6733,"Cauayan Airport","Philippines",16.9299,121.753
+6734,"Kirovsk-Apatity Airport","Russia",67.4633,33.5883
+6735,"Coronel Altino Machado de Oliveira Airport","Brazil",-18.8952,-41.9822
+6737,"Pajala Airport","Sweden",67.2456,23.0689
+6738,"Bella Coola Airport","Canada",52.3875,-126.596
+6739,"Hagerstown Regional Richard A Henson Field","United States",39.7079,-77.7295
+6740,"Araracuara Airport","Colombia",-0.5833,-72.4083
+6741,"Gorakhpur Airport","India",26.7397,83.4497
+6742,"Sand Point Airport","United States",55.315,-160.523
+6743,"Hami Airport","China",42.8414,93.6692
+6744,"Wuzhou Changzhoudao Airport","China",23.4567,111.248
+6747,"Gorgan Airport","Iran",36.9094,54.4013
+6748,"Ilam Airport","Iran",33.5866,46.4048
+6749,"Parsabade Moghan Airport","Iran",39.6036,47.8815
+6752,"Tacheng Airport","China",46.6725,83.3408
+6753,"Mardin Airport","Turkey",37.2233,40.6317
+6755,"Deering Airport","United States",66.0696,-162.766
+6756,"Leon Airport","Spain",42.589,-5.65556
+6757,"Burgos Airport","Spain",42.3576,-3.62076
+6758,"Sege Airport","Solomon Islands",-8.57889,157.876
+6760,"Kangra Airport","India",32.1651,76.2634
+6763,"Igiugig Airport","United States",59.324,-155.902
+6765,"King Cove Airport","United States",55.1163,-162.266
+6766,"Port Heiden Airport","United States",56.9591,-158.633
+6767,"Togiak Airport","United States",59.0528,-160.397
+6768,"Geneina Airport","Sudan",13.4817,22.4672
+6769,"Long Akah Airport","Malaysia",3.3,114.783
+6771,"Walaha Airport","Vanuatu",-15.412,167.691
+6772,"Chaoyang Airport","China",41.5381,120.435
+6773,"Buffalo Spring","Kenya",0.530583,37.5342
+6775,"Bonaventure Airport","Canada",48.0711,-65.4603
+6776,"Sialkot Airport","Pakistan",32.5356,74.3639
+6777,"Capitan Corbeta CA Curbelo International Airport","Uruguay",-34.8551,-55.0943
+6778,"Walvis Bay Airport","Namibia",-22.9799,14.6453
+6779,"Katima Mulilo Airport","Namibia",-17.6344,24.1767
+6780,"Anadolu Airport","Turkey",39.8099,30.5194
+6781,"Çanakkale Airport","Turkey",40.1377,26.4268
+6782,"Muş Airport","Turkey",38.7478,41.6612
+6783,"Sinop Airport","Turkey",42.0158,35.0664
+6784,"Tekirdağ Çorlu Airport","Turkey",41.1382,27.9191
+6788,"Vieques Airport","Puerto Rico",18.1158,-65.4227
+6789,"St Augustin Airport","Canada",51.2117,-58.6583
+6790,"Hamadan Airport","Iran",34.8692,48.5525
+6792,"Grafton Airport","Australia",-29.7594,153.03
+6793,"Orange Airport","Australia",-33.3817,149.133
+6794,"Taree Airport","Australia",-31.8886,152.514
+6795,"Choibalsan Airport","Mongolia",48.1357,114.646
+6800,"Delta County Airport","United States",45.7227,-87.0937
+6803,"Yakutat Airport","United States",59.5033,-139.66
+6814,"Benjamin Rivera Noriega Airport","Puerto Rico",18.3133,-65.3043
+6825,"Williamson County Regional Airport","United States",37.755,-89.0111
+6837,"Ford Airport","United States",45.8184,-88.1145
+6839,"Allakaket Airport","United States",66.5518,-152.622
+6880,"Montrose Regional Airport","United States",38.5098,-107.894
+6881,"Riverton Regional Airport","United States",43.0642,-108.46
+6883,"Eastern Oregon Regional At Pendleton Airport","United States",45.6951,-118.841
+6916,"Pangborn Memorial Airport","United States",47.3989,-120.207
+6924,"Ust-Kut Airport","Russia",56.8567,105.73
+6926,"Rimatara Airport","French Polynesia",-22.6373,-152.806
+6933,"Gelendzhik Airport","Russia",44.5821,38.0125
+6940,"Tunoshna Airport","Russia",57.5607,40.1574
+6943,"Gu-Lian Airport","China",52.9128,122.43
+6944,"Jining Qufu Airport","China",35.2928,116.347
+6945,"Drake Bay Airport","Costa Rica",8.71889,-83.6417
+6946,"Altay Air Base","China",47.7499,88.0858
+6949,"Naypyidaw Airport","Burma",19.6235,96.201
+6954,"Manzhouli Xijiao Airport","China",49.5667,117.33
+6955,"Wuhai Airport","China",39.7934,106.799
+6957,"Brainerd Lakes Regional Airport","United States",46.3983,-94.1381
+6958,"Greenbrier Valley Airport","United States",37.8583,-80.3995
+6959,"Pitt Greenville Airport","United States",35.6352,-77.3853
+6960,"Chefornak Airport","United States",60.1492,-164.286
+6962,"Branson Airport","United States",36.5321,-93.2005
+6963,"Tongren Fenghuang Airport","China",27.8833,109.309
+6969,"Begishevo Airport","Russia",55.5647,52.0925
+6972,"Warri Airport","Nigeria",5.59611,5.81778
+6974,"Siargao Airport","Philippines",9.8591,126.014
+6989,"Northeast Florida Regional Airport","United States",29.9592,-81.3398
+6992,"Charles M. Schulz Sonoma County Airport","United States",38.509,-122.813
+7001,"Aspen-Pitkin Co/Sardy Field","United States",39.2232,-106.869
+7003,"Ulyanovsk Baratayevka Airport","Russia",54.2683,48.2267
+7018,"Thief River Falls Regional Airport","United States",48.0657,-96.185
+7051,"Gunnison Crested Butte Regional Airport","United States",38.5339,-106.933
+7054,"Manistee Co Blacker Airport","United States",44.2724,-86.2469
+7056,"Charlotte County Airport","United States",26.9202,-81.9905
+7059,"Chautauqua County-Jamestown Airport","United States",42.1534,-79.258
+7062,"Shenandoah Valley Regional Airport","United States",38.2638,-78.8964
+7064,"Dickinson Theodore Roosevelt Regional Airport","United States",46.7974,-102.802
+7065,"Sidney - Richland Regional Airport","United States",47.7069,-104.193
+7066,"Chadron Municipal Airport","United States",42.8376,-103.095
+7067,"Alliance Municipal Airport","United States",42.0532,-102.804
+7068,"Mc Cook Ben Nelson Regional Airport","United States",40.2063,-100.592
+7070,"Dawson Community Airport","United States",47.1387,-104.807
+7071,"L M Clayton Airport","United States",48.0945,-105.575
+7073,"San Luis Valley Regional Bergman Field","United States",37.4349,-105.867
+7074,"Canyonlands Field","United States",38.755,-109.755
+7076,"Vernal Regional Airport","United States",40.4409,-109.51
+7078,"Show Low Regional Airport","United States",34.2655,-110.006
+7081,"Mammoth Yosemite Airport","United States",37.6241,-118.838
+7082,"Friday Harbor Airport","United States",48.522,-123.024
+7083,"Orcas Island Airport","United States",48.7082,-122.91
+7087,"Emmonak Airport","United States",62.7861,-164.491
+7088,"Unalakleet Airport","United States",63.8884,-160.799
+7090,"Shageluk Airport","United States",62.6923,-159.569
+7092,"Nuiqsut Airport","United States",70.21,-151.006
+7093,"Eek Airport","United States",60.2137,-162.044
+7095,"Kwethluk Airport","United States",60.7903,-161.444
+7096,"Kwigillingok Airport","United States",59.8765,-163.169
+7097,"Marshall Don Hunter Sr Airport","United States",61.8643,-162.026
+7098,"Russian Mission Airport","United States",61.7789,-161.319
+7105,"Chalkyitsik Airport","United States",66.645,-143.74
+7107,"Hughes Airport","United States",66.0411,-154.263
+7108,"Huslia Airport","United States",65.6979,-156.351
+7111,"Nulato Airport","United States",64.7293,-158.074
+7114,"Venetie Airport","United States",67.0087,-146.366
+7115,"Beaver Airport","United States",66.3622,-147.407
+7116,"Central Airport","United States",65.5738,-144.783
+7117,"Shungnak Airport","United States",66.8881,-157.162
+7121,"Visalia Municipal Airport","United States",36.3187,-119.393
+7122,"Merced Regional Macready Field","United States",37.2847,-120.514
+7128,"Toowoomba Airport","Australia",-27.5428,151.916
+7136,"Elfin Cove Seaplane Base","United States",58.1952,-136.347
+7142,"Hoonah Airport","United States",58.0961,-135.41
+7146,"Metlakatla Seaplane Base","United States",55.131,-131.578
+7148,"Hydaburg Seaplane Base","United States",55.2063,-132.828
+7154,"Egegik Airport","United States",58.1855,-157.375
+7157,"Perryville Airport","United States",55.906,-159.163
+7159,"South Naknek Nr 2 Airport","United States",58.7034,-157.008
+7160,"Akhiok Airport","United States",56.9387,-154.183
+7162,"Larsen Bay Airport","United States",57.5351,-153.978
+7177,"Ambler Airport","United States",67.1063,-157.857
+7178,"Buckland Airport","United States",65.9816,-161.149
+7179,"Bob Baker Memorial Airport","United States",66.976,-160.437
+7180,"Kobuk Airport","United States",66.9123,-156.897
+7181,"Robert (Bob) Curtis Memorial Airport","United States",66.8179,-161.019
+7182,"Selawik Airport","United States",66.6001,-159.986
+7183,"Brevig Mission Airport","United States",65.3313,-166.466
+7184,"Elim Airport","United States",64.6147,-162.272
+7185,"Golovin Airport","United States",64.5505,-163.007
+7186,"Teller Airport","United States",65.2404,-166.339
+7187,"Wales Airport","United States",65.6226,-168.095
+7188,"White Mountain Airport","United States",64.6892,-163.413
+7190,"Koyuk Alfred Adams Airport","United States",64.9395,-161.154
+7191,"St Michael Airport","United States",63.4901,-162.11
+7192,"Shaktoolik Airport","United States",64.3711,-161.224
+7194,"Tin City Long Range Radar Station Airport","United States",65.5631,-167.922
+7195,"Atka Airport","United States",52.2203,-174.206
+7196,"Nikolski Air Station","United States",52.9416,-168.849
+7199,"Alakanuk Airport","United States",62.68,-164.66
+7201,"Kipnuk Airport","United States",59.933,-164.031
+7202,"False Pass Airport","United States",54.8474,-163.41
+7203,"Nelson Lagoon Airport","United States",56.0075,-161.16
+7205,"Klawock Airport","United States",55.5792,-133.076
+7206,"Quinhagak Airport","United States",59.7551,-161.845
+7207,"Kotlik Airport","United States",63.0306,-163.533
+7208,"Koyukuk Airport","United States",64.8761,-157.727
+7209,"Scammon Bay Airport","United States",61.8453,-165.571
+7213,"Kongiganak Airport","United States",59.9608,-162.881
+7214,"Nikolai Airport","United States",63.0186,-154.358
+7220,"Wainwright Airport","United States",70.638,-159.995
+7236,"Circle City /New/ Airport","United States",65.8305,-144.076
+7240,"Sleetmute Airport","United States",61.7005,-157.166
+7242,"Healy River Airport","United States",63.8662,-148.969
+7252,"Postville Airport","Canada",54.9105,-59.7851
+7253,"Kangiqsujuaq (Wakeham Bay) Airport","Canada",61.5886,-71.9294
+7255,"Havre St Pierre Airport","Canada",50.2819,-63.6114
+7266,"Rainbow Lake Airport","Canada",58.4914,-119.408
+7275,"Denny Island Airport","Canada",52.1379,-128.06
+7277,"Wekweètì Airport","Canada",64.1908,-114.077
+7313,"Uyuni Airport","Bolivia",-20.4463,-66.8484
+7317,"Rurenabaque Airport","Bolivia",-14.4279,-67.4968
+7355,"Los Colonizadores Airport","Colombia",6.95187,-71.8572
+7359,"Villa Garzón Airport","Colombia",0.978767,-76.6056
+7364,"Cabo Frio Airport","Brazil",-22.9217,-42.0743
+7367,"Presidente João Batista Figueiredo Airport","Brazil",-11.885,-55.5861
+7368,"Gurupi Airport","Brazil",-11.7396,-49.1322
+7372,"Parintins Airport","Brazil",-2.67302,-56.7772
+7373,"Barreiras Airport","Brazil",-12.0789,-45.009
+7374,"Santa Terezinha Airport","Brazil",-10.4647,-50.5186
+7375,"Minaçu Airport","Brazil",-13.5491,-48.1953
+7376,"Araguaína Airport","Brazil",-7.22787,-48.2405
+7380,"Dourados Airport","Brazil",-22.2019,-54.9266
+7382,"Maestro Marinho Franco Airport","Brazil",-16.586,-54.7248
+7383,"Tancredo Thomas de Faria Airport","Brazil",-25.3875,-51.5202
+7384,"Santa Terezinha Airport","Brazil",-27.1714,-51.5533
+7394,"General Leite de Castro Airport","Brazil",-17.8347,-50.9561
+7395,"Romeu Zema Airport","Brazil",-19.5632,-46.9604
+7398,"Coari Airport","Brazil",-4.13406,-63.1326
+7399,"Barcelos Airport","Brazil",-0.981292,-62.9196
+7407,"Guanambi Airport","Brazil",-14.2082,-42.7461
+7417,"Wilwal International Airport","Ethiopia",9.3325,42.9121
+7424,"Mara Serena Lodge Airstrip","Kenya",-1.40611,35.0081
+7447,"Enfidha - Hammamet International Airport","Tunisia",36.0758,10.4386
+7450,"Bugungu Airport","Uganda",2.2,31.55
+7453,"Hatay Airport","Turkey",36.3628,36.2822
+7456,"Raivavae Airport","French Polynesia",-23.8852,-147.662
+7457,"Foshan Shadi Airport","China",23.0833,113.07
+7459,"Lleida-Alguaire Airport","Spain",41.7282,0.535023
+7470,"Ulgii Mongolei Airport","Mongolia",48.9933,89.9225
+7490,"Al Najaf International Airport","Iraq",31.9899,44.4043
+7503,"Fuyang Xiguan Airport","China",32.8822,115.734
+7504,"Longyan Guanzhishan Airport","China",25.6747,116.747
+7505,"Baoshan Yunduan Airport","China",25.0533,99.1683
+7506,"Xingyi Airport","China",25.0864,104.959
+7508,"Liping Airport","China",26.3222,109.15
+7519,"Zhijiang Airport","China",27.4411,109.7
+7527,"Lintsang Airfield","China",23.7381,100.025
+7532,"Carajás Airport","Brazil",-6.11528,-50.0014
+7546,"Persian Gulf International Airport","Iran",27.3796,52.7377
+7547,"Yasouj Airport","Iran",30.7005,51.5451
+7558,"Ulaangom Airport","Mongolia",50.0666,91.9383
+7563,"Kulob Airport","Tajikistan",37.9881,69.805
+7577,"Ravensthorpe Airport","Australia",-33.7972,120.208
+7579,"Provo Municipal Airport","United States",40.2192,-111.723
+7584,"Los Alamos Airport","United States",35.8798,-106.269
+7616,"Ulawa Airport","Solomon Islands",-9.86054,161.98
+7617,"Choiseul Bay Airport","Solomon Islands",-6.71194,156.396
+7618,"Santa Ana Airport","Solomon Islands",-10.848,162.454
+7634,"Rundu Airport","Namibia",-17.9565,19.7194
+7657,"Morristown Municipal Airport","United States",40.7994,-74.4149
+7669,"Northwest Florida Beaches International Airport","United States",30.3571,-85.7954
+7774,"Mysore Airport","India",12.23,76.6558
+7821,"Zonguldak Airport","Turkey",41.5064,32.0886
+7862,"Tengchong Tuofeng Airport","China",24.9381,98.4858
+7863,"Belbek Airport","Ukraine",44.689,33.571
+7894,"Yushu Batang Airport","China",32.8364,97.0364
+7898,"Lianshui Airport","China",33.7908,119.125
+7932,"Ngari Gunsa Airport","China",32.1,80.0531
+7962,"Puerto Obaldia Airport","Panama",8.667,-77.418
+7976,"Ukunda Airstrip","Kenya",-4.29333,39.5711
+7987,"Mackenzie Airport","Canada",55.3044,-123.132
+8043,"Zhongwei Shapotou Airport","China",37.5731,105.154
+8076,"Al Maktoum International Airport","United Arab Emirates",24.8964,55.1614
+8082,"Baise Youjiang Airport","China",23.7206,106.96
+8180,"Zona da Mata Regional Airport","Brazil",-21.5131,-43.1731
+8199,"Nightmute Airport","United States",60.471,-164.701
+8200,"Toksook Bay Airport","United States",60.5414,-165.087
+8208,"Ittoqqortoormiit Heliport","Greenland",70.4882,-21.9717
+8209,"Vinnytsia/Gavyryshivka Airport","Ukraine",49.2425,28.6138
+8217,"Kegaska Airport","Canada",50.1958,-61.2658
+8223,"Trail Airport","Canada",49.0556,-117.609
+8225,"Old Arctic Bay Airport","Canada",73.0059,-85.0325
+8227,"Birchwood Airport","Belize",61.4165,-149.507
+8235,"Sohag International Airport","Egypt",26.3428,31.7428
+8237,"Patos de Minas Airport","Brazil",-18.6728,-46.4912
+8238,"Bauru - Arealva Airport","Brazil",-22.1669,-49.0503
+8239,"Ourilândia do Norte Airport","Brazil",-6.7631,-51.0499
+8240,"Redenção Airport","Brazil",-8.03329,-49.9799
+8241,"São Félix do Xingu Airport","Brazil",-6.6413,-51.9523
+8242,"Bonito Airport","Brazil",-21.2473,-56.4525
+8243,"São Félix do Araguaia Airport","Brazil",-11.6324,-50.6896
+8244,"Caçador Airport","Brazil",-26.7884,-50.9398
+8247,"Eirunepé Airport","Brazil",-6.63953,-69.8798
+8256,"Senadora Eunice Micheles Airport","Brazil",-3.46793,-68.9204
+8258,"Tapuruquara Airport","Brazil",-0.3786,-64.9923
+8266,"Gazipaşa Airport","Turkey",36.2992,32.3006
+8314,"Hilton Head Airport","United States",32.2244,-80.6975
+8355,"Keewaywin Airport","Canada",52.9911,-92.8364
+8381,"Majeed Bin Abdulaziz Airport","Saudi Arabia",26.48,38.1289
+8401,"Lombok International Airport","Indonesia",-8.75732,116.277
+8407,"Handan Airport","China",36.5258,114.426
+8414,"Modlin Airport","Poland",52.4511,20.6518
+8417,"Jixi Xingkaihu Airport","China",45.293,131.193
+8428,"Beloyarskiy Airport","Russia",63.6869,66.6986
+8628,"Uummannaq Heliport","Greenland",70.6804,-52.1116
+8630,"Bayannur Tianjitai Airport","China",40.926,107.743
+8740,"Gorno-Altaysk Airport","Russia",51.9667,85.8333
+8774,"Lankaran International Airport","Azerbaijan",38.7464,48.818
+8775,"Gabala International Airport","Azerbaijan",40.8267,47.7125
+8781,"Qianjiang Wulingshan Airport","China",29.5133,108.831
+8782,"Cooma Hospital Helipad","Russia",-36.2422,149.13
+8807,"Tabing Airport","Indonesia",-0.874989,100.352
+8826,"Changbaishan Airport","China",42.0669,127.602
+8832,"Lublin Airport","Poland",51.2403,22.7136
+8845,"Lingling Airport","China",26.3387,111.61
+8876,"Yangzhou Taizhou Airport","China",32.5634,119.72
+8892,"Kooddoo Airport","Maldives",0.7324,73.4336
+8914,"Termas de Río Hondo international Airport","Argentina",-27.4966,-64.936
+8921,"Kangding Airport","China",30.1575,101.735
+8924,"Velikiy Ustyug Airport","Russia",60.7883,46.26
+8944,"Bodaybo Airport","Russia",57.8661,114.243
+8949,"Mattala Rajapaksa International Airport","Sri Lanka",6.28447,81.1241
+8961,"Sir Bani Yas Airport","United Arab Emirates",24.2836,52.5803
+8979,"Jiagedaqi Airport","China",50.3714,124.118
+9025,"Bijie Feixiong Airport","China",27.2671,105.472
+9026,"Lensk Airport","Russia",60.7206,114.826
+9043,"Iğdır Airport","Turkey",39.9766,43.8766
+9044,"Şanlıurfa GAP Airport","Turkey",37.4457,38.8956
+9045,"Zafer Airport","Turkey",39.1131,30.1281
+9090,"Busselton Regional Airport","Australia",-33.6884,115.402
+9107,"Yichun Mingyueshan Airport","China",27.8025,114.306
+9229,"Sigiriya Air Force Base","Sri Lanka",7.95667,80.7285
+9272,"Bingöl Çeltiksuyu Airport","Turkey",38.8593,40.596
+9273,"Kastamonu Airport","Turkey",41.3142,33.7958
+9310,"Daocheng Yading Airport","China",29.3231,100.053
+9311,"Gannan Xiahe Airport","China",34.8105,102.645
+9327,"Comiso Airport","Italy",36.9946,14.6072
+9386,"Xinyuan Nalati Airport","China",43.4318,83.3786
+9543,"Ogden Hinckley Airport","United States",41.1959,-112.012
+9739,"Napakiak Airport","United States",60.6903,-161.979
+9744,"Napaskiak Airport","United States",60.7029,-161.778
+9768,"Tingo Maria Airport","Peru",-9.133,-75.95
+9771,"Cacoal Airport","Brazil",-11.496,-61.4508
+9774,"Mocopulli Airport","Chile",-42.3404,-73.7157
+9824,"Tazadit Airport","Mauritania",22.7564,-12.4836
+9826,"Akwa Ibom International Airport","Nigeria",4.8725,8.093
+9828,"Kasama Airport","Zambia",-10.2167,31.1333
+9829,"Mbeya Airport","Tanzania",-8.91944,33.4639
+9843,"Jiuhuashan Airport","China",30.7403,117.686
+9844,"Anshan Air Base","China",41.1053,122.854
+9845,"Saertu Airport","China",46.7464,125.141
+9846,"Zunyi Xinzhou Airport","China",27.5895,107.001
+9848,"Lindu Airport","China",47.7521,129.019
+9849,"Anshun Huangguoshu Airport","China",26.2606,105.873
+9887,"Betoambari Airport","Indonesia",-5.48688,122.569
+9888,"Kao Airport","Indonesia",1.18528,127.896
+9889,"Melangguane Airport","Indonesia",4.00694,126.673
+9898,"Oksibil Airport","Indonesia",-4.9071,140.628
+9904,"Richmond Airport","Australia",-20.7019,143.115
+9905,"RAAF Base Curtin","Australia",-17.5814,123.828
+10160,"Erenhot Saiwusu International Airport","China",43.4225,112.097
+10792,"Jumandy Airport","Ecuador",-1.05972,-77.5833
+10940,"Zhangjiakou Ningyuan Airport","China",40.7386,114.93
+10941,"Arxan Yi'ershi Airport","China",47.3106,119.912
+11051,"Hamad International Airport","Qatar",25.2731,51.6081
+11229,"Beni Airport","Congo (Kinshasa)",0.575,29.4739
+11230,"Boende Airport","Congo (Kinshasa)",-0.217,20.85
+11257,"Dharavandhoo Airport","Maldives",5.1561,73.1302
+11258,"Saumlaki/Olilit Airport","Indonesia",-7.98861,131.306
+11290,"Kongolo Airport","Congo (Kinshasa)",-5.39444,26.99
+11436,"Tarko-Sale Airport","Russia",64.9308,77.8181
+11473,"Jinchuan Airport","China",38.5422,102.348
+11498,"Alashankou Bole (Bortala) airport","China",44.895,82.3
+11922,"Iwakuni Marine Corps Air Station","Japan",34.1439,132.236
