@@ -36,6 +36,8 @@ class Graph {
         double calculateHValues(int start, int dest);
 
 
+        //Landmark Psth
+        double landmarkPath(int start, int mid, int end);
 
         private:
         // creates from files from scratch

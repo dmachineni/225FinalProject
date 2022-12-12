@@ -459,6 +459,12 @@ double Graph::calculateHValues(int start, int dest) {
 }
 
 std::vector<int> Graph::AStarSearch(int src, int dest) {
+    std::cout << "6839" << airports[idToIndex(6839)].airport_name << std::endl;
+    std::cout << "7107" << airports[idToIndex(7107)].airport_name << std::endl;
+    std::cout << "7113" << airports[idToIndex(7113)].airport_name << std::endl;
+    std::cout << "6722" << airports[idToIndex(6722)].airport_name << std::endl;
+    std::cout << "3764" << airports[idToIndex(3764)].airport_name << std::endl;
+
     std::vector<int> path;
 
     //if path = 0
@@ -468,10 +474,7 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     }
 
     //if path = 1
-    std::cout << "src: " << src << '\n';
-    std::cout << "dest: " << dest << '\n';
     // std::cout << "sizeof adj row: " << adjacency_list[src].size() << '\n';
-
     std::vector<int> neighborsSrc = adjacency_list[src];
     for(size_t i = 0; i < neighborsSrc.size(); i++) {
         if(neighborsSrc[i] == dest) {
@@ -481,9 +484,8 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
         }
     }
 
-    path.push_back(dest);
     for (size_t i = 0; i < path.size(); i++) {
-        std::cout << airports[idToIndex(path[i])].airport_name << std::endl;
+        std::cout << __LINE__ << " printing path" << airports[idToIndex(path[i])].airport_name << std::endl;
     }
 
     std::cout << "done with path = 1 test" << '\n';
@@ -499,6 +501,7 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     while(!open_list.empty() && !found) {
         std::cout << "entering while loop" << std::endl;
         //remove item from open list : PQ or just first value?
+        //should this go outside the while loop?
         int min = open_list[0].second + calculateHValues(open_list[0].first,dest); 
         int idxToRemove = 0;
         // std::cout << "open list size: " << open_list.size() << '\n';
@@ -522,8 +525,8 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
             //if n == dest => set parents, return
             //else ... psuedo code if statements
         std::vector<int> neighbors = adjacency_list[currNode.first]; 
+        std::cout << "neighbors: " << neighbors.size() << std::endl;
         for(size_t i = 0; i < neighbors.size(); i++) {
-            std::cout << "neighbors: " << neighbors.size() << std::endl;
             if(neighbors[i] == dest) {
                 parentTracker[dest] = currNode.first;
                 found = true;
@@ -538,7 +541,7 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
             
             bool foundElseWhere = false;
             for(size_t i = 0; i < open_list.size(); i++) {
-                if(open_list[i].first == neighbors[i]) {
+                if(open_list[i].first != neighbors[i]) {
                     if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
                         //closed list part
                         open_list.push_back({neighbors[i], succesor_g});
@@ -547,7 +550,7 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
                 }
             }
             for(size_t i = 0; i < closed_list.size(); i++) {
-                if(closed_list[i].first == neighbors[i]) {
+                if(closed_list[i].first != neighbors[i]) {
                     if(closed_list[i].second + calculateHValues(closed_list[i].first,dest) > successor_f) {
                         //closed list part
                         open_list.push_back({neighbors[i], succesor_g});
@@ -570,7 +573,7 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     //backtrack, push into vector, return 
         std::cout << "dest: " << dest << '\n';
 
-    // path.push_back(dest);
+
     int currIdx = dest; 
     int run = 0;
     while(currIdx != src) {
@@ -579,8 +582,36 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
         currIdx = parentTracker[currIdx];
         run++;
     }
+
+    //REVERSE PATH BEFORE PUSHING DESTINATION
+    path.push_back(dest);
+
+
+    //print path:
+    // for (size_t i = 0; i < path.size(); i++) {
+    //     std::cout << __LINE__ << " printing path" << airports[idToIndex(path[i])].airport_name << std::endl;
+    // }
     std::cout << "size: " << path.size() << '\n';
     std::cout << "run: " << run << '\n';
-
     return path;
+}
+
+double Graph::landmarkPath(int start, int mid, int end) {
+    // if shortest path does not exist, return empty vector
+    // double Graph::getShortestPath(int start, int end)
+    double final_distance = 0;
+    std::cout << "Reached: " << __LINE__ << std::endl;
+    final_distance += getShortestPath(start, mid);
+    std::cout << "Reached: " << __LINE__ << std::endl;
+    final_distance += getShortestPath(mid, end);
+    // std::cout << "Reached: " << __LINE__ << std::endl;
+    
+    // confirm that shortest path will return 0 if there are no connections
+    std::cout << "Reached: " << __LINE__ << std::endl;
+    if (getShortestPath(start, mid) == 0 || getShortestPath(mid, end) == 0) {
+        std::cout << "Reached: " << __LINE__ << std::endl;
+        return 0;
+    }
+
+    return final_distance;
 }
