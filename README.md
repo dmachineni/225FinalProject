@@ -1,6 +1,6 @@
 # 225FinalProject
 
-Organization:  
+Organization of Repository:  
 src: Code files (creating the graph, algorithm code), data files  
 main.cpp: test cases  
 data: outputted files  
