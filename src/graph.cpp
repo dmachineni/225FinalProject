@@ -23,7 +23,9 @@ Graph::Graph(bool all_airports) {
     }
     if (all_airports) cleanToLarge();
     else cleanToSmall();
+    std::cout << "26" << '\n';
     createDistMatrix();
+    std::cout << "28" << '\n';
     floydWarshall();
 }
 
