@@ -12,3 +12,6 @@ Running the code:
 3. Open a new terminal and run ```` make exec ````.
 4. Then run ```` ./bin/exec ````.
 Note: Please note that the running our code takes a while. With an M1 processor we found that it takes about 6 - 7 minutes. This is because to create and update the distance matrix, we have to run through the entire dataset (about 3000 airports) so populating the entire 2D matrix takes a while.
+
+Presentation Link through MediaSpace:
+https://mediaspace.illinois.edu/media/t/1_jzj21zti
