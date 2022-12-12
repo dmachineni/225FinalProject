@@ -183,7 +183,7 @@ void Graph::cleanToSmall() {
     int deleted = airports.size() - tmp_adj.size();
     airports = tmp_aps;
     adjacency_list = tmp_adj2;
-    std::cout << "Deleted: " << deleted << std::endl;
+    // std::cout << "Deleted: " << deleted << std::endl;
 }
 
 void Graph::cleanToLarge() {
@@ -205,7 +205,7 @@ void Graph::cleanToLarge() {
     int deleted = airports.size() - tmp_adj.size();
     airports = tmp_aps;
     adjacency_list = tmp_adj;
-    std::cout << "Deleted: " << deleted << std::endl;
+    // std::cout << "Deleted: " << deleted << std::endl;
 }
 
 /*
