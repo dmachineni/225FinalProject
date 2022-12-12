@@ -4,11 +4,82 @@
 #include <string>
 
 int main() {
-    // Graph g("data/airports_cleaned_large.csv", "data/adjacency_list_large.csv", "data/distance_matrix_large.csv"); // creates graph from correct data
-    Graph g(true); // false for small dataset, large for true
+    // Constructs new Graph object
+    // Changing boolean value to true, builds a large dataset
+    // Changing boolean value to false, creates a condensed version of dataset that is only one airport per country
+    Graph g(true); 
 
+
+
+    //For all test cases, TRUE means the test case passed.
+
+
+
+    // TEST CASES FOR BFS ALGORITHM
+    std::cout << "\n \n" << "------BFS------" << std::endl;
+
+    // Checks if an airport that isn’t in the start node’s connected component does not exist in the path returned by the BFS traversal
+    std::cout <<  "---TEST CASE 1---" << std::endl;
+    std::vector<Vertex> path1 = g.BFSTraversal(0);
+    bool found = false; 
+    for(Vertex a : path1) {
+        if(a.airport_id == 3726) {
+            found = true; 
+        }
+    }
+    if(!found) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    // Checks if an airport that is within the start node’s connected component exists in the path returned by the BFS traversal
+    std::cout <<  "---TEST CASE 2---" << std::endl;
+    std::vector<Vertex> path2 = g.BFSTraversal(2400); 
+    found = false; 
+    for(Vertex a : path2) {
+        if(a.airport_id == 1353) {
+            found = true; 
+        }
+    }
+    if(found) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    // Checks if an airport that is within the start node’s connected component exists in the path returned by the BFS traversal
+    std::cout <<  "---TEST CASE 3---" << std::endl;
+    std::vector<Vertex> path3 = g.BFSTraversal(83);
+    found = false; 
+    for(Vertex a : path3) {
+        if(a.airport_id == 1330) {
+            found = true; 
+        }
+    }
+    if(found) { 
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    // Checks that the connected component contains the correct number of connected nodes
+    std::cout <<  "---TEST CASE 4---" << std::endl; // 0, 3423
+    std::vector<Vertex> path4 =  g.BFSTraversal(100);
+    if(path4.size() == 3152) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+
+
+
+
+    //SHORTEST PATH TEST CASES
     std::cout << "\n \n" << "------SHORTEST PATH------" << std::endl;
-
+    // Checks shortest path of node to itself
+    // Should return 0.
     std::cout <<  "---TEST CASE 1---" << std::endl; //0 for smaller dataset
     std::cout << "start: " << g.airports[4].airport_name << ", end: " << g.airports[4].airport_name << '\n';
     double shortestPathTest1_a = g.getShortestPath(g.airports[4].airport_id, g.airports[4].airport_id);
@@ -18,7 +89,8 @@ int main() {
         std::cout << "FALSE" << std::endl;
     }
 
-    std::cout <<  "---TEST CASE 2---" << std::endl; //0,206 for smaller dataset
+    // Checks shortest path of adjacent nodes.
+    std::cout <<  "---TEST CASE 2---" << std::endl;
     std::cout << "start: " << g.airports[4].airport_name << ", end: " <<g.airports[2045].airport_name << '\n';
     double shortestPathTest1_b = g.getShortestPath(g.airports[4].airport_id, g.airports[2045].airport_id);
 
@@ -32,7 +104,8 @@ int main() {
         std::cout << "FALSE" << std::endl;
     }
 
-    std::cout <<  "---TEST CASE 3---" << std::endl; ////0,206,114 for smaller dataset
+    // Checks shortest path of two randomly chosen nodes. 
+    std::cout <<  "---TEST CASE 3---" << std::endl; 
     std::cout << "start: " << g.airports[4].airport_name << ", end: " <<g.airports[928].airport_name << '\n';
     double shortestPathTest1_c = g.getShortestPath(g.airports[4].airport_id, g.airports[928].airport_id);
 
@@ -48,65 +121,14 @@ int main() {
         std::cout << "FALSE" << std::endl;
     }
 
-    std::cout << "\n \n" << "------BFS------" << std::endl;
-
-    //working test case
-    // Ciudad del Carmen International Airport - 805
-    // "Osh Airport" - 1378
-    std::cout <<  "---TEST CASE 1---" << std::endl;
-    std::vector<Vertex> path1 = g.BFSTraversal(0); //takes in index
-    bool found = false; 
-    for(Vertex a : path1) {
-        if(a.airport_id == 3726) {
-            found = true; 
-        }
-    }
-    if(!found) { //bc 3726 (id) is not in the connected component
-        std::cout << "TRUE" << std::endl;
-    } else {
-        std::cout << "FALSE" << std::endl;
-    }
-
-    std::cout <<  "---TEST CASE 2---" << std::endl; //
-    std::vector<Vertex> path2 = g.BFSTraversal(2400); //takes in index
-    found = false; 
-    for(Vertex a : path2) {
-        if(a.airport_id == 1353) {
-            found = true; 
-        }
-    }
-    if(found) { //bc 1378 (id) is in the connected component
-        std::cout << "TRUE" << std::endl;
-    } else {
-        std::cout << "FALSE" << std::endl;
-    }
-
-    std::cout <<  "---TEST CASE 3---" << std::endl; // 0, 3423
-    std::vector<Vertex> path3 = g.BFSTraversal(83); //takes in index
-    found = false; 
-    for(Vertex a : path3) {
-        if(a.airport_id == 1330) {
-            found = true; 
-        }
-    }
-    if(found) { //bc 1330 (id) is in the connected component
-        std::cout << "TRUE" << std::endl;
-    } else {
-        std::cout << "FALSE" << std::endl;
-    }
-
-    std::cout <<  "---TEST CASE 4---" << std::endl; // 0, 3423
-    std::vector<Vertex> path4 =  g.BFSTraversal(100);
-    if(path4.size() == 3152) {
-        std::cout << "TRUE" << std::endl;
-    } else {
-        std::cout << "FALSE" << std::endl;
-    }
 
 
+
+    // TEST CASES FOR LANDMARK PATH
     std::cout << "\n \n" << "------LANDMARK PATH------" << std::endl;
+
+    // Tests landmark function with only one midpoint
     std::cout << "\n ---TEST CASE 1---" << std::endl;
-    // checking landmarkpath function1 --> 1 midpoint
     std::cout << "start: " << g.airports[0].airport_name << ", mid: " << g.airports[g.idToIndex(4074)].airport_name << ", end: " <<g.airports[114].airport_name << '\n';
     double x = g.getShortestPath(g.airports[0].airport_id, 4074);
     std::cout << "start to mid: " << x << "km" << std::endl;
@@ -118,8 +140,8 @@ int main() {
         std::cout << "TRUE" << std::endl;
     } else { std::cout << "FALSE" << std::endl; }
 
+    // Tests landmark function with vector of size 1
     std::cout <<  "---TEST CASE 2---" << std::endl;
-    // checking landmarkpath function2 --> 1 midpoint
     std::cout << "start: " << g.airports[0].airport_name << ", mid: " << g.airports[g.idToIndex(1960)].airport_name << ", end: " <<g.airports[114].airport_name << '\n';
     double c = g.getShortestPath(g.airports[0].airport_id, 1960);
     std::cout << "start to mid: " << c << "km" << std::endl;
@@ -133,8 +155,8 @@ int main() {
         std::cout << "TRUE" << std::endl;
     } else { std::cout << "FALSE" << std::endl; }
 
+    // Tests landmark function with vector of size 2
     std::cout <<  "---TEST CASE 3---" << std::endl;
-    // checking landmarkpath function2 --> 2 midpoints
     std::cout << "start: " << g.airports[4].airport_name << ", mid: " << g.airports[5].airport_name << ", " << g.airports[6].airport_name << ", end: " <<g.airports[7].airport_name << '\n';
     double l = g.getShortestPath(g.airports[4].airport_id, g.airports[5].airport_id);
     std::cout << "start to mid1: " << l << "km" << std::endl;
@@ -151,8 +173,8 @@ int main() {
         std::cout << "TRUE" << std::endl;
     } else { std::cout << "FALSE" << std::endl; }
 
+    // Tests landmark function with vector of size 3
     std::cout <<  "---TEST CASE 4---" << std::endl;
-    // checking landmarkpath function2 --> 3 midpoints
     std::cout << "start: " << g.airports[2].airport_name << ", mid: " << g.airports[66].airport_name << ", " << g.airports[73].airport_name << ", " << g.airports[92].airport_name << ", end: " <<g.airports[123].airport_name << '\n';
     double e = g.getShortestPath(g.airports[2].airport_id, g.airports[66].airport_id);
     std::cout << "start to mid1: " << e << "km" << std::endl;
@@ -171,7 +193,4 @@ int main() {
     if (total4 == e + h + j + f) {
         std::cout << "TRUE" << std::endl;
     } else { std::cout << "FALSE" << std::endl; }
-
-
-    // std::cout << "\n \n" << "Landmark Path from " << g.airports[2].airport_name << "\n to " << g.airports[66].airport_name << "\n to " << g.airports[73].airport_name << "\n to " << g.airports[92].airport_name << "\n to " << g.airports[123].airport_name << "\n is " << total4 << "km. \n \n" << std::endl; 
 }
