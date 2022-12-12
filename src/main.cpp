@@ -67,34 +67,60 @@ int main() {
         std::cout << "FALSE" << std::endl;
     }
 
-    // std::cout <<  "---TEST CASE 4---" << std::endl;
-    // std::cout << "start: " << g.airports[0].airport_name << ", end: " <<g.airports[114].airport_name << '\n';
-    // double shortestPathTest1_c = g.getShortestPath(g.airports[0].airport_id, g.airports[114].airport_id);
-
-    // startVertex = g.idToAirport(g.airports[0].airport_id);
-    // double calculatedWeightC = startVertex.calculateWeight(g.idToAirport(g.airports[206].airport_id));
-    // Vertex midVertex =  g.idToAirport(g.airports[206].airport_id);
-    // calculatedWeightC += midVertex.calculateWeight(g.idToAirport(g.airports[114].airport_id));
-    // std::cout << "dist from 0 to 114: " << calculatedWeightC << " ; shortest Path output: "  << shortestPathTest1_c<< '\n';
-
-    // if(std::abs(shortestPathTest1_c - calculatedWeightC) <= 1.5) {
-    //     std::cout << "TRUE" << std::endl;
-    // } else {
-    //     std::cout << "FALSE" << std::endl;
-    // }
-
-
     std::cout << "\n \n" << "------BFS------" << std::endl;
 
-    // //node doesn't exist
-    // std::cout <<  "---TEST CASE 1---" << std::endl;
-    // std::cout << "start: " << g.airports[0].airport_name << ", end: " << g.airports[0].airport_name << '\n';
-    // double shortestPathTest1_a = g.getShortestPath(g.airports[0].airport_id, g.airports[0].airport_id);
-    // if(shortestPathTest1_a == 0) {
-    //     std::cout << "TRUE" << std::endl;
-    // } else {
-    //     std::cout << "FALSE" << std::endl;
-    // }
+    //working test case
+    // Ciudad del Carmen International Airport - 805
+    // "Osh Airport" - 1378
+    std::cout <<  "---TEST CASE 1---" << std::endl;
+    std::vector<Vertex> path1 = g.BFSTraversal(0); //takes in index
+    bool found = false; 
+    for(Vertex a : path1) {
+        if(a.airport_id == 3726) {
+            found = true; 
+        }
+    }
+    if(!found) { //bc 3726 (id) is not in the connected component
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    std::cout <<  "---TEST CASE 2---" << std::endl; //
+    std::vector<Vertex> path2 = g.BFSTraversal(345); //takes in index
+    found = false; 
+    for(Vertex a : path2) {
+        if(a.airport_id == 1378) {
+            found = true; 
+        }
+    }
+    if(found) { //bc 1378 (id) is in the connected component
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    std::cout <<  "---TEST CASE 3---" << std::endl; // 0, 3423
+    std::vector<Vertex> path3 = g.BFSTraversal(g.idToIndex(1291)); //takes in index
+    found = false; 
+    for(Vertex a : path3) {
+        if(a.airport_id == 1330) {
+            found = true; 
+        }
+    }
+    if(found) { //bc 1330 (id) is in the connected component
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    std::cout <<  "---TEST CASE 4---" << std::endl; // 0, 3423
+    std::vector<Vertex> path4 =  g.BFSTraversal(100);
+    if(path4.size() == 3152) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
 
 
     std::cout << "\n \n" << "------LANDMARK PATH------" << std::endl;
