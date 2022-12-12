@@ -2,7 +2,7 @@
 
 ### Algorithms:  
 
-BFS: Breadth-first search is used to traverse the graph, and it does so by visiting each node. This algorithm tells us if there are nodes that are not connected to any other nodes, and if there are multiple connected components. To test BFS, we outputted the number of connected components and airports that were not connected to confirm that the numbers lined up.
+BFS: Breadth-first search is used to traverse the graph, and it does so by visiting each node. This algorithm tells us if there are nodes that are not connected to he start node's connected component, and returns the BFS path through the graph. To test BFS, we ran the BFS algorithm on certain airports. The first test case makes sure that an airport that isn’t in the start node’s connected component does not exist in the path returned by the BFS traversal, which we can see is true. The 2nd and 3rd test case makes sure that an airport that is in the start node’s connected component exists in the path returned by the BFS traversal. The last test starts at a node that is in the main connected component which we found to be 3152. We compared this with the size of the path of the BFS traversal and it returned the same number. 
 
 Floyd-Warshall: Floyd-Warshall is used to find the shortest path between two given airports. It does so by creating an adjacency matrix that stores the distance between each airport, and then iterating through it to find the minimum possible distance between two airports. To test Floyd-Warshall, we calculated the distance between two airports with the shortest path, and checked that the output matched that number. We also tested that the program calculated distance using longitude and latitude coordinates correctly. 
 
