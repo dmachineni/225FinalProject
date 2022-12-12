@@ -4,18 +4,17 @@
 #include <string>
 
 int main() {
-    // Graph g("data/airports_cleaned.csv", "data/adjacency_list.csv", "data/distance_matrix.csv"); // creates graph from correct data
+    // Graph g("data/airports_cleaned_large.csv", "data/adjacency_list_large.csv", "data/distance_matrix_large.csv"); // creates graph from correct data
+    Graph g(true); // false for small dataset, large for true
     // Graph gg(true); // creates graph from scratch, should match correct data
-    Graph g(false); // false for small dataset, large for true
-    
-//     gg.writeAdjListToFile("data/adjacency_list_large.csv");
-//     gg.writeAirportsToFile("data/airports_cleaned_large.csv");
-//    gg.writeDistMatrixToFile("data/distance_matrix_large.csv");
-//    std::cout << g.adjlistSize() << std::endl; // should equal 220 (IT DOES)
-//     std::cout << g.airportsSize() << std::endl; // shoudl equal 220 (IT DOES)
+    // gg.writeAdjListToFile("data/adjacency_list_large.csv");
+    // gg.writeAirportsToFile("data/airports_cleaned_large.csv");
+    // gg.writeDistMatrixToFile("data/distance_matrix_large.csv");
+    // std::cout << g.adjlistSize() << std::endl; // should equal 220 (IT DOES)
+    // std::cout << g.airportsSize() << std::endl; // shoudl equal 220 (IT DOES)
     
     // should print out same values (THEY DO) because the graphs should be the same
-    std::cout << g.BFSTraversal(0).size() << std::endl;
+    // std::cout << g.BFSTraversal(0).size() << std::endl;
     // std::cout << gg.BFSTraversal(0).size() << std::endl;
     
     std::cout << "distance: " << g.airports[0].calculateWeight(g.airports[206]) << std::endl; // distance between two airports
@@ -27,28 +26,75 @@ int main() {
     // Graph g2(true);
     // std::cout << g2.BFSTraversal(0).size() << std::endl;
 
-    std::cout << "\n \n" << "------A* SEARCH------" << std::endl;
+    std::cout << "\n \n" << "------SHORTEST PATH------" << std::endl;
 
-    std::cout << "start: " << g.airports[0].airport_name << " end: " <<g.airports[114].airport_name << '\n'; 
-    std::vector<int> Asearch = g.AStarSearch(g.airports[0].airport_id, g.airports[114].airport_id);
-    std::cout << "size: " << Asearch.size() << '\n';
-    
-    for(size_t i = 0 ; i < Asearch.size(); i++) {
-        // std::cout << g.airports[i].airport_name << std::endl;
-        std::cout << g.airports[g.idToIndex(Asearch[i])].airport_name << std::endl;
+    std::cout <<  "---TEST CASE 1---" << std::endl; //0 for smaller dataset
+    std::cout << "start: " << g.airports[4].airport_name << ", end: " << g.airports[4].airport_name << '\n';
+    double shortestPathTest1_a = g.getShortestPath(g.airports[4].airport_id, g.airports[4].airport_id);
+    if(shortestPathTest1_a == 0) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
     }
 
-    int nadi_distance = 0;
-    nadi_distance += g.calculateHValues(0, Asearch[0]);
-    nadi_distance += g.calculateHValues(Asearch[0], 114);
-    std::cout << "nadi: " << nadi_distance << std::endl;
+    std::cout <<  "---TEST CASE 2---" << std::endl; //0,206 for smaller dataset
+    std::cout << "start: " << g.airports[4].airport_name << ", end: " <<g.airports[2045].airport_name << '\n';
+    double shortestPathTest1_b = g.getShortestPath(g.airports[4].airport_id, g.airports[2045].airport_id);
 
-    int honiara_distance = 0;
-    honiara_distance += g.calculateHValues(0, 4074);
-    honiara_distance += g.calculateHValues(4074, 114);
-    std::cout << "honiara: " << honiara_distance << std::endl;
+    Vertex startVertex = g.idToAirport(g.airports[4].airport_id);
+    double calculatedWeightB = startVertex.calculateWeight(g.idToAirport(g.airports[2045].airport_id));
+    std::cout << "dist from 4 to 2045: " << calculatedWeightB << " ; shortest Path output: "  << shortestPathTest1_b<< '\n';
+
+    if(std::abs(shortestPathTest1_b - calculatedWeightB) <= 1.5) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    std::cout <<  "---TEST CASE 3---" << std::endl; ////0,206,114 for smaller dataset
+    std::cout << "start: " << g.airports[4].airport_name << ", end: " <<g.airports[928].airport_name << '\n';
+    double shortestPathTest1_c = g.getShortestPath(g.airports[4].airport_id, g.airports[928].airport_id);
+
+    startVertex = g.idToAirport(g.airports[4].airport_id);
+    double calculatedWeightC = startVertex.calculateWeight(g.idToAirport(g.airports[2045].airport_id));
+    Vertex midVertex =  g.idToAirport(g.airports[2045].airport_id);
+    calculatedWeightC += midVertex.calculateWeight(g.idToAirport(g.airports[928].airport_id));
+    std::cout << "dist from 0 to 928: " << calculatedWeightC << " ; shortest Path output: "  << shortestPathTest1_c<< '\n';
+
+    if(std::abs(shortestPathTest1_c - calculatedWeightC) <= 1.5) {
+        std::cout << "TRUE" << std::endl;
+    } else {
+        std::cout << "FALSE" << std::endl;
+    }
+
+    // std::cout <<  "---TEST CASE 4---" << std::endl;
+    // std::cout << "start: " << g.airports[0].airport_name << ", end: " <<g.airports[114].airport_name << '\n';
+    // double shortestPathTest1_c = g.getShortestPath(g.airports[0].airport_id, g.airports[114].airport_id);
+
+    // startVertex = g.idToAirport(g.airports[0].airport_id);
+    // double calculatedWeightC = startVertex.calculateWeight(g.idToAirport(g.airports[206].airport_id));
+    // Vertex midVertex =  g.idToAirport(g.airports[206].airport_id);
+    // calculatedWeightC += midVertex.calculateWeight(g.idToAirport(g.airports[114].airport_id));
+    // std::cout << "dist from 0 to 114: " << calculatedWeightC << " ; shortest Path output: "  << shortestPathTest1_c<< '\n';
+
+    // if(std::abs(shortestPathTest1_c - calculatedWeightC) <= 1.5) {
+    //     std::cout << "TRUE" << std::endl;
+    // } else {
+    //     std::cout << "FALSE" << std::endl;
+    // }
 
 
+    std::cout << "\n \n" << "------BFS------" << std::endl;
+
+    // //node doesn't exist
+    // std::cout <<  "---TEST CASE 1---" << std::endl;
+    // std::cout << "start: " << g.airports[0].airport_name << ", end: " << g.airports[0].airport_name << '\n';
+    // double shortestPathTest1_a = g.getShortestPath(g.airports[0].airport_id, g.airports[0].airport_id);
+    // if(shortestPathTest1_a == 0) {
+    //     std::cout << "TRUE" << std::endl;
+    // } else {
+    //     std::cout << "FALSE" << std::endl;
+    // }
 
 
     std::cout << "\n \n" << "------LANDMARK PATH------" << std::endl;

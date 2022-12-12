@@ -28,6 +28,7 @@ class Graph {
         void writeDistMatrixToFile(std::string filename);
         
         int idToIndex(int id); // returns index with id
+        Vertex idToAirport(int id); // returns index with id
         double getShortestPath(int start, int end); // returns distance in km between both airports
         std::vector<Vertex> airports; // vector of airports
 
@@ -57,7 +58,6 @@ class Graph {
     
         void floydWarshall();
         std::map<int, std::vector<int>> adjacency_list; // collection of all adjacency lists
-        Vertex idToAirport(int id); // returns index with id
 
         std::vector<std::vector<double>> distances; // matrix with distances as values
         std::map<std::string, std::vector<int>> countries; // keeps track of all the airports in each country, used in clean()
