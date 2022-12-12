@@ -600,18 +600,35 @@ double Graph::landmarkPath(int start, int mid, int end) {
     // if shortest path does not exist, return empty vector
     // double Graph::getShortestPath(int start, int end)
     double final_distance = 0;
-    std::cout << "Reached: " << __LINE__ << std::endl;
     final_distance += getShortestPath(start, mid);
-    std::cout << "Reached: " << __LINE__ << std::endl;
     final_distance += getShortestPath(mid, end);
-    // std::cout << "Reached: " << __LINE__ << std::endl;
     
     // confirm that shortest path will return 0 if there are no connections
-    std::cout << "Reached: " << __LINE__ << std::endl;
     if (getShortestPath(start, mid) == 0 || getShortestPath(mid, end) == 0) {
-        std::cout << "Reached: " << __LINE__ << std::endl;
         return 0;
     }
 
     return final_distance;
 }
+
+double Graph::landmarkPath(int start, std::vector<int> mid, int end) {
+    // if shortest path does not exist between two points, return 0
+    // double Graph::getShortestPath(int start, int end)
+    double final_distance = 0;
+    final_distance += getShortestPath(start, mid[0]);
+    for (size_t i = 0; i < mid.size() - 1; i++) {
+        if (getShortestPath(mid[i], mid[i+1]) == 0) {
+            return 0;
+        }
+        final_distance += getShortestPath(mid[i], mid[i+1]);
+    }
+    final_distance += getShortestPath(mid[mid.size()-1], end);
+    
+    // confirm that shortest path will return 0 if there are no connections
+    if (getShortestPath(start, mid[0]) == 0 || getShortestPath(mid[mid.size()-1], end) == 0) {
+        return 0;
+    }
+
+    return final_distance;
+}
+

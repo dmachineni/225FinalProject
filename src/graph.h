@@ -38,6 +38,7 @@ class Graph {
 
         //Landmark Psth
         double landmarkPath(int start, int mid, int end);
+        double landmarkPath(int start, std::vector<int> mid, int end);
 
         private:
         // creates from files from scratch
