@@ -19,6 +19,9 @@ Vertex::Vertex(int id, std::string name, std::string country, double longitude, 
     airport_long = longitude;
 }
 
+/*
+    Checks if two vertices are the same.
+*/
 bool Vertex::same(Vertex other) {
     if (airport_id == other.airport_id && airport_name == other.airport_name && airport_lat == other.airport_lat && airport_long == other.airport_long) return true;
     return false;
@@ -26,9 +29,9 @@ bool Vertex::same(Vertex other) {
 
 /*
     Uses haversine distance formula to figure out distance in km between two airports.
-    Not exact but close approximation
 */
 double Vertex::calculateWeight(Vertex other) {
+    //calculating latitude and longitude
     double dLat = (other.airport_lat - airport_lat) * M_PI / 180.0;
     double dLon = (other.airport_long - airport_long) * M_PI / 180.0;
  

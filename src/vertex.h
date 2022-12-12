@@ -12,6 +12,9 @@ class Vertex {
     double airport_long = 0;
     double airport_lat = 0;
     
+    //Checks if two vertices are the same
     bool same(Vertex other);
+
+    //Calculates haversine distance between two vertices
     double calculateWeight(Vertex other);
 };
