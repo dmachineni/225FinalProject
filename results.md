@@ -6,7 +6,7 @@ BFS: Breadth-first search is used to traverse the graph, and it does so by visit
 
 Floyd-Warshall: Floyd-Warshall is used to find the shortest path between two given airports. It does so by creating an adjacency matrix that stores the distance between each airport, and then iterating through it to find the minimum possible distance between two airports. To test Floyd-Warshall, we calculated the distance between two airports with the shortest path, and checked that the output matched that number. We also tested that the program calculated distance using longitude and latitude coordinates correctly. 
 
-A* Search: A* Search is used to find the shortest path between two airports. It does so by traveling to the neighboring node that is the shortest distance from the current node, therefore creating a path of shortest immediate distance.  
+Landmark Path: Landmark Path algorithm allows the user to enter a midpoint destination, in addition to a start and end location. So in the context of our dataset, this algorithm tells us which airports we can stop at when traveling from a source airport to a given destination. We tested this algorithm by passing in a midpoint airport and making sure that there is a shortest path that goes through that airport. We also used our shortest path algorithm to test this and make sure the distances are calculated correctly.
 
 
 ### Answer to the leading question:  
