@@ -13,7 +13,6 @@
 Graph::Graph(bool all_airports) {
     createAirports("src/airports.dat");
     createAdjacencyList("src/routes.dat");
-    // distances.resize(220) if sorting by country (recommended because it literally corrups)
     distances.resize(airportsSize());
     for (unsigned i = 0; i < distances.size(); i++) distances[i].resize(airportsSize());
     for (int i = 0; i < airportsSize(); i++) {
@@ -23,9 +22,7 @@ Graph::Graph(bool all_airports) {
     }
     if (all_airports) cleanToLarge();
     else cleanToSmall();
-    std::cout << "26" << '\n';
     createDistMatrix();
-    std::cout << "28" << '\n';
     floydWarshall();
 }
 
@@ -183,7 +180,6 @@ void Graph::cleanToSmall() {
     int deleted = airports.size() - tmp_adj.size();
     airports = tmp_aps;
     adjacency_list = tmp_adj2;
-    // std::cout << "Deleted: " << deleted << std::endl;
 }
 
 void Graph::cleanToLarge() {
@@ -205,7 +201,6 @@ void Graph::cleanToLarge() {
     int deleted = airports.size() - tmp_adj.size();
     airports = tmp_aps;
     adjacency_list = tmp_adj;
-    // std::cout << "Deleted: " << deleted << std::endl;
 }
 
 /*
@@ -294,6 +289,7 @@ std::vector<Vertex> Graph::BFSTraversal(int start) {
     std::cout << "Unconnected airports: " << missing << std::endl;
     return path;
 }
+
 
 
 /*
@@ -417,7 +413,7 @@ void Graph::writeDistMatrixToFile(std::string filename) {
     stream.close();
 }
 /*
-    Creates distance matrix from file. // NOT WORKING FULLY
+    Creates distance matrix from file.
 */
 void Graph::readDistMatrixFromFile(std::string filename) {
     std::string line;
@@ -444,16 +440,11 @@ void Graph::readDistMatrixFromFile(std::string filename) {
     }
 }
 
-
-//A* algo functions
-double Graph::calculateHValues(int start, int dest) {
-    Vertex startVertex = idToAirport(start);
-    return startVertex.calculateWeight(idToAirport(dest));
-}
-
+/*
+    Returns the shortest path from start to end containing the mid node 
+    if such path doesn't exist, return 0
+*/
 double Graph::landmarkPath(int start, int mid, int end) {
-    // if shortest path does not exist, return empty vector
-    // double Graph::getShortestPath(int start, int end)
     double final_distance = 0;
     final_distance += getShortestPath(start, mid);
     final_distance += getShortestPath(mid, end);
@@ -466,9 +457,11 @@ double Graph::landmarkPath(int start, int mid, int end) {
     return final_distance;
 }
 
+/*
+    Returns the shortest path from start to end, containing the mid nodes in the order seen in the vector parameter
+    if such path doesn't exist, return 0
+*/
 double Graph::landmarkPath(int start, std::vector<int> mid, int end) {
-    // if shortest path does not exist between two points, return 0
-    // double Graph::getShortestPath(int start, int end)
     double final_distance = 0;
     final_distance += getShortestPath(start, mid[0]);
     for (size_t i = 0; i < mid.size() - 1; i++) {
