@@ -23,8 +23,12 @@ Graph::Graph(bool all_airports) {
     }
     if (all_airports) cleanToLarge();
     else cleanToSmall();
-    createDistMatrix();
-    floydWarshall();
+    // std::cout << "1st before" << std::endl;
+    // createDistMatrix();
+    // std::cout << "1st after" << std::endl;
+    // std::cout << "2nd before" << std::endl;
+    // floydWarshall();
+    // std::cout << "2nd after" << std::endl;
 }
 
 /*
@@ -468,22 +472,13 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     }
 
     //if path = 1
-    std::cout << "src: " << src << '\n';
-    std::cout << "dest: " << dest << '\n';
-    // std::cout << "sizeof adj row: " << adjacency_list[src].size() << '\n';
-
     std::vector<int> neighborsSrc = adjacency_list[src];
     for(size_t i = 0; i < neighborsSrc.size(); i++) {
         if(neighborsSrc[i] == dest) {
             path.push_back(src);
-            path.push_back(neighborsSrc[i]);
+            path.push_back(dest);
             return path;
         }
-    }
-
-    path.push_back(dest);
-    for (size_t i = 0; i < path.size(); i++) {
-        std::cout << airports[idToIndex(path[i])].airport_name << std::endl;
     }
 
     std::cout << "done with path = 1 test" << '\n';
@@ -492,26 +487,24 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     std::vector<std::pair<int,int>> closed_list; //keeps track of all the nodes we visited
     std::vector<std::pair<int,int>> open_list; //keeps track of nodes we can visit next
 
-    open_list.push_back({src, 0});
+    open_list.push_back(std::make_pair(src, 0));
     std::map<int, int> parentTracker; //key = child, value = parent node
 
     bool found = false; 
     while(!open_list.empty() && !found) {
         std::cout << "entering while loop" << std::endl;
-        //remove item from open list : PQ or just first value?
+        //remove lowest f-value item from open list
         int min = open_list[0].second + calculateHValues(open_list[0].first,dest); 
         int idxToRemove = 0;
-        // std::cout << "open list size: " << open_list.size() << '\n';
-        for (size_t i = 0; i < open_list.size(); i++) {
+        for (size_t i = 1; i < open_list.size(); i++) {
             if(open_list[i].second + calculateHValues(open_list[i].first,dest) < min) {
                 min = open_list[i].second + calculateHValues(open_list[i].first,dest);
                 idxToRemove = i;
             }
         }
 
-        std::cout << "idxToRemove: " << idxToRemove << std::endl;
-
         std::pair<int, int> currNode = open_list[idxToRemove];
+        std::cout << "idxToRemove: " << idxToRemove << std::endl;
         std::cout << "airport: " << currNode.first << std::endl;
         // std::cout << "g: " << currNode.second << std::endl;
 
@@ -522,47 +515,147 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
             //if n == dest => set parents, return
             //else ... psuedo code if statements
         std::vector<int> neighbors = adjacency_list[currNode.first]; 
+        std::cout << "neighbors size: " << neighbors.size() << std::endl;
         for(size_t i = 0; i < neighbors.size(); i++) {
-            std::cout << "neighbors: " << neighbors.size() << std::endl;
+            std::cout << "neighbor id: " << neighbors[i] << std::endl;
             if(neighbors[i] == dest) {
+                std::cout << "FOUND DEST!!  " << neighbors[i] << std::endl;
                 parentTracker[dest] = currNode.first;
                 found = true;
                 break;
+            } else {
+                int succesor_g = currNode.second + neighbors[i];
+                int successor_f = succesor_g + calculateHValues(neighbors[i], dest);
+
+                bool inOpen = false; 
+                for(size_t i = 0; i < open_list.size(); i++) {
+                    if(open_list[i].first == neighbors[i]) {
+                        inOpen =true;
+                    }
+                }
+
+                if(inOpen) {
+                    if(open_list[i].second + calculateHValues(open_list[i].first,dest) <= successor_f) {
+                        continue; //or break
+                    }
+                } else {
+                    bool inClosed = false; 
+                    for(size_t i = 0; i < closed_list.size(); i++) {
+                        if(closed_list[i].first == neighbors[i]) {
+                            inClosed =true;
+                        }
+                    }
+                    if(inClosed) {
+                        if(closed_list[i].second + calculateHValues(closed_list[i].first,dest) <= successor_f) {
+                            continue; //or break
+                        } else {
+                            int idxToRemoveClosed = 0;
+                            for(size_t i = 0; i < closed_list.size(); i++) {
+                                if(closed_list[i].first == neighbors[i]) {
+                                    idxToRemoveClosed = 0;
+                                }
+                            }
+                            closed_list.erase(closed_list.begin()+idxToRemoveClosed);
+                            open_list.push_back(std::make_pair(neighbors[i], succesor_g));
+                        }
+                    } else {
+                        open_list.push_back({neighbors[i], succesor_g});
+                        
+                    }
+                }
+
+
+
+                // for(size_t i = 0; i < closed_list.size(); i++) {
+                //     if(closed_list[i].first == neighbors[i]) {
+                //         inOpen = true;
+                //         if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
+                //             //closed list part
+                //             parentTracker[neighbors[i]] = currNode.first;
+                //             open_list[i].second = succesor_g;
+                //         }
+                //     }
+                // }
+
+                if(!inOpen) {
+
+                }
             }
-
-            //setting successor's parent as currNode
-            parentTracker[neighbors[i]] = currNode.first;
-
-            int succesor_g = currNode.second + neighbors[i];
-            int successor_f = succesor_g + calculateHValues(neighbors[i], dest);
             
-            bool foundElseWhere = false;
-            for(size_t i = 0; i < open_list.size(); i++) {
-                if(open_list[i].first == neighbors[i]) {
-                    if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
-                        //closed list part
-                        open_list.push_back({neighbors[i], succesor_g});
-                    }
-                    foundElseWhere = true;
-                }
-            }
-            for(size_t i = 0; i < closed_list.size(); i++) {
-                if(closed_list[i].first == neighbors[i]) {
-                    if(closed_list[i].second + calculateHValues(closed_list[i].first,dest) > successor_f) {
-                        //closed list part
-                        open_list.push_back({neighbors[i], succesor_g});
-                    }
-                    foundElseWhere = true;
-                }
-            }
-            if(!foundElseWhere) {
-                open_list.push_back({neighbors[i], succesor_g});
-            }
+
+            //-------------------------------------
+            // else {
+            //     std::cout << "closed size: " << closed_list.size() << '\n';
+            //     bool inClosed = false; 
+            //     for(size_t i = 0; i < closed_list.size(); i++) {
+            //         if(closed_list[i].first == neighbors[i]) {
+            //             inClosed = true;
+            //         }
+            //     }
+            //     if(!inClosed) {
+            //         int succesor_g = currNode.second + neighbors[i];
+            //         int successor_f = succesor_g + calculateHValues(neighbors[i], dest);
+                    
+            //         bool inOpen = false;
+            //         for(size_t i = 0; i < open_list.size(); i++) {
+            //             if(open_list[i].first == neighbors[i]) {
+            //                 inOpen = true;
+            //                 if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
+            //                     //closed list part
+            //                     parentTracker[neighbors[i]] = currNode.first;
+            //                     open_list[i].second = succesor_g;
+            //                 }
+            //             }
+            //         }
+
+            //         if(!inOpen) {
+            //             parentTracker[neighbors[i]] = currNode.first;
+            //             open_list.push_back({neighbors[i], succesor_g});
+            //         }
+            //     }
+            // }
+
+        //-----------------------------------------------------
+        //     //setting successor's parent as currNode; only add if you haven't encoutnered this node before
+        //     if(parentTracker.count(neighbors[i]) == 0) {
+        //         std::cout << "first time visiitng this node!" << '\n';
+        //         parentTracker[neighbors[i]] = currNode.first;
+        //     }
+        //     // parentTracker[neighbors[i]] = currNode.first;
+
+        //     int succesor_g = currNode.second + neighbors[i];
+        //     int successor_f = succesor_g + calculateHValues(neighbors[i], dest);
+            
+        //     bool foundElseWhere = false;
+        //     for(size_t i = 0; i < open_list.size(); i++) {
+        //         if(open_list[i].first == neighbors[i]) {
+        //             if(open_list[i].second + calculateHValues(open_list[i].first,dest) > successor_f) {
+        //                 //closed list part
+        //                 parentTracker[neighbors[i]] = currNode.first;
+        //                 open_list.push_back({neighbors[i], succesor_g});
+        //             }
+        //             foundElseWhere = true;
+        //         }
+        //     }
+        //     for(size_t i = 0; i < closed_list.size(); i++) {
+        //         if(closed_list[i].first == neighbors[i]) {
+        //             if(closed_list[i].second + calculateHValues(closed_list[i].first,dest) > successor_f) {
+        //                 //closed list part
+        //                 parentTracker[neighbors[i]] = currNode.first; //???
+        //                 open_list.push_back({neighbors[i], succesor_g});
+        //             }
+        //             foundElseWhere = true;
+        //         }
+        //     }
+        //     if(!foundElseWhere) {
+        //         open_list.push_back({neighbors[i], succesor_g});
+        //     }
         }
+        //-----------------------------------------------------
 
         //put it into closed list
         closed_list.push_back(currNode);
-        std::cout << "end of while loop" << std::endl;
+        std::cout << "end of while loop: " << open_list.size() << std::endl;
     }
 
     std::cout << "OUT" << std::endl;
@@ -570,17 +663,23 @@ std::vector<int> Graph::AStarSearch(int src, int dest) {
     //backtrack, push into vector, return 
         std::cout << "dest: " << dest << '\n';
 
-    // path.push_back(dest);
+    path.push_back(dest);
     int currIdx = dest; 
     int run = 0;
     while(currIdx != src) {
-        std::cout << parentTracker[currIdx] << '\n';
+        // std::cout << parentTracker[currIdx] << '\n';
+        if(parentTracker[currIdx] == 0) {
+            path.push_back(-400);
+            break;
+        }
         path.push_back(parentTracker[currIdx]);
         currIdx = parentTracker[currIdx];
         run++;
     }
-    std::cout << "size: " << path.size() << '\n';
-    std::cout << "run: " << run << '\n';
+    // std::cout << "size: " << path.size() << '\n';
+    // std::cout << "run: " << run << '\n';
+
+    std::reverse(path.begin(), path.end());
 
     return path;
 }
