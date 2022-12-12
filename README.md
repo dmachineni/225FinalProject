@@ -2,7 +2,9 @@
 
 Organization:  
 src: Code files (creating the graph, algorithm code), data files  
-tests: test files   
+main.cpp: test cases
+data: outputted files
+results.md: written report
 
 Running the code:
 Make sure you cd into the project folder. Then input the following commands in terminal to run the code :
